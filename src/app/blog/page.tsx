@@ -236,6 +236,62 @@ export default function Blog() {
             Read More →
           </Link>
         </div>
+
+        {/* IPs Exceed Issue */}
+        <div className="bg-secondary px-8 py-8 rounded-lg hover:shadow-lg transition-all border-2 border-gray-700 hover:border-accent">
+          <h2 className="text-2xl font-bold mb-4 text-white">IPs Exceed Issue in Card Rummy! How to Fix?</h2>
+          <p className="text-gray-300 mb-4">Getting IPs Exceed error? Learn what causes it, how to fix it, and prevent it. Complete troubleshooting guide for Pakistan players 2026.</p>
+          <div className="flex items-center gap-2 text-sm text-gray-400 mb-4">
+            <span>📅 March 2026</span>
+            <span>•</span>
+            <span>8 min read</span>
+          </div>
+          <Link href="/blog/ips-exceed-issue-card-rummy-how-to-fix" className="text-accent hover:underline font-semibold">
+            Read More →
+          </Link>
+        </div>
+
+        {/* Card Rummy Old Version */}
+        <div className="bg-secondary px-8 py-8 rounded-lg hover:shadow-lg transition-all border-2 border-gray-700 hover:border-accent">
+          <h2 className="text-2xl font-bold mb-4 text-white">Card Rummy Old Version: Features Review and Details 2026</h2>
+          <p className="text-gray-300 mb-4">Classic features, legacy games, UI comparison, and why some players prefer older versions. Complete features & details for 2026.</p>
+          <div className="flex items-center gap-2 text-sm text-gray-400 mb-4">
+            <span>📅 March 2026</span>
+            <span>•</span>
+            <span>10 min read</span>
+          </div>
+          <Link href="/blog/card-rummy-old-version-features-review-2026" className="text-accent hover:underline font-semibold">
+            Read More →
+          </Link>
+        </div>
+
+        {/* Card Rummy Latest Version */}
+        <div className="bg-secondary px-8 py-8 rounded-lg hover:shadow-lg transition-all border-2 border-gray-700 hover:border-accent">
+          <h2 className="text-2xl font-bold mb-4 text-white">Card Rummy Latest Version: New Features and 2026 Updates</h2>
+          <p className="text-gray-300 mb-4">Card Rummy V1.230: New features, improvements, UI updates, and 2026 changes. What&apos;s new and why you should update now.</p>
+          <div className="flex items-center gap-2 text-sm text-gray-400 mb-4">
+            <span>📅 March 2026</span>
+            <span>•</span>
+            <span>9 min read</span>
+          </div>
+          <Link href="/blog/card-rummy-latest-version-new-features-2026-updates" className="text-accent hover:underline font-semibold">
+            Read More →
+          </Link>
+        </div>
+
+        {/* Ways to Earn Money */}
+        <div className="bg-secondary px-8 py-8 rounded-lg hover:shadow-lg transition-all border-2 border-gray-700 hover:border-accent">
+          <h2 className="text-2xl font-bold mb-4 text-white">Ways to Earn Money with Card Rummy in 2026</h2>
+          <p className="text-gray-300 mb-4">Complete guide: Weekly bonuses, daily bonus, sports bonus, progress bonus, daily referee & more. Maximize your income!</p>
+          <div className="flex items-center gap-2 text-sm text-gray-400 mb-4">
+            <span>📅 March 2026</span>
+            <span>•</span>
+            <span>14 min read</span>
+          </div>
+          <Link href="/blog/ways-to-earn-money-with-card-rummy-2026" className="text-accent hover:underline font-semibold">
+            Read More →
+          </Link>
+        </div>
       </div>
     </div>
   );

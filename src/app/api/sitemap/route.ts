@@ -139,6 +139,30 @@ export async function GET() {
       lastMod: new Date().toISOString(),
       changeFreq: 'monthly',
       priority: 0.8
+    },
+    {
+      url: '/blog/ips-exceed-issue-card-rummy-how-to-fix',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.8
+    },
+    {
+      url: '/blog/card-rummy-old-version-features-review-2026',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.8
+    },
+    {
+      url: '/blog/card-rummy-latest-version-new-features-2026-updates',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.8
+    },
+    {
+      url: '/blog/ways-to-earn-money-with-card-rummy-2026',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.8
     }
   ];
 

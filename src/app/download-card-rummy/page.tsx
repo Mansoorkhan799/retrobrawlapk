@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Download Card Rummy Game Free APK For Android | Latest Version 2026',
-  description: 'Download Card Rummy APK free for Android. Play Teen Patti, Rummy, Dragon Tiger & more. Earn real cash with JazzCash & EasyPaisa. Latest version V1.225 - 49MB.',
+  description: 'Download Card Rummy APK free for Android. Play Teen Patti, Rummy, Dragon Tiger & more. Earn real cash with JazzCash & EasyPaisa. Latest version V1.230 - 49MB.',
   keywords: [
     'Download Card Rummy',
     'Card Rummy APK download',
@@ -72,7 +72,7 @@ export default function DownloadPage() {
       "bestRating": "5"
     },
     "downloadUrl": "https://pkcardrummy.com/?from_gameid=6052215&channelCode=5784509",
-    "softwareVersion": "V1.225",
+    "softwareVersion": "V1.230",
     "fileSize": "49MB",
     "datePublished": "2026-01-03",
     "description": "Download Card Rummy APK free for Android. Play Teen Patti, Rummy, Dragon Tiger & more. Earn real cash with JazzCash & EasyPaisa.",
@@ -168,7 +168,7 @@ export default function DownloadPage() {
                 </tr>
                 <tr className="bg-[#06091F]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Version</td>
-                  <td className="py-4 px-6 text-left text-white">V1.225</td>
+                  <td className="py-4 px-6 text-left text-white">V1.230</td>
                 </tr>
                 <tr className="bg-[#0a1029]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Size</td>

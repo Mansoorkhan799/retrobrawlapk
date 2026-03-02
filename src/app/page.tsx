@@ -6,7 +6,7 @@ import { Metadata } from 'next';
 // This additional metadata enhances the page-specific SEO
 export const metadata: Metadata = {
   title: {
-    default: "Card Rummy Pakistan v1.225 Free Download Official APK",
+    default: "Card Rummy Pakistan v1.230 Free Download Official APK",
     template: "%s | Card Rummy"
   },
   description: "Card Rummy 2026 - Pakistan's #1 card game platform. Download Card Rummy APK, play Teen Patti, Rummy, Dragon vs Tiger & win real cash. Fast withdrawals via JazzCash & EasyPaisa. Join 500K+ players!",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     "rummy game download"
   ],
   openGraph: {
-    title: 'Card Rummy Pakistan v1.225 Free Download Official APK',
+    title: 'Card Rummy Pakistan v1.230 Free Download Official APK',
     description: 'Card Rummy 2026 - Pakistan\'s #1 card game platform. Join 500K+ players. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!',
     images: [
       {
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Card Rummy Pakistan v1.225 Free Download Official APK',
+    title: 'Card Rummy Pakistan v1.230 Free Download Official APK',
     description: 'Card Rummy 2026 - Pakistan\'s #1 card game platform. Join 500K+ players. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!',
     images: ['https://cardrummyapp.com.pk/feature/og-image.webp']
   }
@@ -124,7 +124,7 @@ export default function Home() {
           "priceCurrency": "PKR"
         },
         "downloadUrl": "https://cardrummyapp.com.pk/download-card-rummy",
-        "softwareVersion": "V1.225",
+        "softwareVersion": "V1.230",
         "fileSize": "49MB",
         "description": "Play Teen Patti, Rummy, Dragon Tiger and other card games. Earn real money with JazzCash & EasyPaisa withdrawals.",
         "screenshot": [
@@ -374,7 +374,7 @@ export default function Home() {
                 </tr>
                 <tr className="bg-[#0a1029]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Latest Version</td>
-                  <td className="py-4 px-6 text-left text-white">V1.225</td>
+                  <td className="py-4 px-6 text-left text-white">V1.230</td>
                 </tr>
                 <tr className="bg-[#06091F]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Required OS</td>
