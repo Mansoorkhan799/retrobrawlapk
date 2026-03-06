@@ -1,39 +1,36 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
+import TabSwitcher from '@/components/TabSwitcher';
 
 export const metadata: Metadata = {
-  title: 'Card Rummy for PC Download Latest Version Free 2026',
-  description: 'Download Card Rummy for PC using Android Emulator. Play Teen Patti, Rummy, Dragon Tiger on bigger screen. Better performance and smooth gameplay on Windows.',
+  title: 'Magic Brawl for PC | Download with Android Emulator',
+  description: 'Download Magic Brawl for PC using Android Emulator. Play Brawl Stars rebirth on bigger screen. Online battles, unique brawlers, exclusive content.',
   keywords: [
-    'Card Rummy for PC',
-    'Card Rummy PC download',
-    'Card Rummy Windows',
-    'Teen Patti PC',
-    'Card games for PC',
-    'BlueStacks Card Rummy',
-    'Android Emulator card games'
+    'Magic Brawl for PC',
+    'Magic Brawl PC download',
+    'Magic Brawl Windows',
+    'Brawl Stars PC',
+    'Magic Brawl emulator',
+    'BlueStacks Magic Brawl',
+    'Android Emulator Magic Brawl'
   ],
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
-  alternates: {
-    canonical: "https://cardrummyapp.com.pk/card-rummy-for-pc",
-  },
+  robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 } },
+  alternates: { canonical: "https://magicbrawlapk.net/card-rummy-for-pc" },
   openGraph: {
-    title: 'Card Rummy for PC Download Latest Version Free 2026',
-    description: 'Download Card Rummy for PC using Android Emulator. Play on bigger screen with better performance.',
-    url: "https://cardrummyapp.com.pk/card-rummy-for-pc",
-    siteName: "Card Rummy",
+    title: 'Magic Brawl for PC | Download with Android Emulator',
+    description: 'Play Magic Brawl on PC using Android Emulator. Brawl Stars rebirth on bigger screen.',
+    url: "https://magicbrawlapk.net/card-rummy-for-pc",
+    siteName: "Magic Brawl APK",
     locale: "en_US",
     type: "website",
+    images: [{ url: 'https://magicbrawlapk.net/feature/og-image.webp', width: 1200, height: 630, alt: 'Magic Brawl for PC' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Magic Brawl for PC | Download with Android Emulator',
+    description: 'Play Magic Brawl on PC using Android Emulator. Brawl Stars rebirth on bigger screen.',
+    images: ['https://magicbrawlapk.net/feature/twitter-card.webp'],
   },
 };
 
@@ -42,36 +39,17 @@ export default function CardRummyForPCPage() {
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "TechArticle",
-    "headline": "Card Rummy for PC Download Latest Version Free 2026",
-    "description": "Complete guide to download and play Card Rummy on PC using Android emulator. Learn about system requirements, best emulators, and features.",
-    "image": "https://cardrummyapp.com.pk/card-rummy-logo.webp",
-    "author": {
-      "@type": "Organization",
-      "name": "Card Rummy",
-      "url": "https://cardrummyapp.com.pk"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Card Rummy",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://cardrummyapp.com.pk/card-rummy-logo.webp"
-      }
-    },
+    "headline": "Magic Brawl for PC | Download with Android Emulator",
+    "description": "Complete guide to download and play Magic Brawl on PC using Android emulator. Brawl Stars rebirth on bigger screen.",
+    "image": "https://magicbrawlapk.net/magic-brawl-apk-logo.webp",
+    "author": { "@type": "Organization", "name": "Magic Brawl APK", "url": "https://magicbrawlapk.net" },
+    "publisher": { "@type": "Organization", "name": "Magic Brawl APK", "logo": { "@type": "ImageObject", "url": "https://magicbrawlapk.net/magic-brawl-apk-logo.webp" } },
     "datePublished": "2026-01-03",
     "dateModified": "2026-01-03",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://cardrummyapp.com.pk/card-rummy-for-pc"
-    },
-    "about": {
-      "@type": "SoftwareApplication",
-      "name": "Card Rummy",
-      "operatingSystem": "Windows 7 or higher",
-      "applicationCategory": "GameApplication"
-    },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://magicbrawlapk.net/card-rummy-for-pc" },
+    "about": { "@type": "SoftwareApplication", "name": "Magic Brawl APK", "operatingSystem": "Windows 7 or higher", "applicationCategory": "GameApplication" },
     "articleSection": "Gaming",
-    "keywords": "Card Rummy for PC, Card Rummy PC download, BlueStacks, Android Emulator, Teen Patti PC",
+    "keywords": "Magic Brawl for PC, Magic Brawl PC download, BlueStacks, Android Emulator",
     "inLanguage": "en-US"
   };
 
@@ -82,29 +60,30 @@ export default function CardRummyForPCPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://magicbrawlapk.net" }, { "@type": "ListItem", "position": 2, "name": "Magic Brawl for PC", "item": "https://magicbrawlapk.net/card-rummy-for-pc" }] }) }} />
       
       {/* Hero Section */}
       <section className="py-8 md:py-16 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-            <span className="text-[#FFA500]">Card Rummy for PC</span>
+            <span className="text-[#FFA500]">Magic Brawl for PC</span>
             <br />
-            <span className="text-white">Download Latest Version</span>
+            <span className="text-white">Play on Bigger Screen</span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-semibold text-gray-300 mb-6">
-            Free 2026
+            Using Android Emulator — Free
           </h2>
           <p className="text-lg text-gray-300 leading-relaxed max-w-4xl mx-auto">
-            The <Link href="/" className="text-accent hover:underline font-semibold">Card Rummy</Link> app is a popular platform where you can enjoy playing card games anytime. <Link href="/download-card-rummy" className="text-accent hover:underline font-semibold">Download Card Rummy</Link> to get started on mobile, or follow this guide to play on PC. The games offer a wide range of games like Classic Teen Patti, Andar Bahar, Dragon Tiger, Rummy, poker, and other mini games you can play to earn real cash. The game also provides daily bonuses to boost your balance.
+            <Link href="/" className="text-accent hover:underline font-semibold">Magic Brawl</Link> is a rebirth of Brawl Stars. <Link href="/download-card-rummy" className="text-accent hover:underline font-semibold">Download Magic Brawl</Link> APK first, then follow this guide to play on PC using an Android emulator like BlueStacks. Enjoy online battles, unique brawlers, and exclusive content on a bigger screen. Free entertainment game!
           </p>
         </div>
 
         {/* Logo Display */}
         <div className="flex justify-center mb-12">
-          <div className="relative" style={{ width: '280px', height: '280px', maxWidth: '100%' }}>
+          <div className="relative transition-transform duration-300 hover:scale-110" style={{ width: '280px', height: '280px', maxWidth: '100%' }}>
             <Image
-              src="/card-rummy.webp"
-              alt="Card Rummy for PC"
+              src="/magic-brawl-apk.webp"
+              alt="Magic Brawl for PC"
               width={280}
               height={280}
               className="object-contain drop-shadow-2xl"
@@ -123,7 +102,7 @@ export default function CardRummyForPCPage() {
               <tbody className="divide-y divide-gray-800">
                 <tr className="bg-[#0a1029]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">App Name</td>
-                  <td className="py-4 px-6 text-left text-white">Card Rummy</td>
+                  <td className="py-4 px-6 text-left text-white">Magic Brawl</td>
                 </tr>
                 <tr className="bg-[#06091F]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Category</td>
@@ -159,13 +138,13 @@ export default function CardRummyForPCPage() {
         </div>
       </section>
 
-      {/* What is Card Rummy Section */}
+      {/* What is Magic Brawl Section */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">What is Card Rummy?</h2>
+          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">What is Magic Brawl?</h2>
           <div className="space-y-6">
             <p className="text-gray-300 leading-relaxed">
-              The Card Rummy app is available as an APK and widely used on Android devices. You can download the app on your PC for better features. This platform aims to make the experience more engaging so you never get bored. The official app is not available on PC, so you can use an Android Emulator to run the app on Windows and enjoy the game on a bigger screen.
+              Magic Brawl is a rebirth of Brawl Stars, available as an APK for Android. You can run it on your PC for a bigger screen experience using an Android Emulator. Magic Brawl offers online battles, unique brawlers, exclusive skins, and regular updates. The official app is not available for PC, so use BlueStacks or another emulator to play on Windows.
             </p>
           </div>
         </div>
@@ -174,29 +153,21 @@ export default function CardRummyForPCPage() {
       {/* Key Features Section */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Key Features of using Card Rummy on PC</h2>
-          <p className="text-gray-300 mb-8">Using Card Rummy on PC offers several advantages over mobile devices. The following are the key features:</p>
+          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Key Features of Magic Brawl on PC</h2>
+          <p className="text-gray-300 mb-8">Using Magic Brawl on PC offers several advantages over mobile devices:</p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-[#0A1029] p-6 rounded-lg border-l-4 border-[#FFA500]">
-              <h3 className="text-xl font-bold text-[#FFA500] mb-3">🖥️ Large Screen</h3>
-              <p className="text-gray-300">Playing Card Rummy games on a larger screen gives you a better, easier-to-view experience.</p>
-            </div>
-
-            <div className="bg-[#0A1029] p-6 rounded-lg border-l-4 border-[#4ade80]">
-              <h3 className="text-xl font-bold text-[#4ade80] mb-3">⚡ Better Performance</h3>
-              <p className="text-gray-300">PCs offer better processing power, reducing crashes.</p>
-            </div>
-
-            <div className="bg-[#0A1029] p-6 rounded-lg border-l-4 border-[#60a5fa]">
-              <h3 className="text-xl font-bold text-[#60a5fa] mb-3">🎮 Smooth Gameplay</h3>
-              <p className="text-gray-300">More precise and comfortable gameplay with a mouse and keyboard compared to mobile devices.</p>
-            </div>
-
-            <div className="bg-[#0A1029] p-6 rounded-lg border-l-4 border-[#f97316]">
-              <h3 className="text-xl font-bold text-[#f97316] mb-3">🔄 Multitasking Support</h3>
-              <p className="text-gray-300">On PC, you can play games while running other apps. So, Card Rummy on PC offers multitasking support.</p>
-            </div>
+            {[
+              { emoji: '🖥️', color: '#FFA500', title: 'Large Screen', desc: 'Playing Magic Brawl on a larger screen gives you a better, easier-to-view experience for online battles.' },
+              { emoji: '⚡', color: '#4ade80', title: 'Better Performance', desc: 'PCs offer better processing power, reducing crashes.' },
+              { emoji: '🎮', color: '#60a5fa', title: 'Smooth Gameplay', desc: 'More precise and comfortable gameplay with a mouse and keyboard compared to mobile devices.' },
+              { emoji: '🔄', color: '#f97316', title: 'Multitasking Support', desc: 'On PC, you can play Magic Brawl while running other apps. Multitasking support for better productivity.' },
+            ].map((item, i) => (
+              <div key={i} className="bg-[#0A1029] p-6 rounded-lg border-l-4 transition-all duration-300 hover:scale-[1.02] hover:shadow-xl group cursor-default" style={{ borderLeftColor: item.color }}>
+                <h3 className="text-xl font-bold mb-3 transition-transform group-hover:translate-x-1" style={{ color: item.color }}>{item.emoji} {item.title}</h3>
+                <p className="text-gray-300">{item.desc}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -204,49 +175,36 @@ export default function CardRummyForPCPage() {
       {/* Download Instructions */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">How to Download the latest version of Card Rummy on PC?</h2>
-          <p className="text-gray-300 mb-6">Here is the step-by-step process you can follow to download Card Rummy on PC:</p>
+          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">How to Download Magic Brawl on PC</h2>
+          <p className="text-gray-300 mb-6">Follow these steps to play Magic Brawl on PC:</p>
           
           <div className="space-y-4">
-            <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#FFA500]">
-              <h3 className="text-lg font-bold text-white mb-2">Step 1:</h3>
-              <p className="text-gray-300">First, find the official website of Card Rummy, like <Link href="/" className="text-[#0ea5e9] hover:underline">www.cardrummyapp.com.pk</Link>.</p>
-            </div>
-
-            <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#4ade80]">
-              <h3 className="text-lg font-bold text-white mb-2">Step 2:</h3>
-              <p className="text-gray-300">Install an Android Emulator on your device.</p>
-            </div>
-
-            <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#60a5fa]">
-              <h3 className="text-lg font-bold text-white mb-2">Step 3:</h3>
-              <p className="text-gray-300">Download the latest version of Card Rummy.</p>
-            </div>
-
-            <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#a855f7]">
-              <h3 className="text-lg font-bold text-white mb-2">Step 4:</h3>
-              <p className="text-gray-300">Open the Emulator and locate the install APK option.</p>
-            </div>
-
-            <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#f97316]">
-              <h3 className="text-lg font-bold text-white mb-2">Step 5:</h3>
-              <p className="text-gray-300">Once installed, register or log in to the app and start playing.</p>
-            </div>
+            {[
+              { step: 1, color: '#FFA500', desc: <>First, visit the official website <Link href="/" className="text-[#0ea5e9] hover:underline">magicbrawlapk.net</Link>.</> },
+              { step: 2, color: '#4ade80', desc: 'Install an Android Emulator on your device.' },
+              { step: 3, color: '#60a5fa', desc: 'Download the latest Magic Brawl APK (version 50.221).' },
+              { step: 4, color: '#a855f7', desc: 'Open the Emulator and locate the install APK option.' },
+              { step: 5, color: '#f97316', desc: 'Once installed, register or log in to the app and start playing.' },
+            ].map(({ step, color, desc }) => (
+              <div key={step} className="bg-[#0A1029] rounded-lg p-6 border-l-4 transition-all duration-300 hover:scale-[1.01] hover:shadow-lg group cursor-default" style={{ borderLeftColor: color }}>
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="flex items-center justify-center w-7 h-7 rounded-full text-sm font-bold text-white transition-transform group-hover:scale-110" style={{ backgroundColor: color }}>{step}</span>
+                  <h3 className="text-lg font-bold text-white">Step {step}:</h3>
+                </div>
+                <p className="text-gray-300 pl-9">{desc}</p>
+              </div>
+            ))}
           </div>
 
           {/* Download Button */}
           <div className="flex justify-center mt-10">
-            <a 
-              href="https://pkcardrummy.com/?from_gameid=6052215&channelCode=5784509"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-[#0ea5e9] hover:bg-[#0284c7] text-white font-bold py-4 px-12 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl"
+            <a
+              href={process.env.NEXT_PUBLIC_DOWNLOAD_URL || '/download-card-rummy'}
+              className="relative flex items-center px-10 py-5 text-white font-bold text-lg rounded-full border-2 border-[#0ea5e9] hover:bg-[#0ea5e9]/10 transition-all duration-300 group shadow-2xl hover:shadow-[0_0_30px_rgba(14,165,233,0.3)] hover:scale-105 animate-pulse-glow"
             >
-              <span className="text-lg">DOWNLOAD NOW</span>
-              <div className="ml-3 bg-[#f97316] rounded-full p-2">
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
-                </svg>
+              <span>Magic Brawl APK</span>
+              <div className="ml-3 bg-[#f97316] rounded-full p-2.5 group-hover:scale-110 transition-transform">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
               </div>
             </a>
           </div>
@@ -256,37 +214,44 @@ export default function CardRummyForPCPage() {
       {/* Top Emulators Section */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Top Emulators to Run Card Rummy on PC</h2>
-          <p className="text-gray-300 mb-8">You can use different emulators to run or install Card Rummy on PC:</p>
+          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Top Emulators to Run Magic Brawl on PC</h2>
+          <p className="text-gray-300 mb-8">You can use different emulators to run Magic Brawl on PC. Select one to learn more:</p>
           
-          <div className="space-y-6">
-            <div className="bg-[#0A1029] p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-white mb-3">💎 BlueStacks Emulator</h3>
-              <p className="text-gray-300">BlueStacks is the most popular emulator, giving you high performance and a beginner-friendly interface.</p>
-            </div>
-
-            <div className="bg-[#0A1029] p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-white mb-3">⚡ LD Player</h3>
-              <p className="text-gray-300">Lightweight and fast. Best for low-end devices.</p>
-            </div>
-
-            <div className="bg-[#0A1029] p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-white mb-3">🎯 Nox Player</h3>
-              <p className="text-gray-300">Easy installation and good compatibility with card games.</p>
-            </div>
-          </div>
+          <TabSwitcher tabs={[
+            { id: 'bluestacks', label: 'BlueStacks', content: (
+              <div className="bg-[#0A1029] p-6 rounded-xl border border-[#0ea5e9]/30">
+                <h3 className="text-xl font-bold text-[#FFA500] mb-3">💎 BlueStacks Emulator</h3>
+                <p className="text-gray-300 mb-4">BlueStacks is the most popular emulator, giving you high performance and a beginner-friendly interface.</p>
+                <p className="text-sm text-gray-400">Best for: Most users. Great compatibility with Magic Brawl and similar games.</p>
+              </div>
+            )},
+            { id: 'ldplayer', label: 'LD Player', content: (
+              <div className="bg-[#0A1029] p-6 rounded-xl border border-[#4ade80]/30">
+                <h3 className="text-xl font-bold text-[#4ade80] mb-3">⚡ LD Player</h3>
+                <p className="text-gray-300 mb-4">Lightweight and fast. Best for low-end devices.</p>
+                <p className="text-sm text-gray-400">Best for: Older PCs with limited RAM. Uses fewer resources than BlueStacks.</p>
+              </div>
+            )},
+            { id: 'nox', label: 'Nox Player', content: (
+              <div className="bg-[#0A1029] p-6 rounded-xl border border-[#a855f7]/30">
+                <h3 className="text-xl font-bold text-[#a855f7] mb-3">🎯 Nox Player</h3>
+                <p className="text-gray-300 mb-4">Easy installation and good compatibility with card games.</p>
+                <p className="text-sm text-gray-400">Best for: Users who want a simple setup. Good for Magic Brawl and other mobile games.</p>
+              </div>
+            )},
+          ]} />
         </div>
       </section>
 
       {/* System Requirements */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">System Requirements to run Card Rummy on PC</h2>
-          <p className="text-gray-300 mb-8">For running Card Rummy smoothly on PC using an Android emulator, here are the device requirements you need:</p>
+          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">System Requirements for Magic Brawl on PC</h2>
+          <p className="text-gray-300 mb-8">For running Magic Brawl smoothly on PC using an Android emulator:</p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Minimum Requirements */}
-            <div className="bg-[#0A1029] p-6 rounded-lg">
+            <div className="bg-[#0A1029] p-6 rounded-lg transition-all duration-300 hover:scale-[1.02] hover:shadow-xl hover:border hover:border-[#FFA500]/30">
               <h3 className="text-2xl font-bold text-[#FFA500] mb-4">Minimum Requirements:</h3>
               <ul className="space-y-3 text-gray-300">
                 <li className="flex items-start">
@@ -309,7 +274,7 @@ export default function CardRummyForPCPage() {
             </div>
 
             {/* Recommended Requirements */}
-            <div className="bg-[#0A1029] p-6 rounded-lg">
+            <div className="bg-[#0A1029] p-6 rounded-lg transition-all duration-300 hover:scale-[1.02] hover:shadow-xl hover:border hover:border-[#4ade80]/30">
               <h3 className="text-2xl font-bold text-[#4ade80] mb-4">Recommended Requirements:</h3>
               <ul className="space-y-3 text-gray-300">
                 <li className="flex items-start">
@@ -337,7 +302,7 @@ export default function CardRummyForPCPage() {
       {/* Pros and Cons */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Pros and Cons of Using Card Rummy PC</h2>
+          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Pros and Cons of Magic Brawl on PC</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <h3 className="text-2xl font-bold mb-4 text-[#4ade80]">Pros:</h3>
@@ -387,7 +352,7 @@ export default function CardRummyForPCPage() {
         <div className="bg-secondary rounded-xl p-8">
           <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">Conclusion</h2>
           <p className="text-gray-300 leading-relaxed">
-            If you want better performance and a high-quality user interface, you can use Card Rummy on PC. Emulator setup can be confusing for beginners, but once installed, you can enjoy a better experience. Using the Card Rummy apk on PC gives you a larger screen and smooth control over gameplay with fewer interruptions.
+            If you want better performance and a high-quality user interface, play Magic Brawl on PC. Emulator setup can be confusing for beginners, but once installed, you can enjoy a better experience. Magic Brawl on PC gives you a larger screen and smooth control over online battles with fewer interruptions.
           </p>
         </div>
       </section>
@@ -421,13 +386,13 @@ export default function CardRummyForPCPage() {
                 </span>
               </summary>
               <div className="p-4 pt-0 text-gray-300">
-                If the APK is not installing, make sure your emulator is properly configured and has enough storage space. Also, ensure you have downloaded the latest version of Card Rummy APK from the official source and that your emulator supports Android 5.0 or higher.
+                If the APK is not installing, make sure your emulator is properly configured and has enough storage space. Ensure you have downloaded the latest Magic Brawl APK from magicbrawlapk.net and that your emulator supports Android 5.0 or higher.
               </div>
             </details>
 
             <details className="group bg-[#0a1029]/50 rounded-xl">
               <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
-                Which emulator is best for Card Rummy?
+                Which emulator is best for Magic Brawl?
                 <span className="transition group-open:rotate-180">
                   <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
                     <path d="M6 9l6 6 6-6"></path>
@@ -435,35 +400,10 @@ export default function CardRummyForPCPage() {
                 </span>
               </summary>
               <div className="p-4 pt-0 text-gray-300">
-                BlueStacks is the most recommended emulator for Card Rummy due to its high performance, user-friendly interface, and excellent compatibility. However, if you have a low-end PC, LD Player is a great lightweight alternative that still offers smooth gameplay.
+                BlueStacks is the most recommended emulator for Magic Brawl due to its high performance, user-friendly interface, and excellent compatibility. However, if you have a low-end PC, LD Player is a great lightweight alternative that still offers smooth gameplay.
               </div>
             </details>
           </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-gradient-to-r from-[#0ea5e9] to-[#6366f1] rounded-2xl p-8 md:p-12 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
-            Ready to Play on PC?
-          </h2>
-          <p className="text-xl text-white mb-8 opacity-90">
-            Download Card Rummy and install it using your favorite emulator!
-          </p>
-          <a 
-            href="https://pkcardrummy.com/?from_gameid=6052215&channelCode=5784509"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-white text-[#0ea5e9] hover:bg-gray-100 font-bold py-4 px-12 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl"
-          >
-            <span className="text-lg">DOWNLOAD FOR PC</span>
-            <div className="ml-3 bg-[#f97316] rounded-full p-2">
-              <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
-              </svg>
-            </div>
-          </a>
         </div>
       </section>
 

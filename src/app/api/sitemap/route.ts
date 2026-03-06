@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 
 export async function GET() {
-  const baseUrl = 'https://cardrummyapp.com.pk';
+  const baseUrl = 'https://magicbrawlapk.net';
   
   // Define page type
   type PageType = {
@@ -25,14 +25,14 @@ export async function GET() {
       priority: 1.0,
       images: [
         {
-          loc: '/card-rummy.webp',
-          title: 'Card Rummy Logo',
-          caption: 'The official logo of Card Rummy gaming platform'
+          loc: '/magic-brawl-apk.webp',
+          title: 'Magic Brawl APK Logo',
+          caption: 'The official logo of Magic Brawl APK gaming platform'
         },
         {
-          loc: '/card-rummy-logo.webp',
-          title: 'Card Rummy Hero Image',
-          caption: 'Card Rummy gaming platform showcase'
+          loc: '/magic-brawl-apk-logo.webp',
+          title: 'Magic Brawl APK Hero Image',
+          caption: 'Magic Brawl APK gaming platform showcase'
         }
       ]
     },
@@ -43,9 +43,9 @@ export async function GET() {
       priority: 0.9,
       images: [
         {
-          loc: '/card-rummy.webp',
-          title: 'Download Card Rummy',
-          caption: 'Download Card Rummy APK for Android'
+          loc: '/magic-brawl-apk.webp',
+          title: 'Download Magic Brawl APK',
+          caption: 'Download Magic Brawl APK for Android'
         }
       ]
     },
@@ -62,17 +62,35 @@ export async function GET() {
       priority: 0.9
     },
     {
+      url: '/magic-brawl-for-ios',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'weekly',
+      priority: 0.9
+    },
+    {
+      url: '/retro-brawl',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'weekly',
+      priority: 0.9
+    },
+    {
       url: '/card-rummy-for-pc',
       lastMod: new Date().toISOString(),
       changeFreq: 'weekly',
       priority: 0.9,
       images: [
         {
-          loc: '/card-rummy.webp',
-          title: 'Card Rummy for PC',
-          caption: 'Play Card Rummy on PC using Android Emulator'
+          loc: '/magic-brawl-apk.webp',
+          title: 'Magic Brawl APK for PC',
+          caption: 'Play Magic Brawl APK on PC using Android Emulator'
         }
       ]
+    },
+    {
+      url: '/dmca',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.5
     },
     {
       url: '/about-us',
@@ -81,9 +99,9 @@ export async function GET() {
       priority: 0.7,
       images: [
         {
-          loc: '/card-rummy.webp',
-          title: 'About Card Rummy',
-          caption: 'Learn about Card Rummy gaming platform'
+          loc: '/magic-brawl-apk.webp',
+          title: 'About Magic Brawl APK',
+          caption: 'Learn about Magic Brawl APK gaming platform'
         }
       ]
     },
@@ -94,9 +112,9 @@ export async function GET() {
       priority: 0.8,
       images: [
         {
-          loc: '/card-rummy.webp',
-          title: 'Card Rummy Blog',
-          caption: 'Guides and tutorials for Card Rummy gaming platform'
+          loc: '/magic-brawl-apk.webp',
+          title: 'Magic Brawl APK Blog',
+          caption: 'Guides and tutorials for Magic Brawl APK gaming platform'
         }
       ]
     },
@@ -122,51 +140,20 @@ export async function GET() {
 
   // Blog posts
   const blogPosts: PageType[] = [
-    {
-      url: '/blog/is-card-rummy-real-or-fake',
-      lastMod: new Date().toISOString(),
-      changeFreq: 'monthly',
-      priority: 0.8
-    },
-    {
-      url: '/blog/create-card-rummy-account-and-login',
-      lastMod: new Date().toISOString(),
-      changeFreq: 'monthly',
-      priority: 0.8
-    },
-    {
-      url: '/blog/tips-to-win-big-in-card-rummy',
-      lastMod: new Date().toISOString(),
-      changeFreq: 'monthly',
-      priority: 0.8
-    },
-    {
-      url: '/blog/ips-exceed-issue-card-rummy-how-to-fix',
-      lastMod: new Date().toISOString(),
-      changeFreq: 'monthly',
-      priority: 0.8
-    },
-    {
-      url: '/blog/card-rummy-old-version-features-review-2026',
-      lastMod: new Date().toISOString(),
-      changeFreq: 'monthly',
-      priority: 0.8
-    },
-    {
-      url: '/blog/card-rummy-latest-version-new-features-2026-updates',
-      lastMod: new Date().toISOString(),
-      changeFreq: 'monthly',
-      priority: 0.8
-    },
-    {
-      url: '/blog/ways-to-earn-money-with-card-rummy-2026',
-      lastMod: new Date().toISOString(),
-      changeFreq: 'monthly',
-      priority: 0.8
-    }
+    { url: '/blog/magic-brawl-apk-2026-whats-new-why-everyones-playing', lastMod: new Date().toISOString(), changeFreq: 'monthly', priority: 0.8 },
+    { url: '/blog/magic-brawl-2026-soundtrack-why-gamers-cant-stop-listening', lastMod: new Date().toISOString(), changeFreq: 'monthly', priority: 0.8 },
+    { url: '/blog/10-must-know-features-hidden-tricks-magic-brawl-2026', lastMod: new Date().toISOString(), changeFreq: 'monthly', priority: 0.8 },
+    { url: '/blog/magic-brawl-vs-retro-brawl-biggest-differences', lastMod: new Date().toISOString(), changeFreq: 'monthly', priority: 0.8 },
+    { url: '/blog/colette-brawl-stars-vs-magic-brawl-apk', lastMod: new Date().toISOString(), changeFreq: 'monthly', priority: 0.8 },
+    { url: '/blog/edgar-brawl-stars-unlock-guide-magic-brawl-apk-benefits', lastMod: new Date().toISOString(), changeFreq: 'monthly', priority: 0.8 },
+    { url: '/blog/brawl-stars-2026-unlock-premium-gems-magic-brawl-edition', lastMod: new Date().toISOString(), changeFreq: 'monthly', priority: 0.8 },
+    { url: '/blog/magic-brawl-2026-soundtrack-music-powers-every-battle', lastMod: new Date().toISOString(), changeFreq: 'monthly', priority: 0.8 },
+    { url: '/blog/magic-brawl-apk-download-old-version', lastMod: new Date().toISOString(), changeFreq: 'monthly', priority: 0.8 },
+    { url: '/blog/download-magic-brawl-mod-menu-v50-221', lastMod: new Date().toISOString(), changeFreq: 'monthly', priority: 0.8 },
+    { url: '/blog/comparison-magic-brawl-brawl-stars', lastMod: new Date().toISOString(), changeFreq: 'monthly', priority: 0.8 },
+    { url: '/blog/magic-brawl-apk-vs-nulls-brawl-vs-retro-brawl-comparison', lastMod: new Date().toISOString(), changeFreq: 'monthly', priority: 0.8 },
   ];
 
-  // Only include existing pages
   const allPages = [...mainPages, ...blogPosts];
   
   // Generate XML with mobile and image extensions

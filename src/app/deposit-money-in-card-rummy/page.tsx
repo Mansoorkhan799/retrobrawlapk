@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'How to Deposit Money in Card Rummy? | Quick & Safe Payment Guide',
     description: 'Step-by-step guide to deposit money in Card Rummy using JazzCash and EasyPaisa. Quick, safe, and secure payment methods.',
-    url: 'https://cardrummyapp.com.pk/deposit-money-in-card-rummy',
+    url: 'https://magicbrawlapk.net/deposit-money-in-card-rummy',
     siteName: 'Card Rummy',
     type: 'article',
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     description: 'Learn how to deposit money in Card Rummy using JazzCash and EasyPaisa with our complete guide.',
   },
   alternates: {
-    canonical: 'https://cardrummyapp.com.pk/deposit-money-in-card-rummy',
+    canonical: 'https://magicbrawlapk.net/deposit-money-in-card-rummy',
   },
 };
 

@@ -1,4 +1,4 @@
-# robots.txt for cardrummyapp.com.pk
+# robots.txt for magicbrawlapk.net
 
 # ============================================
 # AI CONTENT USAGE POLICY
@@ -32,19 +32,19 @@ Disallow: /admin/
 
 # Priority pages
 Allow: /download-card-rummy
-Allow: /deposit-money-in-card-rummy
-Allow: /withdraw-money-from-card-rummy
+Allow: /magic-brawl-for-ios
+Allow: /retro-brawl
 Allow: /card-rummy-for-pc
 Allow: /about-us
 Allow: /blog
-Allow: /blog/is-card-rummy-real-or-fake
-Allow: /blog/create-card-rummy-account-and-login
-Allow: /blog/tips-to-win-big-in-card-rummy
 
 # Standard pages
 Allow: /contact-us
 Allow: /privacy
 Allow: /disclaimer
+Allow: /dmca
+Allow: /deposit-money-in-card-rummy
+Allow: /withdraw-money-from-card-rummy
 
 # ============================================
 # AI BOT RESTRICTIONS (Training Prevention)
@@ -122,9 +122,9 @@ Allow: /
 # SITEMAPS
 # ============================================
 
-Sitemap: https://cardrummyapp.com.pk/sitemap-index.xml
-Sitemap: https://cardrummyapp.com.pk/sitemap.xml
-Sitemap: https://cardrummyapp.com.pk/image-sitemap.xml
+Sitemap: https://magicbrawlapk.net/sitemap-index.xml
+Sitemap: https://magicbrawlapk.net/sitemap.xml
+Sitemap: https://magicbrawlapk.net/image-sitemap.xml
 
 # ============================================
 # IMPORTANT: DO NOT ADD Host DIRECTIVE

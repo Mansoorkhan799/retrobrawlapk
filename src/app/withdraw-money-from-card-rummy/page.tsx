@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'How to Withdraw Money from Card Rummy? | Fast & Secure Withdrawal Guide',
     description: 'Step-by-step guide to withdraw money from Card Rummy using JazzCash, EasyPaisa, and Bank Transfer. Quick and secure withdrawals.',
-    url: 'https://cardrummyapp.com.pk/withdraw-money-from-card-rummy',
+    url: 'https://magicbrawlapk.net/withdraw-money-from-card-rummy',
     siteName: 'Card Rummy',
     type: 'article',
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     description: 'Learn how to withdraw money from Card Rummy using our complete withdrawal guide.',
   },
   alternates: {
-    canonical: 'https://cardrummyapp.com.pk/withdraw-money-from-card-rummy',
+    canonical: 'https://magicbrawlapk.net/withdraw-money-from-card-rummy',
   },
 };
 

@@ -1,11 +1,11 @@
 import { NextResponse } from 'next/server';
 
 export async function GET() {
-  const baseUrl = 'https://cardrummyapp.com.pk';
+  const baseUrl = 'https://magicbrawlapk.net';
   
   // This API route ensures consistent robots.txt across all URL variations
   // (HTTP/HTTPS, www/non-www). Matches the static file exactly.
-  const robotsTxt = `# robots.txt for cardrummyapp.com.pk
+  const robotsTxt = `# robots.txt for magicbrawlapk.net
 
 # ============================================
 # AI CONTENT USAGE POLICY
@@ -41,17 +41,16 @@ Disallow: /admin/
 Allow: /download-card-rummy
 Allow: /deposit-money-in-card-rummy
 Allow: /withdraw-money-from-card-rummy
+Allow: /magic-brawl-for-ios
 Allow: /card-rummy-for-pc
 Allow: /about-us
 Allow: /blog
-Allow: /blog/is-card-rummy-real-or-fake
-Allow: /blog/create-card-rummy-account-and-login
-Allow: /blog/tips-to-win-big-in-card-rummy
 
 # Standard pages
 Allow: /contact-us
 Allow: /privacy
 Allow: /disclaimer
+Allow: /dmca
 
 # ============================================
 # AI BOT RESTRICTIONS (Training Prevention)

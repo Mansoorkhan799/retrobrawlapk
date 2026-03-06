@@ -2,24 +2,24 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Disclaimer - Card Rummy | Legal Information',
-  description: 'Read the disclaimer for Card Rummy. Important legal information about the use of this blog and third-party platforms.',
-  keywords: ['Card Rummy disclaimer', 'legal disclaimer', 'terms', 'conditions', 'gambling disclaimer'],
+  title: 'Disclaimer - Magic Brawl APK | Legal Information',
+  description: 'Read the disclaimer for Magic Brawl APK. Important legal information about the use of this website.',
+  keywords: ['Magic Brawl disclaimer', 'legal disclaimer', 'terms', 'conditions', 'entertainment game'],
   openGraph: {
-    title: 'Disclaimer - Card Rummy',
-    description: 'Legal disclaimer and important information about Card Rummy.',
-    url: 'https://cardrummyapp.com.pk/disclaimer',
-    siteName: 'Card Rummy',
+    title: 'Disclaimer - Magic Brawl APK',
+    description: 'Legal disclaimer and important information about Magic Brawl APK.',
+    url: 'https://magicbrawlapk.net/disclaimer',
+    siteName: 'Magic Brawl APK',
     type: 'website',
+    images: [{ url: 'https://magicbrawlapk.net/feature/og-image.webp', width: 1200, height: 630, alt: 'Magic Brawl APK' }],
   },
   twitter: {
-    card: 'summary',
-    title: 'Disclaimer - Card Rummy',
-    description: 'Legal disclaimer and important information about Card Rummy.',
+    card: 'summary_large_image',
+    title: 'Disclaimer - Magic Brawl APK',
+    description: 'Legal disclaimer and important information about Magic Brawl APK.',
+    images: ['https://magicbrawlapk.net/feature/twitter-card.webp'],
   },
-  alternates: {
-    canonical: 'https://cardrummyapp.com.pk/disclaimer',
-  },
+  alternates: { canonical: 'https://magicbrawlapk.net/disclaimer' },
   robots: {
     index: true,
     follow: true,
@@ -58,7 +58,7 @@ export default function Disclaimer() {
               {/* Main Disclaimer Content */}
               <div className="space-y-6 text-gray-300">
                 <p className="text-lg leading-relaxed">
-                  The information provided on this blog (<a href="https://www.cardrummyapp.com.pk" className="text-accent hover:text-accent font-semibold" target="_blank" rel="noopener noreferrer">www.cardrummyapp.com.pk</a>) about <Link href="/" className="text-accent hover:underline font-semibold">Card Rummy</Link> is for <strong>general informational and entertainment purposes only</strong>. We do not host, promote, or encourage any form of gambling or betting activities.
+                  The information provided on this blog (<a href="https://magicbrawlapk.net" className="text-accent hover:text-accent font-semibold" target="_blank" rel="noopener noreferrer">magicbrawlapk.net</a>) about <Link href="/" className="text-accent hover:underline font-semibold">Magic Brawl APK</Link> is for <strong>general informational and entertainment purposes only</strong>. We do not host, promote, or encourage any form of gambling or betting activities.
                 </p>
 
                 <div className="bg-[#0A1029] rounded-xl p-6 border border-accent">
@@ -66,7 +66,7 @@ export default function Disclaimer() {
                   <ul className="space-y-3 text-gray-300">
                     <li className="flex items-start">
                       <span className="text-accent mr-2 font-bold">•</span>
-                      <span>Card Rummy is a card game that may involve <strong>real money</strong> when played on certain platforms.</span>
+                      <span>Magic Brawl APK is a free entertainment game. It is a fan-made MOD of Brawl Stars built on private servers.</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-accent mr-2 font-bold">•</span>
@@ -134,15 +134,16 @@ export default function Disclaimer() {
       </div>
 
       {/* Structured Data */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://magicbrawlapk.net" }, { "@type": "ListItem", "position": 2, "name": "Disclaimer", "item": "https://magicbrawlapk.net/disclaimer" }] }) }} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": "Disclaimer - Card Rummy",
-            "description": "Legal disclaimer and important information about Card Rummy website.",
-            "url": "https://cardrummyapp.com.pk/disclaimer"
+            "name": "Disclaimer - Magic Brawl APK",
+            "description": "Legal disclaimer and important information about Magic Brawl APK website.",
+            "url": "https://magicbrawlapk.net/disclaimer"
           })
         }}
       />

@@ -18,45 +18,44 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://cardrummyapp.com.pk'),
+  metadataBase: new URL('https://magicbrawlapk.net'),
   title: {
-    default: "Card Rummy Pakistan v1.230 Free Download Official APK",
-    template: "%s | Card Rummy"
+    default: "Magic Brawl APK v50.221 | Unlocked Premium – Unlimited Gems [2026]",
+    template: "%s | Magic Brawl APK"
   },
-  description: "Card Rummy 2026 - Pakistan's #1 card game platform. Download Card Rummy APK, play Teen Patti, Rummy, Dragon vs Tiger & win real cash. Fast withdrawals via JazzCash & EasyPaisa. Join 500K+ players!",
+  description: "Download Magic Brawl APK v50.221 — Brawl Stars MOD with all brawlers unlocked, unlimited gems, exclusive skins, custom maps & online battles. Free entertainment game for Android.",
   keywords: [
-    "Card Rummy",
-    "card rummy game",
-    "card rummy download",
-    "card rummy app",
-    "card rummy apk",
-    "card rummy pakistan",
-    "card rummy online",
-    "download card rummy",
-    "card rummy real money",
-    "3 Patti Card Rummy",
-    "how to play card rummy",
-    "card rummy 2026",
-    "Pakistan card games",
-    "Teen Patti game",
-    "online rummy game",
-    "earn money playing cards",
-    "Android gaming app 2026",
-    "JazzCash gaming",
-    "EasyPaisa gaming",
-    "mobile card games",
-    "real money games Pakistan",
-    "card game earning app",
-    "Teen Patti online",
-    "Dragon vs Tiger",
-    "best earning app Pakistan",
-    "rummy card game",
-    "play rummy online",
-    "rummy game download"
+    "Magic Brawl APK",
+    "magic brawl game",
+    "magic brawl download",
+    "magic brawl app",
+    "magic brawl apk download",
+    "magic brawl online",
+    "download magic brawl",
+    "magic brawl 2026",
+    "magicbrawlapk",
+    "magicbrawlapk.net",
+    "Brawl Stars",
+    "brawl stars private server",
+    "brawl stars rebirth",
+    "brawl stars clone",
+    "magic brawl apk latest version",
+    "magic brawl free download",
+    "magic brawl official apk",
+    "brawl game download",
+    "magic brawl android",
+    "magic brawl review",
+    "magic brawl brawlers",
+    "magic brawl skins",
+    "online battles game",
+    "magic brawl version 50",
+    "magic brawl exclusive content",
+    "entertainment game",
+    "free mobile game"
   ],
-  authors: [{ name: "Card Rummy Team" }],
-  creator: "Card Rummy",
-  publisher: "Card Rummy",
+  authors: [{ name: "Magic Brawl Team" }],
+  creator: "Magic Brawl APK",
+  publisher: "Magic Brawl APK",
   robots: {
     index: true,
     follow: true,
@@ -70,62 +69,61 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: '/favicon.ico', type: 'image/x-icon', sizes: 'any' },
-      { url: '/card-rummy-logo.webp', type: 'image/webp', sizes: '192x192' },
-      { url: '/card-rummy.webp', type: 'image/webp', sizes: '512x512' }
+      { url: '/magic-brawl-apk-logo.webp', type: 'image/webp', sizes: '192x192' },
+      { url: '/magic-brawl-apk.webp', type: 'image/webp', sizes: '512x512' }
     ],
     apple: [
-      { url: '/card-rummy-logo.webp', sizes: '180x180' }
+      { url: '/magic-brawl-apk-logo.webp', sizes: '180x180' }
     ],
     shortcut: [
-      { url: '/favicon.ico', type: 'image/x-icon' }
+      { url: '/magic-brawl-apk-logo.webp', type: 'image/webp' }
     ]
   },
   verification: {
     google: "8a7c21f6e90a89ef",
   },
   alternates: {
-    canonical: "https://cardrummyapp.com.pk",
+    canonical: "https://magicbrawlapk.net",
   },
   openGraph: {
-    title: "Card Rummy Pakistan v1.230 Free Download Official APK",
-    description: "Card Rummy 2026 - Pakistan's #1 card game platform. Join 500K+ players. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!",
-    url: "https://cardrummyapp.com.pk",
-    siteName: "Card Rummy",
+    title: "Magic Brawl APK v50.221 | Unlocked Premium – Unlimited Gems [2026]",
+    description: "Magic Brawl - A rebirth of Brawl Stars! Online battles, unique brawlers, exclusive skins. Free entertainment game. Download now!",
+    url: "https://magicbrawlapk.net",
+    siteName: "Magic Brawl APK",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://cardrummyapp.com.pk/feature/og-image.webp",
+        url: "https://magicbrawlapk.net/feature/og-image.webp",
         width: 1200,
         height: 630,
-        alt: "Card Rummy - Premier Card Gaming Platform",
+        alt: "Magic Brawl APK - Official Gaming Platform",
       },
       {
-        url: "https://cardrummyapp.com.pk/feature/og-image-square.webp",
+        url: "https://magicbrawlapk.net/feature/og-image-square.webp",
         width: 800,
         height: 800,
-        alt: "Card Rummy - Premier Card Gaming Platform",
+        alt: "Magic Brawl APK - Official Gaming Platform",
       }
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Card Rummy Pakistan v1.230 Free Download Official APK",
-    description: "Card Rummy 2026 - Pakistan's #1 card game platform. Join 500K+ players. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!",
-    creator: "@cardrummy",
+    title: "Magic Brawl APK v50.221 | Unlocked Premium – Unlimited Gems [2026]",
+    description: "Magic Brawl — Brawl Stars MOD with all brawlers unlocked, unlimited gems, exclusive skins & custom maps. Free entertainment game!",
+    creator: "@magicbrawlapk",
     images: [
       {
-        url: "https://cardrummyapp.com.pk/feature/twitter-card.webp",
+        url: "https://magicbrawlapk.net/feature/twitter-card.webp",
         width: 1200,
         height: 600,
-        alt: "Card Rummy - Premier Card Gaming Platform",
+        alt: "Magic Brawl APK - Official Gaming Platform",
       }
     ],
   },
-  applicationName: "Card Rummy",
+  applicationName: "Magic Brawl APK",
   category: "Gaming",
-  classification: "Card Gaming Platform",
+  classification: "Gaming Platform",
 };
 
 export default function RootLayout({
@@ -138,12 +136,9 @@ export default function RootLayout({
       <head>
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16 32x32" />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <link rel="icon" href="/card-rummy-logo.webp" type="image/webp" sizes="192x192" />
-        <link rel="icon" href="/card-rummy.webp" type="image/webp" sizes="512x512" />
-        <link rel="apple-touch-icon" href="/card-rummy-logo.webp" sizes="180x180" />
-        <meta property="og:image" content="https://cardrummyapp.com.pk/card-rummy-logo.webp" />
+        <link rel="icon" href="/magic-brawl-apk-logo.webp" type="image/webp" sizes="192x192" />
+        <link rel="icon" href="/magic-brawl-apk.webp" type="image/webp" sizes="512x512" />
+        <link rel="apple-touch-icon" href="/magic-brawl-apk-logo.webp" sizes="180x180" />
         
         {/* Preconnect to external domains for faster loading */}
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
@@ -204,13 +199,16 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              "name": "Card Rummy",
-              "url": "https://cardrummyapp.com.pk",
-              "logo": "https://cardrummyapp.com.pk/card-rummy-logo.webp",
-              "description": "Card Rummy is Pakistan's premier card gaming platform, offering Teen Patti, Rummy, and many other card games with real cash rewards.",
+              "name": "Magic Brawl APK",
+              "url": "https://magicbrawlapk.net",
+              "logo": "https://magicbrawlapk.net/magic-brawl-apk-logo.webp",
+              "description": "Magic Brawl APK is a rebirth of Brawl Stars — an entertainment game featuring online battles, unique brawlers, exclusive skins, and regular updates.",
               "sameAs": [
-                "https://facebook.com/cardrummy",
-                "https://twitter.com/cardrummy"
+                "https://www.facebook.com/profile.php?id=61584893160619",
+                "https://x.com/magicbrawlapk",
+                "https://www.instagram.com/magicbrawalapk/",
+                "https://www.youtube.com/@Magicbrawlapk",
+                "https://pin.it/UmqsWyxKX"
               ]
             })
           }}
@@ -224,13 +222,13 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "SoftwareApplication",
-              "name": "Card Rummy",
+              "name": "Magic Brawl APK",
               "operatingSystem": "Android",
               "applicationCategory": "GameApplication",
               "offers": {
                 "@type": "Offer",
                 "price": "0",
-                "priceCurrency": "PKR"
+                "priceCurrency": "USD"
               },
               "aggregateRating": {
                 "@type": "AggregateRating",

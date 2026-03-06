@@ -6,8 +6,11 @@ import Link from 'next/link';
 const BlogCategoryDropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
   
-  const categories = [
-    { name: 'Account & Login', href: '/blog/create-card-rummy-account-and-login' },
+  const categories: { name: string; href: string }[] = [
+    { name: 'Guides & Tips', href: '/blog/10-must-know-features-hidden-tricks-magic-brawl-2026' },
+    { name: 'Brawler Guides', href: '/blog/colette-brawl-stars-vs-magic-brawl-apk' },
+    { name: 'Comparisons', href: '/blog/comparison-magic-brawl-brawl-stars' },
+    { name: 'Downloads', href: '/blog/download-magic-brawl-mod-menu-v50-221' },
   ];
 
   return (

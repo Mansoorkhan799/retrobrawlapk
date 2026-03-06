@@ -12,8 +12,8 @@ export default function Header() {
         <Link href="/" className="flex items-center">
           <div className="relative h-10 w-10 mr-2">
             <Image
-              src="/card-rummy.webp"
-              alt="Card Rummy Logo"
+              src="/magic-brawl-apk.webp"
+              alt="Magic Brawl APK Logo"
               width={40}
               height={40}
               className="object-contain"
@@ -22,7 +22,7 @@ export default function Header() {
             />
           </div>
           <span className="text-accent text-xl md:text-2xl font-bold">
-            Card Rummy
+            Magic Brawl APK
           </span>
         </Link>
 
@@ -34,14 +34,14 @@ export default function Header() {
           <Link href="/download-card-rummy" className="text-white hover:text-accent font-medium transition-colors">
             Download
           </Link>
-          <Link href="/deposit-money-in-card-rummy" className="text-white hover:text-accent font-medium transition-colors">
-            Deposit
-          </Link>
-          <Link href="/withdraw-money-from-card-rummy" className="text-white hover:text-accent font-medium transition-colors">
-            Withdraw
-          </Link>
           <Link href="/card-rummy-for-pc" className="text-white hover:text-accent font-medium transition-colors">
-            PC Version
+            For PC
+          </Link>
+          <Link href="/magic-brawl-for-ios" className="text-white hover:text-accent font-medium transition-colors">
+            For iOS
+          </Link>
+          <Link href="/retro-brawl" className="text-white hover:text-accent font-medium transition-colors">
+            Retro Brawl
           </Link>
           <Link href="/about-us" className="text-white hover:text-accent font-medium transition-colors">
             About Us

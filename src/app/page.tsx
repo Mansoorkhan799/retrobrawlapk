@@ -1,235 +1,109 @@
 import Image from "next/image";
 import Link from 'next/link';
 import Script from 'next/script';
+import ScreenshotGallery from '@/components/ScreenshotGallery';
 import { Metadata } from 'next';
 
-// This additional metadata enhances the page-specific SEO
+const DOWNLOAD_URL = process.env.NEXT_PUBLIC_DOWNLOAD_URL || '/download-card-rummy';
+
 export const metadata: Metadata = {
-  title: {
-    default: "Card Rummy Pakistan v1.230 Free Download Official APK",
-    template: "%s | Card Rummy"
-  },
-  description: "Card Rummy 2026 - Pakistan's #1 card game platform. Download Card Rummy APK, play Teen Patti, Rummy, Dragon vs Tiger & win real cash. Fast withdrawals via JazzCash & EasyPaisa. Join 500K+ players!",
+  title: "Magic Brawl APK v50.221 | Unlocked Premium – Unlimited Gems [2026]",
+  description: "Download Magic Brawl APK v50.221 — a rebirth of Brawl Stars with all brawlers unlocked, unlimited gems, exclusive skins, custom maps, online battles & private servers. Free entertainment game for Android & iOS.",
   keywords: [
-    "Card Rummy",
-    "card rummy game",
-    "card rummy download",
-    "card rummy app",
-    "card rummy apk",
-    "card rummy pakistan",
-    "card rummy online",
-    "download card rummy",
-    "card rummy real money",
-    "3 Patti Card Rummy",
-    "how to play card rummy",
-    "card rummy 2026",
-    "Pakistan card games",
-    "Teen Patti game",
-    "online rummy game",
-    "earn money playing cards",
-    "Android gaming app 2026",
-    "JazzCash gaming",
-    "EasyPaisa gaming",
-    "mobile card games",
-    "real money games Pakistan",
-    "card game earning app",
-    "Teen Patti online",
-    "Dragon vs Tiger",
-    "best earning app Pakistan",
-    "rummy card game",
-    "play rummy online",
-    "rummy game download"
+    "Magic Brawl APK",
+    "Magic Brawl",
+    "magic brawl apk download",
+    "magic brawl v50.221",
+    "Brawl Stars rebirth",
+    "Brawl Stars private server",
+    "Brawl Stars mod",
+    "unlimited gems brawl stars",
+    "all brawlers unlocked",
+    "magic brawl latest version",
+    "magic brawl free download",
+    "magicbrawlapk.net",
+    "magic brawl android",
+    "magic brawl ios",
+    "magic brawl exclusive skins",
+    "magic brawl custom maps",
+    "magic brawl game modes",
+    "brawl stars free gems 2026",
+    "magic brawl FUMEY",
+    "magic brawl RT",
+    "magic brawl Maisie",
+    "magic brawl Hank",
+    "magic brawl season 18",
+    "magic brawl brawl pass",
+    "entertainment game",
+    "null's brawl alternative",
+    "retro brawl",
   ],
   openGraph: {
-    title: 'Card Rummy Pakistan v1.230 Free Download Official APK',
-    description: 'Card Rummy 2026 - Pakistan\'s #1 card game platform. Join 500K+ players. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!',
+    title: 'Magic Brawl APK v50.221 | Unlocked Premium – Unlimited Gems [2026]',
+    description: 'Magic Brawl — a rebirth of Brawl Stars. All brawlers unlocked, unlimited gems, exclusive skins, custom maps & online battles. Free download for Android & iOS!',
     images: [
-      {
-        url: 'https://cardrummyapp.com.pk/feature/og-image.webp',
-        width: 1200,
-        height: 630,
-        alt: 'Card Rummy - Premier Card Gaming Platform'
-      },
-      {
-        url: 'https://cardrummyapp.com.pk/feature/og-image-square.webp',
-        width: 800,
-        height: 800,
-        alt: 'Card Rummy - Premier Card Gaming Platform'
-      }
+      { url: 'https://magicbrawlapk.net/feature/og-image.webp', width: 1200, height: 630, alt: 'Magic Brawl APK v50.221' },
+      { url: 'https://magicbrawlapk.net/feature/og-image-square.webp', width: 800, height: 800, alt: 'Magic Brawl APK' }
     ],
     type: 'website'
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Card Rummy Pakistan v1.230 Free Download Official APK',
-    description: 'Card Rummy 2026 - Pakistan\'s #1 card game platform. Join 500K+ players. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!',
-    images: ['https://cardrummyapp.com.pk/feature/og-image.webp']
+    title: 'Magic Brawl APK v50.221 | Unlocked Premium – Unlimited Gems [2026]',
+    description: 'Magic Brawl — Brawl Stars rebirth with all brawlers, unlimited gems, exclusive skins. Free entertainment game!',
+    images: ['https://magicbrawlapk.net/feature/og-image.webp']
   }
 };
 
 export default function Home() {
-  // Schema.org structured data for SEO
   const schemaData = {
     "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "WebSite",
-        "@id": "https://cardrummyapp.com.pk/#website",
-        "url": "https://cardrummyapp.com.pk/",
-        "name": "Card Rummy",
-        "description": "Pakistan's premier card game platform with Teen Patti, Rummy, Dragon Tiger and more",
+        "@id": "https://magicbrawlapk.net/#website",
+        "url": "https://magicbrawlapk.net/",
+        "name": "Magic Brawl APK",
+        "description": "Magic Brawl — a rebirth of Brawl Stars with all brawlers unlocked, unlimited gems, exclusive skins, custom maps, and online battles",
         "inLanguage": "en-US",
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": "https://cardrummyapp.com.pk/?s={search_term_string}",
-          "query-input": "required name=search_term_string"
-        }
+        "potentialAction": { "@type": "SearchAction", "target": "https://magicbrawlapk.net/?s={search_term_string}", "query-input": "required name=search_term_string" }
       },
       {
         "@type": "Organization",
-        "@id": "https://cardrummyapp.com.pk/#organization",
-        "name": "Card Rummy",
-        "url": "https://cardrummyapp.com.pk/",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://cardrummyapp.com.pk/card-rummy-logo.webp",
-          "width": 512,
-          "height": 512
-        },
-        "sameAs": [
-          "https://www.facebook.com/share/1at8tjJcje/"
-        ],
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "email": "support@cardrummyapp.com.pk",
-          "contactType": "Customer Support",
-          "areaServed": "PK"
-        }
+        "@id": "https://magicbrawlapk.net/#organization",
+        "name": "Magic Brawl APK",
+        "url": "https://magicbrawlapk.net/",
+        "logo": { "@type": "ImageObject", "url": "https://magicbrawlapk.net/magic-brawl-apk-logo.webp", "width": 512, "height": 512 },
+        "contactPoint": { "@type": "ContactPoint", "email": "support@magicbrawlapk.net", "contactType": "Customer Support" }
       },
       {
         "@type": "SoftwareApplication",
-        "name": "Card Rummy",
-        "operatingSystem": "Android 5.0+",
+        "name": "Magic Brawl APK",
+        "operatingSystem": "Android 7.0+",
         "applicationCategory": "GameApplication",
-        "image": "https://cardrummyapp.com.pk/card-rummy-logo.webp",
-        "logo": "https://cardrummyapp.com.pk/card-rummy-logo.webp",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.5",
-          "ratingCount": "500000"
-        },
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "PKR"
-        },
-        "downloadUrl": "https://cardrummyapp.com.pk/download-card-rummy",
-        "softwareVersion": "V1.230",
-        "fileSize": "49MB",
-        "description": "Play Teen Patti, Rummy, Dragon Tiger and other card games. Earn real money with JazzCash & EasyPaisa withdrawals.",
-        "screenshot": [
-          "https://cardrummyapp.com.pk/card-rummy-logo.webp",
-          "https://cardrummyapp.com.pk/card-rummy.webp",
-          "https://cardrummyapp.com.pk/card-rummy-game-interface.webp",
-          "https://cardrummyapp.com.pk/card-rummy-games.webp",
-          "https://cardrummyapp.com.pk/card-rummy-earn-bonus.webp"
-        ],
-        "author": {
-          "@type": "Organization",
-          "name": "Card Rummy"
-        }
+        "image": "https://magicbrawlapk.net/magic-brawl-apk-logo.webp",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.7", "ratingCount": "20000000", "bestRating": "5" },
+        "downloadUrl": "https://magicbrawlapk.net/download-card-rummy",
+        "softwareVersion": "50.221",
+        "fileSize": "363MB",
+        "description": "Magic Brawl is a rebirth of Brawl Stars — a fan-made MOD built on private servers. All brawlers unlocked, unlimited gems, exclusive skins, custom maps, and online battles.",
+        "author": { "@type": "Organization", "name": "Magic Brawl APK" }
       },
       {
         "@type": "FAQPage",
         "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What is Card Rummy?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Card Rummy is Pakistan's premier online card game platform where you can play Teen Patti, Rummy, Dragon vs Tiger, and many other exciting casino games. Card Rummy offers real cash rewards with fast withdrawals via JazzCash and EasyPaisa."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How to download Card Rummy?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "You can download Card Rummy APK from the official website cardrummyapp.com.pk. The app is available for Android devices and can be installed directly by downloading the APK file."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How to download Card Rummy app for Android?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "To download the Card Rummy app for Android, visit cardrummyapp.com.pk, click the download button, enable Unknown Sources in your settings, and install the APK file. The Card Rummy game is free to download and works on Android 5.0 or higher."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is Card Rummy safe and legal?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, Card Rummy is safe to use with secure data protection. The platform uses encrypted transactions and protects user privacy. However, legality depends on local laws, so always check your region's regulations."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How to earn money on Card Rummy?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "You can earn money on Card Rummy by playing games like Teen Patti, Rummy, and Dragon vs Tiger. The platform offers welcome bonuses, daily rewards, referral commissions, and deposit bonuses to help you start earning."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How to withdraw money from Card Rummy?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "You can withdraw money from Card Rummy using JazzCash or EasyPaisa. Go to the Wallet section, click Withdrawal, choose your payment method, enter the amount and account details, then confirm. Withdrawals are processed quickly."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What games are available on Card Rummy?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Card Rummy offers multiple games including Teen Patti, Classic Rummy, Dragon vs Tiger, Andar Bahar, Poker, and various slot games. All games are available 24/7 with real cash prizes."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How long do Card Rummy withdrawals take?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Card Rummy withdrawals through JazzCash and EasyPaisa are processed within 5-30 minutes. The platform offers fast, secure withdrawals with no hidden fees."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is the minimum withdrawal on Card Rummy?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "The minimum withdrawal amount on Card Rummy depends on your payment method. Generally, you can withdraw as low as PKR 500 via JazzCash or EasyPaisa."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How do I contact Card Rummy customer support?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "You can contact Card Rummy customer support via 24/7 live chat within the app, email at support@cardrummyapp.com.pk, or through WhatsApp. Support team responds quickly to all queries."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What bonuses does Card Rummy offer?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Card Rummy offers welcome bonuses for new users, daily login bonuses, deposit bonuses, referral bonuses, and recharge rebates. Special VIP bonuses are available for high-volume players."
-            }
-          }
+          { "@type": "Question", "name": "What is Magic Brawl APK?", "acceptedAnswer": { "@type": "Answer", "text": "Magic Brawl APK is a fan-made MOD of Brawl Stars built on private servers. It offers all brawlers unlocked from the start, unlimited gems, exclusive skins, custom maps, and online battles. It is a free entertainment game that is regularly updated with new content." } },
+          { "@type": "Question", "name": "Is Magic Brawl APK safe to download?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, when downloaded from the official website magicbrawlapk.net. The APK runs on private servers separate from the official game, ensuring a safe and smooth gaming experience." } },
+          { "@type": "Question", "name": "Do I need real money to play Magic Brawl?", "acceptedAnswer": { "@type": "Answer", "text": "No. Magic Brawl is completely free. All brawlers, skins, gems, and premium features are unlocked from the start without any in-app purchases." } },
+          { "@type": "Question", "name": "Can I play Magic Brawl on iOS?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. iOS users can install Magic Brawl IPA using tools like AltStore or Sideloadly without jailbreak. Visit our iOS download page for step-by-step instructions." } },
+          { "@type": "Question", "name": "Can I play with friends in Magic Brawl?", "acceptedAnswer": { "@type": "Answer", "text": "Absolutely. Magic Brawl supports multiplayer battles. You can create private rooms, invite friends, and play custom matches together." } },
+          { "@type": "Question", "name": "What brawlers are exclusive to Magic Brawl?", "acceptedAnswer": { "@type": "Answer", "text": "Magic Brawl features exclusive brawlers like FUMEY, RT, Willow, Maisie, and Hank with unique abilities not found in the official Brawl Stars game." } },
+          { "@type": "Question", "name": "Is Magic Brawl APK anti-ban?", "acceptedAnswer": { "@type": "Answer", "text": "Magic Brawl runs on private servers completely separate from the official Brawl Stars servers, so your official account is not affected." } },
+          { "@type": "Question", "name": "Can I play Magic Brawl offline?", "acceptedAnswer": { "@type": "Answer", "text": "A stable internet connection is required for online multiplayer battles. However, some practice modes may work offline." } },
+          { "@type": "Question", "name": "How do I update Magic Brawl APK?", "acceptedAnswer": { "@type": "Answer", "text": "Visit magicbrawlapk.net, download the latest APK, and install over your existing version. If you've linked your account with Null's Connect, your progress will be preserved automatically." } },
+          { "@type": "Question", "name": "Will I lose my progress when updating Magic Brawl?", "acceptedAnswer": { "@type": "Answer", "text": "No. If your account is linked with Null's Connect, simply install the new version over your existing one and your progress will be automatically restored." } },
+          { "@type": "Question", "name": "Can I transfer progress from official Brawl Stars to Magic Brawl?", "acceptedAnswer": { "@type": "Answer", "text": "No. Magic Brawl runs on separate private servers, so progress from the official game cannot be transferred. However, since everything is unlocked from the start, you won't miss anything." } }
         ]
       }
     ]
@@ -237,1002 +111,649 @@ export default function Home() {
 
   return (
     <>
-      {/* Schema.org JSON-LD */}
-      <Script
-        id="homepage-schema"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
-      
-      {/* Hero Section with improved spacing */}
+      <Script id="homepage-schema" type="application/ld+json" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://magicbrawlapk.net" }] }) }} />
+
+      {/* ====== HERO SECTION ====== */}
       <section className="py-8 md:py-16 px-4 md:px-8 max-w-7xl mx-auto" style={{ minHeight: '400px' }}>
         <div className="md:flex md:items-start md:justify-between md:space-x-12 lg:space-x-20">
-          <div className="md:w-1/2 space-y-6">
-            <div className="space-y-4">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
-                <span className="text-white">Card Rummy</span>
+          <div className="md:w-3/5 space-y-6">
+            <div className="space-y-3">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight text-white">
+                Magic Brawl APK
               </h1>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">
-                <span className="text-[#FFA500]">Download APK & Play</span>{' '}
-                <span className="text-white">Real Money Games in Pakistan 2026</span>
+              <p className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#FFA500]">v50.221</p>
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-200">
+                Unlocked Premium – <span className="text-[#4ade80]">[Unlimited Gems]</span> 2026
               </h2>
             </div>
-            
-            <p className="text-lg text-gray-300 leading-relaxed" style={{ contain: 'layout style', minHeight: '120px', display: 'block' }}>
-              <Link href="/" className="text-accent hover:underline">Card Rummy</Link> is Pakistan's premier online card game platform, where you can play more than 30+ exciting casino games. Card Rummy offers the best card gaming experience with attractive graphics, smooth gameplay, and real cash rewards. So download now, start playing, and win real money with fast withdrawals via JazzCash and Easy Paisa.
+
+            <p className="text-lg text-gray-300 leading-relaxed">
+              Download the latest <Link href="/" className="text-white font-bold hover:text-accent transition-colors">Magic Brawl APK</Link> v50.221, the ultimate rebirth of Brawl Stars and its best times! Experience our private server with unlimited gems, coins, and exciting new content. Enjoy <strong className="text-accent">Season 18 – THE RESCUE!</strong> featuring new brawlers Maisie and Hank, exclusive author pins, daily giveaways including the unique Gamer Sprout skin, and all content unlocked from the start — online battles, all characters, second star powers, and gadgets. No real money needed.
             </p>
 
-            {/* Download Button */}
-            <div className="flex justify-center my-8">
-              <a 
-                href="https://pkcardrummy.com/?from_gameid=6052215&channelCode=5784509"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="relative flex items-center px-8 py-4 text-white font-semibold text-lg rounded-full border-2 border-[#0ea5e9] hover:bg-[#0ea5e9]/10 transition-all group"
+            <div className="flex justify-center md:justify-start my-6">
+              <a
+                href={DOWNLOAD_URL}
+                className="relative flex items-center px-10 py-5 text-white font-bold text-lg rounded-full border-2 border-[#0ea5e9] hover:bg-[#0ea5e9]/10 transition-all duration-300 group shadow-2xl hover:shadow-[0_0_30px_rgba(14,165,233,0.3)] hover:scale-105 animate-pulse-glow"
               >
-                <span>DOWNLOAD NOW</span>
-                <div className="ml-3 bg-[#f97316] rounded-full p-2 group-hover:scale-110 transition-transform">
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
-                  </svg>
+                <span>Magic Brawl APK</span>
+                <div className="ml-3 bg-[#f97316] rounded-full p-2.5 group-hover:scale-110 transition-transform">
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
                 </div>
               </a>
             </div>
-
-            {/* Stats Grid with improved spacing */}
-            <div className="flex flex-row gap-4 justify-center mt-8 mb-4" style={{ minHeight: '120px' }}>
-              <div className="bg-[#0A1029] p-6 rounded-2xl text-center flex-1 max-w-[180px]" style={{ minHeight: '120px' }}>
-                <svg className="w-6 h-6 mb-3 text-[#FFA500] mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-                  <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-                </svg>
-                <div className="text-white text-2xl font-bold mb-1">500K+</div>
-                <div className="text-gray-400 text-sm">Downloads</div>
-              </div>
-              
-              <div className="bg-[#0A1029] p-6 rounded-2xl text-center flex-1 max-w-[180px]" style={{ minHeight: '120px' }}>
-                <svg className="w-6 h-6 mb-3 text-[#FFA500] mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-                  <path d="M21 2H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h7v2H8v2h8v-2h-2v-2h7c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H3V4h18v12z"/>
-                </svg>
-                <div className="text-white text-2xl font-bold mb-1">200K+</div>
-                <div className="text-gray-400 text-sm">Ratings</div>
-              </div>
-              
-              <div className="bg-[#0A1029] p-6 rounded-2xl text-center flex-1 max-w-[180px]" style={{ minHeight: '120px' }}>
-                <svg className="w-6 h-6 mb-3 text-[#FFA500] mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-                  <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
-                </svg>
-                <div className="text-white text-2xl font-bold mb-1">49MB</div>
-                <div className="text-gray-400 text-sm">App Size</div>
-              </div>
-            </div>
-
-            {/* Android only notice */}
-            <p className="text-gray-400 text-sm text-center italic">*Available for Android devices only</p>
           </div>
 
-          {/* Desktop Image */}
-          <div className="hidden md:block md:w-1/2 md:mt-8">
-            <div className="relative ml-auto" style={{ width: '320px', height: '320px', maxWidth: '100%' }}>
-              <Image
-                src="/card-rummy.webp"
-                alt="Card Rummy Logo"
-                width={320}
-                height={320}
-                className="object-contain drop-shadow-2xl"
-                priority={true}
-                fetchPriority="high"
-                quality={90}
-                sizes="320px"
-                style={{ width: '100%', height: '100%', objectFit: 'contain' }}
-              />
+          {/* Hero Image */}
+          <div className="hidden md:flex md:w-2/5 md:mt-4 justify-center items-start">
+            <div className="relative" style={{ width: '340px', height: '340px' }}>
+              <Image src="/magic-brawl-apk.webp" alt="Magic Brawl APK v50.221 - Brawl Stars Private Server with Unlimited Gems" width={340} height={340} className="object-contain drop-shadow-2xl" priority fetchPriority="high" quality={90} sizes="340px" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
             </div>
           </div>
-
-          {/* Mobile Image */}
-          <div className="mt-8 md:hidden">
-            <div className="relative mx-auto" style={{ width: '280px', height: '280px', maxWidth: '100%' }}>
-              <Image
-                src="/card-rummy.webp"
-                alt="Card Rummy Logo"
-                width={280}
-                height={280}
-                className="object-contain drop-shadow-2xl"
-                priority={true}
-                fetchPriority="high"
-                quality={90}
-                sizes="280px"
-                style={{ width: '100%', height: '100%', objectFit: 'contain' }}
-              />
+          <div className="mt-8 md:hidden flex justify-center">
+            <div className="relative" style={{ width: '260px', height: '260px' }}>
+              <Image src="/magic-brawl-apk.webp" alt="Magic Brawl APK v50.221" width={260} height={260} className="object-contain drop-shadow-2xl" priority fetchPriority="high" quality={90} sizes="260px" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
             </div>
           </div>
         </div>
       </section>
 
-      {/* App Specifications Table with improved spacing */}
+      {/* ====== OUR SERVERS ====== */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <h2 className="text-3xl font-bold mb-8 text-[#FFA500] text-center">Our Servers</h2>
+        <p className="text-gray-400 text-center mb-8">Choose your preferred server — or download them all for the complete experience!</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          <div className="bg-secondary rounded-xl p-6 border border-[#FFA500]/30 hover:border-[#FFA500] transition-all">
+            <div className="flex items-center gap-3 mb-3">
+              <div className="w-12 h-12 bg-[#FFA500]/20 rounded-lg flex items-center justify-center"><span className="text-2xl">⚔️</span></div>
+              <div>
+                <h3 className="text-xl font-bold text-white">Magic Brawl APK</h3>
+                <p className="text-gray-400 text-sm">Version: v50.221</p>
+              </div>
+            </div>
+            <p className="text-gray-300 text-sm mb-4">The ultimate Brawl Stars experience! All characters, skins, and powers unlocked. Private server updates monthly with exclusive modes.</p>
+            <div className="flex gap-3">
+              <a href={DOWNLOAD_URL} className="text-sm font-semibold text-[#4ade80] hover:underline">Download Android</a>
+              <span className="text-gray-600">|</span>
+              <Link href="/download-card-rummy" className="text-sm font-semibold text-[#60a5fa] hover:underline">Download iOS</Link>
+            </div>
+          </div>
+          <div className="bg-secondary rounded-xl p-6 border border-gray-700 hover:border-[#FFA500]/50 transition-all">
+            <div className="flex items-center gap-3 mb-3">
+              <div className="w-12 h-12 bg-[#60a5fa]/20 rounded-lg flex items-center justify-center"><span className="text-2xl">🕹️</span></div>
+              <div>
+                <h3 className="text-xl font-bold text-white">Retro Brawl</h3>
+                <p className="text-gray-400 text-sm">Version: v12.98</p>
+              </div>
+            </div>
+            <p className="text-gray-300 text-sm mb-4">Retro Brawl brings back 2018 Brawl Stars! Original 21 heroes, classic maps, old-school UI. Preserves the nostalgic gameplay you love.</p>
+            <div className="flex gap-3 flex-wrap">
+              <Link href="/retro-brawl" className="text-sm font-semibold text-[#4ade80] hover:underline">Learn More</Link>
+              <span className="text-gray-600">|</span>
+              <Link href="/download-card-rummy" className="text-sm font-semibold text-[#60a5fa] hover:underline">Download Android</Link>
+              <span className="text-gray-600">|</span>
+              <Link href="/blog/magic-brawl-vs-retro-brawl-biggest-differences" className="text-sm font-semibold text-[#f97316] hover:underline">Compare</Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ====== WHAT IS MAGIC BRAWL APK & HOW DOES IT WORK ====== */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="bg-secondary rounded-xl p-8">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-[#FFA500]">What is Magic Brawl APK and Why You Will Like It?</h2>
+          <div className="space-y-5 text-gray-300 leading-relaxed">
+            <p>
+              <strong className="text-white">Magic Brawl APK</strong> is a popular private server for Brawl Stars that offers an enhanced gaming experience with unlimited resources and exclusive features. If you&apos;re looking to enjoy Brawl Stars without limitations, Magic Brawl is the perfect choice for you.
+            </p>
+            <p>
+              The game is a fan-made MOD of Brawl Stars (created by Supercell) built on private servers. It overcomes all restrictions you face in the official version — locked brawlers, limited gems, paywalled skins — and gives you full premium access the moment you install it. Unlike the official game where you slowly unlock content over weeks or months, everything is available from the start.
+            </p>
+            <p>
+              There are unique twists that make it stand apart: exclusive brawlers like <strong className="text-accent">FUMEY</strong>, <strong className="text-accent">RT</strong>, <strong className="text-accent">Willow</strong>, <strong className="text-accent">Maisie</strong>, and <strong className="text-accent">Hank</strong>, custom maps you can edit to your liking, and a multiplayer online battle arena (MOBA) experience with stunning graphics and an <Link href="/blog/magic-brawl-2026-soundtrack-music-powers-every-battle" className="text-accent hover:underline">immersive soundtrack</Link>. Your device connects to a secure custom server where all your items and progress are stored. Gameplay stays smooth with no lag.
+            </p>
+            <p>
+              At its heart, this isn&apos;t just a &quot;full unlock&quot; version — it&apos;s a creative playground. Whether you&apos;re a casual player looking for fun or a competitive fan wanting to test bold new tactics, it delivers a unique experience you can&apos;t find anywhere else.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ====== DOWNLOAD INFO TABLE ====== */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto" id="download">
-        <h2 className="text-2xl md:text-3xl font-bold mb-8 text-[#FFA500]">Download Info Table</h2>
+        <h2 className="text-2xl md:text-3xl font-bold mb-8 text-[#FFA500]">Download Information</h2>
         <div className="overflow-hidden rounded-2xl shadow-2xl border border-gray-800">
-          <div className="overflow-x-auto">
-            <table className="min-w-full divide-y divide-gray-800">
-              <tbody className="divide-y divide-gray-800">
-                <tr className="bg-[#0a1029]/50">
-                  <td className="py-4 px-6 text-left font-medium text-white">App Name</td>
-                  <td className="py-4 px-6 text-left text-white">Card Rummy</td>
-                </tr>
-                <tr className="bg-[#06091F]/50">
-                  <td className="py-4 px-6 text-left font-medium text-white">Developer</td>
-                  <td className="py-4 px-6 text-left text-white">eriocardrummy dev</td>
-                </tr>
-                <tr className="bg-[#0a1029]/50">
-                  <td className="py-4 px-6 text-left font-medium text-white">Category</td>
-                  <td className="py-4 px-6 text-left text-white">Cards, Game</td>
-                </tr>
-                <tr className="bg-[#06091F]/50">
-                  <td className="py-4 px-6 text-left font-medium text-white">Size</td>
-                  <td className="py-4 px-6 text-left text-white">49MB</td>
-                </tr>
-                <tr className="bg-[#0a1029]/50">
-                  <td className="py-4 px-6 text-left font-medium text-white">Latest Version</td>
-                  <td className="py-4 px-6 text-left text-white">V1.230</td>
-                </tr>
-                <tr className="bg-[#06091F]/50">
-                  <td className="py-4 px-6 text-left font-medium text-white">Required OS</td>
-                  <td className="py-4 px-6 text-left text-white">Android 5.0+</td>
-                </tr>
-                <tr className="bg-[#0a1029]/50">
-                  <td className="py-4 px-6 text-left font-medium text-white">Update</td>
-                  <td className="py-4 px-6 text-left text-white">1st-January-2026</td>
-                </tr>
-                <tr className="bg-[#06091F]/50">
-                  <td className="py-4 px-6 text-left font-medium text-white">Downloads</td>
-                  <td className="py-4 px-6 text-left text-white">500k+</td>
-                </tr>
-                <tr className="bg-[#0a1029]/50">
-                  <td className="py-4 px-6 text-left font-medium text-white">Rating Count</td>
-                  <td className="py-4 px-6 text-left text-white">200000+</td>
-                </tr>
-                <tr className="bg-[#06091F]/50">
-                  <td className="py-4 px-6 text-left font-medium text-white">Language</td>
-                  <td className="py-4 px-6 text-left text-white">English, Urdu</td>
-                </tr>
-                <tr className="bg-[#0a1029]/50">
-                  <td className="py-4 px-6 text-left font-medium text-white">Price</td>
-                  <td className="py-4 px-6 text-left text-white">Free (0$)</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </section>
-
-      {/* Overview Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Overview</h2>
-          <div className="space-y-6">
-            <p className="text-gray-300 leading-relaxed">
-              This app is divided into various sections, including card games, slots, poker, and many others, making it easy to find games that you want to play. CardRummy is designed with modern graphics, smooth gameplay, and an easy interface that makes this platform more suitable for both beginners and experienced players. This app also offers you great and interesting services, allowing you to earn significant money even by investing a small amount. You can also win real cash rewards or bonuses for free. So, download the game, and start playing your favorite games to earn real cash for free.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* What is Card Rummy Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">What is Card Rummy?</h2>
-          <div className="space-y-6">
-            <p className="text-gray-300 leading-relaxed">
-              Card Rummy is Pakistan's most popular online card game platform that combines classic card games like Teen Patti and Rummy with modern gaming technology. When people search for "Card Rummy", they're looking for a trusted platform to play card games and earn real money. Card Rummy delivers exactly that - a safe, secure, and exciting gaming experience where you can play different card games to earn money. It has become the go-to platform for card game enthusiasts in Pakistan who want to enjoy beautiful design, simple settings, classic themes, and easy gameplay options.
-            </p>
-
-            <p className="text-gray-300 leading-relaxed">
-              The Card Rummy platform allows you to withdraw your winnings or deposit money anytime using local payment methods like JazzCash and EasyPaisa. When you complete your deposit, you receive a deposit bonus as well. With its attractive visuals, user-friendly design, and exciting offers, Card Rummy stands out as one of the most enjoyable and engaging casino-style card games available in Pakistan today.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Why Card Rummy Popular Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Why Card Rummy Game so Popular?</h2>
-          <div className="space-y-6">
-            <p className="text-gray-300 leading-relaxed">
-              The 3 Patti Card Rummy game is very popular because it allows you to earn real money while having fun. It is easy to play because it provides you with simple rules that are very easy to understand, especially for beginners. The design of this app is very beautiful and colorful, which gives you a real casino experience on your device. Players love this app because you can withdraw and deposit money easily through Easypaisa and Jazzcash without facing any delays.
-            </p>
-
-            <p className="text-gray-300 leading-relaxed">
-              It also includes many exciting games such as Teen Patti, Dragon vs Tiger, Poker, Rummy, and Slots, so that you never feel bored. The other main reason for the popularity of 3 Patti Card Rummy is its daily bonus and rewards that help you earn coins and extra cash. It is very safe and secure and can protect your personal details or money, and work smoothly even on low-storage devices.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* How to Start Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">How Can We Start with Card Rummy?</h2>
-          <div className="space-y-4">
-            <p className="text-gray-300 leading-relaxed">To start the CardRummy game, follow the given steps:</p>
-            <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-              <li>Firstly, open the official website of 3 Patti Card Rummy and <Link href="/download-card-rummy" className="text-accent hover:underline font-semibold">download the APK file</Link> to your device.</li>
-              <li>Once downloaded then click on the downloaded APK file to start the installation by allowing the Unknown Sources.</li>
-              <li>Once installation is complete, click on it to open the 3 Patti Card Rummy app.</li>
-              <li>When the app opens then log in with your mobile number or just play as a guest.</li>
-              <li>When you log in, you will get free chips or welcome bonuses to start playing the game.</li>
-              <li>Choose a table or game that you want to play, and start enjoying the game.</li>
-            </ol>
-          </div>
-        </div>
-      </section>
-
-      {/* Game Screenshots Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-[#06091F] rounded-xl p-8">
-          <h2 className="text-4xl font-bold mb-12 text-[#FFA500] text-center">Card Rummy App Screenshots</h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
-            {/* Main Game Interface */}
-            <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl">
-                <Image
-                  src="/card-rummy-game-interface.webp"
-                  alt="Card Rummy Game Interface"
-                  width={400}
-                  height={711}
-                  className="w-full h-auto"
-                  loading="lazy"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                />
-              </div>
-              <p className="text-center text-gray-300 mt-3 font-medium">Game Interface</p>
-            </div>
-
-            {/* Games Collection */}
-            <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl">
-                <Image
-                  src="/card-rummy-games.webp"
-                  alt="Card Rummy Games Collection"
-                  width={400}
-                  height={711}
-                  className="w-full h-auto"
-                  loading="lazy"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                />
-              </div>
-              <p className="text-center text-gray-300 mt-3 font-medium">Games Collection</p>
-            </div>
-
-            {/* Bonuses */}
-            <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl">
-                <Image
-                  src="/card-rummy-earn-bonus.webp"
-                  alt="Card Rummy Bonuses & Rewards"
-                  width={400}
-                  height={711}
-                  className="w-full h-auto"
-                  loading="lazy"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                />
-              </div>
-              <p className="text-center text-gray-300 mt-3 font-medium">Bonuses & Rewards</p>
-            </div>
-
-            {/* Add Money */}
-            <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl">
-                <Image
-                  src="/card-rummy-add-money.webp"
-                  alt="Card Rummy Deposit Money"
-                  width={400}
-                  height={711}
-                  className="w-full h-auto"
-                  loading="lazy"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                />
-              </div>
-              <p className="text-center text-gray-300 mt-3 font-medium">Add Money</p>
-            </div>
-
-            {/* Withdraw Money */}
-            <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl">
-                <Image
-                  src="/card-rummy-withdraw-money.webp"
-                  alt="Card Rummy Withdraw Money"
-                  width={400}
-                  height={711}
-                  className="w-full h-auto"
-                  loading="lazy"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                />
-              </div>
-              <p className="text-center text-gray-300 mt-3 font-medium">Withdraw Money</p>
-            </div>
-
-            {/* Refer and Earn */}
-            <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl">
-                <Image
-                  src="/card-rummy-refer-and-earn.webp"
-                  alt="Card Rummy Refer and Earn"
-                  width={400}
-                  height={711}
-                  className="w-full h-auto"
-                  loading="lazy"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                />
-              </div>
-              <p className="text-center text-gray-300 mt-3 font-medium">Refer & Earn</p>
-            </div>
-          </div>
-
-          {/* Additional Screenshots */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Recharge Rebate */}
-            <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl">
-              <Image
-                  src="/card-rummy-recharge-rebate.webp"
-                  alt="Card Rummy Recharge Rebate"
-                  width={400}
-                  height={711}
-                  className="w-full h-auto"
-                loading="lazy"
-                sizes="(max-width: 768px) 100vw, 50vw"
-              />
-              </div>
-              <p className="text-center text-gray-300 mt-3 font-medium">Recharge Rebate</p>
-            </div>
-
-            {/* Bind Email */}
-            <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl">
-              <Image
-                  src="/card-rummy-bind-mail.webp"
-                  alt="Card Rummy Bind Email"
-                  width={400}
-                  height={711}
-                  className="w-full h-auto"
-                loading="lazy"
-                sizes="(max-width: 768px) 100vw, 50vw"
-              />
-              </div>
-              <p className="text-center text-gray-300 mt-3 font-medium">Account Security</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Features Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-        <h2 className="text-2xl md:text-3xl font-bold mb-8 text-accent">Top Features of Card Rummy</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
-            <h3 className="text-xl font-semibold mb-3 text-accent">1: Real Money Earning</h3>
-            <p className="text-gray-300">Card Rummy allows you to earn real cash rewards just by playing the game that you want to play or like. Whether you enjoy teen patti, poker, or rummy, every match provides you with a chance to win money. This app directly transfers your earnings through the local and easy payment methods safely.</p>
-          </div>
-          <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
-            <h3 className="text-xl font-semibold mb-3 text-accent">2: Easy Withdraw & Deposit</h3>
-            <p className="text-gray-300">With 3 Patti Card Rummy, you can manage your money in a super simple or fast way. With just a few steps, you can withdraw or deposit money anytime using local payment methods, such as JazzCash or EasyPaisa. It also ensures you have secure and quick transactions without any delays.</p>
-          </div>
-          <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
-            <h3 className="text-xl font-semibold mb-3 text-accent">3: Attractive Interface</h3>
-            <p className="text-gray-300">This app is designed with a bright, colorful, and modern interface that can attract its users. The background music, smooth animations, and clear layout create an amazing or pleasant experience. Each section of this app is designed very well, so that you can find your favourite game easily.</p>
-          </div>
-          <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
-            <h3 className="text-xl font-semibold mb-3 text-accent">4: Popular Games</h3>
-            <p className="text-gray-300">3 Card Rummy provides you with a wide variety of famous games in one app so that you can enjoy dragon vs tiger, poker, slots, and many other exciting options. Each game of this app has simple rules that make it perfect for both beginners and experienced players.</p>
-          </div>
-          <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
-            <h3 className="text-xl font-semibold mb-3 text-accent">5: Daily Bonus</h3>
-            <p className="text-gray-300">This app rewards you every day with free login bonuses or chips. You can earn extra coins just by opening the app regularly. It also provides special rewards on weekly or festival occasions. These bonuses help you to keep playing even if you do not want to deposit money.</p>
-          </div>
-          <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
-            <h3 className="text-xl font-semibold mb-3 text-accent">6: Referral Earning</h3>
-            <p className="text-gray-300">3 Patti Card Rummy offers you a referral program where you can earn money without playing games. You just need to share your referral link with your friends and invite them to join. When they start playing games, you receive a commission automatically.</p>
-          </div>
-          <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
-            <h3 className="text-xl font-semibold mb-3 text-accent">7: Fast Performance</h3>
-            <p className="text-gray-300">This app runs smoothly on almost every Android device, even on older models. It does not hang, crash, or use too much storage space. The lightweight design of this app helps it to run faster and load to provide a smooth gameplay.</p>
-          </div>
-          <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
-            <h3 className="text-xl font-semibold mb-3 text-accent">8: Safe & Secure Platform</h3>
-            <p className="text-gray-300">In 3Patti Card Rummy, your privacy and money are completely safe because it uses a secure payment method and data protection system that keeps everything private. This app is trusted by thousands of players for its reliability.</p>
-          </div>
-          <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
-            <h3 className="text-xl font-semibold mb-3 text-accent">9: Free to Play</h3>
-            <p className="text-gray-300">3 Patti Card Rummy is free to download and does not ask for any registration fees. Through this feature, you can start playing games quickly with free chips that are given by the app. This feature is a perfect choice, especially for beginners.</p>
-          </div>
-          <div className="bg-secondary px-8 py-8 rounded-lg card-glow">
-            <h3 className="text-xl font-semibold mb-3 text-accent">10: 24/7 Support</h3>
-            <p className="text-gray-300">This app also provides you with fast customer support, which helps you anytime. Whether you face a deposit issue or a technical error, this support team responds quickly. You can contact the team directly through the app for quick help.</p>
-          </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Available Games Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Best Games to Play on Card Rummy</h2>
-          
-          <div className="mb-8">
-            <h3 className="text-2xl font-semibold mb-4 text-[#FFA500]">1: Multiplayer Games</h3>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Tiger Dragon <span className="text-[#f97316]">(Hot)</span></p>
-          </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">7 UP Down <span className="text-[#f97316]">(Hot)</span></p>
-          </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Zoo Roulette <span className="text-[#f97316]">(Hot)</span></p>
-          </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Crash</p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Car Roulette</p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Andar Bahar</p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Teenpatti 20-20</p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Best of Five</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="mb-8">
-            <h3 className="text-2xl font-semibold mb-4 text-[#FFA500]">2: Skill-Based Games</h3>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Domino <span className="text-[#f97316]">(Hot)</span></p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Rummy <span className="text-[#f97316]">(Hot)</span></p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Teen Patti</p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Fishing Rush</p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">10 Cards</p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Poker</p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Ludo</p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Black Jack</p>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <h3 className="text-2xl font-semibold mb-4 text-[#FFA500]">3: Slots</h3>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Mines <span className="text-[#f97316]">(Hot)</span></p>
-            </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Fruit Line</p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">777 Bingo</p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Rattling GEMS</p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Video Poker 1, 2</p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">Wild Energy</p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">WoW Slot</p>
-              </div>
-              <div className="bg-[#0A1029] p-4 rounded-lg">
-                <p className="text-white font-medium">God of Fortune</p>
-          </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Bonuses Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Benefits for New Players by Joining Card Rummy</h2>
-        
-        {/* New Player Welcome Bonus */}
-        <div className="mb-8">
-          <h3 className="text-xl font-semibold mb-4 text-[#FFA500]">1: New Player Welcome Bonus</h3>
-          <p className="text-gray-300 mb-4">3Patti offers a 100% recharge bonus for all new, fresh users on their first deposit in this game.</p>
-          <div className="overflow-x-auto">
-            <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
-              <thead className="bg-[#0a1029]">
-                <tr>
-                  <th className="py-3 px-6 text-left text-white font-semibold">Deposit Amount (PKR)</th>
-                  <th className="py-3 px-6 text-left text-white font-semibold">Bonus Amount (PKR)</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-800">
-                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">100</td><td className="py-3 px-6 text-gray-300">100</td></tr>
-                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">1000</td><td className="py-3 px-6 text-gray-300">1000</td></tr>
-                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">5000</td><td className="py-3 px-6 text-gray-300">5000</td></tr>
-                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">10,000</td><td className="py-3 px-6 text-gray-300">10,000</td></tr>
-                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">20,000</td><td className="py-3 px-6 text-gray-300">20,000</td></tr>
-                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">100,000</td><td className="py-3 px-6 text-gray-300">100,000</td></tr>
-              </tbody>
-            </table>
-          </div>
-          </div>
-
-        {/* Recharge Rebate */}
-        <div className="mb-8">
-          <h3 className="text-xl font-semibold mb-4 text-[#FFA500]">2: Recharge Rebate</h3>
-          <p className="text-gray-300 mb-4">3 Patti Card Rummy game is also offering huge recharge rebate bonuses for every player when they deposit an amount.</p>
-          <div className="overflow-x-auto">
-            <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
-              <thead className="bg-[#0a1029]">
-                <tr>
-                  <th className="py-3 px-6 text-left text-white font-semibold">Rebate</th>
-                  <th className="py-3 px-6 text-left text-white font-semibold">Recharge Required</th>
-                  <th className="py-3 px-6 text-left text-white font-semibold">Required Wager</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-800">
-                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">5%</td><td className="py-3 px-6 text-gray-300">3000 PKR</td><td className="py-3 px-6 text-gray-300">2x</td></tr>
-                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">10%</td><td className="py-3 px-6 text-gray-300">5000</td><td className="py-3 px-6 text-gray-300">3x</td></tr>
-                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">15%</td><td className="py-3 px-6 text-gray-300">8000</td><td className="py-3 px-6 text-gray-300">4x</td></tr>
-                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">20%</td><td className="py-3 px-6 text-gray-300">10,000</td><td className="py-3 px-6 text-gray-300">5x</td></tr>
-                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">25%</td><td className="py-3 px-6 text-gray-300">20,000</td><td className="py-3 px-6 text-gray-300">6x</td></tr>
-                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">30%</td><td className="py-3 px-6 text-gray-300">50,000</td><td className="py-3 px-6 text-gray-300">7x</td></tr>
-              </tbody>
-            </table>
-          </div>
-          </div>
-
-        {/* Big Rebate on Recharge */}
-        <div>
-          <h3 className="text-xl font-semibold mb-4 text-[#FFA500]">3: Big Rebate on Recharge</h3>
-          <p className="text-gray-300 mb-4">This type of reward is only available for deposit of a minimum of 3000PKR or more. It also depends upon VIP Level with increasing rebate bonus. It can be claimed every day.</p>
-          <div className="overflow-x-auto">
-            <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
-              <thead className="bg-[#0a1029]">
-                <tr>
-                  <th className="py-3 px-6 text-left text-white font-semibold">VIP Level</th>
-                  <th className="py-3 px-6 text-left text-white font-semibold">Rebate</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-800">
-                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">V1-V2</td><td className="py-3 px-6 text-gray-300">1% rebate</td></tr>
-                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">V3-V4</td><td className="py-3 px-6 text-gray-300">2% rebate</td></tr>
-                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">V5-V6</td><td className="py-3 px-6 text-gray-300">3% rebate</td></tr>
-                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">V7-V8</td><td className="py-3 px-6 text-gray-300">4% rebate</td></tr>
-                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">V9-V10</td><td className="py-3 px-6 text-gray-300">5% rebate</td></tr>
-                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">V11-V12</td><td className="py-3 px-6 text-gray-300">6% rebate</td></tr>
-                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">V13-V14</td><td className="py-3 px-6 text-gray-300">7% rebate</td></tr>
-                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">V15-V16</td><td className="py-3 px-6 text-gray-300">8% rebate</td></tr>
-                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">V17-V18</td><td className="py-3 px-6 text-gray-300">9% rebate</td></tr>
-                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">V19-V20</td><td className="py-3 px-6 text-gray-300">10% rebate</td></tr>
-              </tbody>
-            </table>
-          </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Download Instructions */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Download Card Rummy APK Latest Version For Android</h2>
-          <p className="text-gray-300 mb-4">To download the latest version of Card Rummy APK for Android devices, follow the given steps:</p>
-          <div className="mb-8">
-          <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-            <li>First, you open the browser on your Android device and click on the search bar.</li>
-            <li>In the search bar, type the latest version of 3Card Rummy and visit the trusted website.</li>
-            <li>On the trusted website, click on the Download button to start downloading.</li>
-            <li>Now wait a few seconds to complete the downloading process.</li>
-            <li>Once complete, that file will be saved in the Download Folder of the device.</li>
-          </ol>
-        </div>
-        
-        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Installation Guide for Card Rummy APK</h2>
-        <p className="text-gray-300 mb-4">After downloading to installing the Card Rummy APK, follow the given steps:</p>
-        <div className="mb-8">
-          <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-            <li>To start installation, your device grants permission to install unknown sources.</li>
-            <li>Open the Settings &lt; Security and enable the Install Unknown Apps.</li>
-            <li>After this, open the File Manager and go to the Download Folder.</li>
-            <li>Click on the download APK file, and the installation process will start.</li>
-            <li>Wait until the installation completes successfully on your device.</li>
-            <li>Once complete then the app icon will show on your device.</li>
-            <li>Click on it to launch the app and start playing the games that you want.</li>
-          </ol>
-        </div>
-
-        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">System Requirements</h2>
-        <div className="overflow-x-auto mb-8">
-          <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
-            <thead className="bg-[#0a1029]">
-              <tr>
-                <th className="py-3 px-6 text-left text-white font-semibold">System</th>
-                <th className="py-3 px-6 text-left text-white font-semibold">Minimum</th>
-                <th className="py-3 px-6 text-left text-white font-semibold">Recommended</th>
-              </tr>
-            </thead>
+          <table className="min-w-full divide-y divide-gray-800">
             <tbody className="divide-y divide-gray-800">
-              <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">Operating System</td><td className="py-3 px-6 text-gray-300">Android 4.1</td><td className="py-3 px-6 text-gray-300">Android 8.0 or above</td></tr>
-              <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">RAM</td><td className="py-3 px-6 text-gray-300">2GB or more</td><td className="py-3 px-6 text-gray-300">4GB or more</td></tr>
-              <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">Storage Space</td><td className="py-3 px-6 text-gray-300">At least 500 MB free</td><td className="py-3 px-6 text-gray-300">1GB free space</td></tr>
-              <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-gray-300">Processor</td><td className="py-3 px-6 text-gray-300">Quad-core 1.5 GHz</td><td className="py-3 px-6 text-gray-300">Octa-core 2.0 GHz</td></tr>
-              <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-gray-300">Internet</td><td className="py-3 px-6 text-gray-300">Stable 3G or WiFi</td><td className="py-3 px-6 text-gray-300">Fast & stable 4G or WiFi</td></tr>
+              <tr className="bg-[#0a1029]/50"><td className="py-4 px-6 font-medium text-white">App Name</td><td className="py-4 px-6 text-white">Magic Brawl APK</td></tr>
+              <tr className="bg-[#06091F]/50"><td className="py-4 px-6 font-medium text-white">Version</td><td className="py-4 px-6 text-white">v50.221</td></tr>
+              <tr className="bg-[#0a1029]/50"><td className="py-4 px-6 font-medium text-white">Size</td><td className="py-4 px-6 text-white">363MB</td></tr>
+              <tr className="bg-[#06091F]/50"><td className="py-4 px-6 font-medium text-white">Last Update</td><td className="py-4 px-6 text-white">2026</td></tr>
+              <tr className="bg-[#0a1029]/50"><td className="py-4 px-6 font-medium text-white">Downloads</td><td className="py-4 px-6 text-white">20,000,000+</td></tr>
+              <tr className="bg-[#06091F]/50"><td className="py-4 px-6 font-medium text-white">Rating</td><td className="py-4 px-6 text-white">4.7+</td></tr>
+              <tr className="bg-[#0a1029]/50"><td className="py-4 px-6 font-medium text-white">Required Android</td><td className="py-4 px-6 text-white">7.0+</td></tr>
+              <tr className="bg-[#06091F]/50"><td className="py-4 px-6 font-medium text-white">Category</td><td className="py-4 px-6 text-white">Action, Multiplayer, MOBA</td></tr>
+              <tr className="bg-[#0a1029]/50"><td className="py-4 px-6 font-medium text-white">Price</td><td className="py-4 px-6 text-[#4ade80] font-bold">Free (No In-App Purchases)</td></tr>
             </tbody>
           </table>
         </div>
-
-        <div className="flex justify-center">
-          <a 
-            href="https://pkcardrummy.com/?from_gameid=6052215&channelCode=5784509"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="download-btn bg-transparent hover:bg-[#0ea5e9]/10 text-white font-bold py-4 px-8 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl border-2 border-[#0ea5e9]"
-          >
-            <span className="text-lg">DOWNLOAD NOW</span>
-            <div className="download-icon ml-2 bg-[#f97316] rounded-full p-2">
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
-              </svg>
-            </div>
-          </a>
-          </div>
-        </div>
       </section>
 
-      {/* Account Creation */}
+      {/* ====== WHAT'S NEW IN LATEST VERSION ====== */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">How to Register & Login on Card Rummy?</h2>
-          
-          <h3 className="text-xl font-semibold mb-4 text-[#FFA500]">1: Register Method</h3>
-          <p className="text-gray-300 mb-4">To register the account on Card Rummy, follow the given steps:</p>
-          <div className="mb-8">
-          <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-            <li>Firstly, open the Card Rummy app on your device.</li>
-            <li>On the homescreen, click on the Register or Sign Up option.</li>
-            <li>Now, enter your valid mobile number or email address.</li>
-            <li>Set a strong password that can never be accessed easily.</li>
-            <li>Enter the OTP that you can receive through phone or email for verification.</li>
-            <li>Once verification is complete then your account will be created successfully.</li>
-          </ol>
-          </div>
-
-          <h3 className="text-xl font-semibold mb-4 text-[#FFA500]">2: Login Method</h3>
-          <p className="text-gray-300 mb-4">After registration, the next step is to log account for Follow the given steps:</p>
-          <div className="space-y-4">
-          <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-            <li>Open the Card Rummy app on your device.</li>
-            <li>Click on the Login button on the homescreen.</li>
-            <li>Enter your registered mobile number, email, or password.</li>
-            <li>Make sure that your entered details are correct.</li>
-            <li>Once confirmed, tap on the Sign in or Login option.</li>
-            <li>If you forget your password, then use Forgot Password to reset it.</li>
-            <li>Once logging is complete, you can start playing games.</li>
-          </ol>
-          </div>
-        </div>
-      </section>
-
-      {/* Payment Methods Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Ways to Deposit & Withdraw Money in Card Rummy</h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-            <div className="bg-[#0A1029] p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">1: Jazzcash</h3>
-              <p className="text-gray-300">Jazzcash is one of the most trusted and secure mobile banking services that allows you to deposit money quickly into your gaming account and start playing games quickly. It's a fast and safe transaction system that allows you to withdraw your winnings directly into your account wallet. The best part of this method is that you can wait a long time because the transactions are completed within seconds.</p>
-            </div>
-            <div className="bg-[#0A1029] p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">2: Easypaisa</h3>
-              <p className="text-gray-300">Easypaisa is another secure and most commonly used payment method that is similar to the JazzCash method. It allows you to deposit or withdraw money without any difficulty. Through this method, you can add funds to your game account and transfer winnings to your Easypaisa wallet in just a few steps. The process of this method is very safe, reliable, and suitable for all types of users.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Deposit Instructions */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="bg-secondary rounded-xl p-8">
-            <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">How to Deposit Money?</h2>
-            <p className="text-gray-300 mb-4">To deposit money in Card Rummy, follow the given steps:</p>
-                <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-              <li>First, open the Card Rummy app on your device and log in.</li>
-              <li>Now, click on the Wallet option that is available on the homescreen.</li>
-              <li>In this wallet section, click on the Deposit option.</li>
-              <li>Choose a payment method that you want to use.</li>
-              <li>Enter the amount that you want to deposit.</li>
-              <li>Click on the confirm option and wait to complete it.</li>
-              <li>Once complete, the balance will show in your game wallet.</li>
-                </ol>
-              </div>
-          <div className="bg-secondary rounded-xl p-8">
-            <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">How to Withdraw Money?</h2>
-            <p className="text-gray-300 mb-4">To withdraw money in Card Rummy, follow the given steps:</p>
-                <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-              <li>Open the Card Rummy app and log in to your account.</li>
-              <li>Click on the Wallet option that is available on the main screen.</li>
-              <li>In the wallet section, click on the Withdrawal option.</li>
-              <li>Choose your payment method, like JazzCash or EasyPaisa.</li>
-              <li>Now enter the amount that you want to withdraw.</li>
-              <li>Enter some required details, like the account number.</li>
-              <li>Double-check all entered details and click on Confirm.</li>
-              <li>Wait a few seconds to complete the withdrawal process.</li>
-              <li>Once complete, that money will be shown in your selected payment method.</li>
-                </ol>
-          </div>
-        </div>
-      </section>
-
-      {/* Tips and Tricks */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Tips & Tricks to Earn Maximum on Teen Patti Card Rummy Game</h2>
-          <div className="space-y-4">
-          <ul className="list-disc pl-5 space-y-3 text-gray-300">
-            <li><strong>Start with Small Bets:</strong> Always start a game with a small investment because it will help you to understand the game rules and overcome the risk of losing money. When you become confident, then increase your bet.</li>
-            <li><strong>Use Bonuses Wisely:</strong> Card Rummy offers you daily login bonuses, referral bonuses, or deposit rewards. It helps you to play more games without spending your one money or earning extra money.</li>
-            <li><strong>Play Popular Games:</strong> Focus on high-earning games such as Dragon vs Tiger or Teen Patti Classic that provide you with higher winning chances, and also attract players with better opportunities to earn.</li>
-            <li><strong>Invite Friends:</strong> Use the referral link system to invite friends every time your friends join, and then you can earn commission. The more friends you invite, the higher you can become.</li>
-            <li><strong>Stay Active Daily:</strong> Regularly log in to the app to collect the daily rewards or spin bonuses. Always stay active because it will increase your bonus balance or improve your chances of winning big.</li>
-            <li><strong>Withdraw on Time:</strong> When you earn a good amount then do not delay withdrawal. Always transfer your winnings as soon as possible through Jazcash or EasyPaisa to keep your money safe.</li>
-            <li><strong>Learn from Practice Mode:</strong> Before playing games with real money, try the free or demo mode as practice. This helps you to understand the gameplay easily and develop the winning strategies without any risk.</li>
-            <li><strong>Keep the Emotions in Control:</strong> Never play games with frustration or greed. Always stay calm or make smart decisions during the game because it helps you to avoid unnecessary losses.</li>
-            <li><strong>With Expert Players:</strong> Observe how other players make the moves. Through this, you can learn new techniques or strategies and timing from them to improve your skills.</li>
-            <li><strong>Avoid Fake Apps:</strong> Always download the original Card Rummy app through official or trusted sources because fake links or websites can steal your personal data or money.</li>
+          <h2 className="text-3xl font-bold mb-3 text-[#FFA500]">What&apos;s New in Magic Brawl APK Latest Version v50.221</h2>
+          <p className="text-gray-300 mb-6">The latest version brings several exciting updates to enhance your gaming experience:</p>
+          <ul className="space-y-3 text-gray-300">
+            <li className="flex items-start gap-3"><span className="text-[#4ade80] mt-1 flex-shrink-0">&#10003;</span><span><strong className="text-white">New Brawlers Added</strong> — Maisie (available in Brawl Pass) and Hank (purchase within 7 days or obtain later on the Star Road) with unique abilities and fresh battle strategies.</span></li>
+            <li className="flex items-start gap-3"><span className="text-[#4ade80] mt-1 flex-shrink-0">&#10003;</span><span><strong className="text-white">Season 18 – THE RESCUE!</strong> — Fresh content, new challenges, and exciting gameplay updates for the latest season.</span></li>
+            <li className="flex items-start gap-3"><span className="text-[#4ade80] mt-1 flex-shrink-0">&#10003;</span><span><strong className="text-white">Bling System Introduced</strong> — Star Points replaced with Bling, with full compensation provided according to the conversion mechanism.</span></li>
+            <li className="flex items-start gap-3"><span className="text-[#4ade80] mt-1 flex-shrink-0">&#10003;</span><span><strong className="text-white">Expanded Catalog</strong> — All skins, pins, sprays, and icons available in the catalog (except unique items).</span></li>
+            <li className="flex items-start gap-3"><span className="text-[#4ade80] mt-1 flex-shrink-0">&#10003;</span><span><strong className="text-white">Second Gadgets Rollout</strong> — First 15 second gadgets now available, with more being added throughout the update.</span></li>
+            <li className="flex items-start gap-3"><span className="text-[#4ade80] mt-1 flex-shrink-0">&#10003;</span><span><strong className="text-white">Missing Second Star Powers</strong> — Added for RT, Mandy, Eva, Chester, Willow, and Gray.</span></li>
+            <li className="flex items-start gap-3"><span className="text-[#4ade80] mt-1 flex-shrink-0">&#10003;</span><span><strong className="text-white">Enhanced Brawl Pass</strong> — Increased to 100 total rewards across both free and paid tracks.</span></li>
+            <li className="flex items-start gap-3"><span className="text-[#4ade80] mt-1 flex-shrink-0">&#10003;</span><span><strong className="text-white">Author Pins Promotion</strong> — Top 9 best author pins available at 70% discount for only 9 gems during the update.</span></li>
+            <li className="flex items-start gap-3"><span className="text-[#4ade80] mt-1 flex-shrink-0">&#10003;</span><span><strong className="text-white">Player-Created Maps</strong> — Several unique community maps now available in friendly games and rotation.</span></li>
+            <li className="flex items-start gap-3"><span className="text-[#4ade80] mt-1 flex-shrink-0">&#10003;</span><span><strong className="text-white">Giveaway Week Active</strong> — Log in daily to earn the exclusive Gamer Sprout skin at the end!</span></li>
+            <li className="flex items-start gap-3"><span className="text-[#4ade80] mt-1 flex-shrink-0">&#10003;</span><span><strong className="text-white">Adjustable Camera System</strong> — Change camera angles to suit your screen for better visibility in chaotic battles.</span></li>
+            <li className="flex items-start gap-3"><span className="text-[#4ade80] mt-1 flex-shrink-0">&#10003;</span><span><strong className="text-white">Mastery System</strong> — Character mastery, titles, and battle cards remain available for long-term progression.</span></li>
+            <li className="flex items-start gap-3"><span className="text-[#4ade80] mt-1 flex-shrink-0">&#10003;</span><span><strong className="text-white">Enhanced Club Leagues</strong> — Better rewards and improved progression system for clubs.</span></li>
+            <li className="flex items-start gap-3"><span className="text-[#4ade80] mt-1 flex-shrink-0">&#10003;</span><span><strong className="text-white">Clash+ Weekends</strong> — Extra trophies for kills, available only on weekends for competitive players.</span></li>
+            <li className="flex items-start gap-3"><span className="text-[#4ade80] mt-1 flex-shrink-0">&#10003;</span><span><strong className="text-white">Performance & Stability</strong> — Bug fixes, faster loading, smoother gameplay, and reduced crashes across all devices.</span></li>
           </ul>
+          <div className="mt-6 pt-4 border-t border-gray-700/50">
+            <Link href="/blog/magic-brawl-apk-2026-whats-new-why-everyones-playing" className="text-accent hover:underline font-semibold">Read the full breakdown: What&apos;s New in Magic Brawl 2026 →</Link>
           </div>
         </div>
       </section>
 
-      {/* What's New Section */}
+      {/* ====== FEATURES ====== */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">What's New in the Latest Version of the Card Rummy?</h2>
-          <div className="space-y-4">
-            <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-              <li>In the latest version, the game looks better with improved graphics and smooth animations.</li>
-              <li>Provide fast performance so that the app opens quickly and runs smoothly without lag.</li>
-              <li>Its menu and layout are simple, which makes it very easy, especially for new users.</li>
-              <li>In the latest versions, more games are added, such as Dragon vs Tiger, Rummy, and others.</li>
-              <li>The withdrawal or deposit options work faster and smoothly in the latest version.</li>
-              <li>In the latest version, better security measures can be used that can protect your account and money.</li>
-              <li>New bonuses and referral rewards provide you with more chances to earn money.</li>
-              <li>Old Errors or app issues are removed to offer a smooth gaming experience.</li>
-              <li>The background music or game sounds improve the app and provide more fun.</li>
-              <li>The new VIP system gives you extra prizes and benefits that help you stay active.</li>
+          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Features of Magic Brawl APK</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+              <h3 className="text-xl font-bold mb-3 text-accent">Unlimited Resources</h3>
+              <p className="text-gray-300">Unlimited gems, coins, star points, and all characters unlocked from the start. Magic Brawl APK delivers full access to premium features, exclusive in-game content, and regular updates. No more running short on resources — upgrade any brawler, grab any skin, equip any gadget the moment you feel like it. <Link href="/blog/brawl-stars-2026-unlock-premium-gems-magic-brawl-edition" className="text-accent hover:underline">Learn how to unlock premium gems →</Link></p>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold mb-3 text-accent">All Brawlers & Skins</h3>
+              <p className="text-gray-300">Immediate access to every brawler including the rarest legendary and chromatic characters. Every skin is also available — limited-time skins, exclusive skins, and even unreleased skins. For newcomers, it&apos;s like getting the keys to the entire garage on day one. See our guides for <Link href="/blog/colette-brawl-stars-vs-magic-brawl-apk" className="text-accent hover:underline">Colette</Link> and <Link href="/blog/edgar-brawl-stars-unlock-guide-magic-brawl-apk-benefits" className="text-accent hover:underline">Edgar</Link>.</p>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold mb-3 text-accent">Enhanced Brawl Pass</h3>
+              <p className="text-gray-300">The Brawl Pass is automatically unlocked for all players with 100 total rewards. Unlike the official game where you pay for the premium tier, Magic Brawl gives instant access to all Brawl Pass rewards — exclusive skins, pins, cosmetics, and bonus content not found in the official version.</p>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold mb-3 text-accent">Community Challenges</h3>
+              <p className="text-gray-300">Unique community challenges bring players together in exciting ways. Special events let you compete alongside other users in custom-designed scenarios with exclusive rewards. These challenges rotate regularly, featuring creative rule modifications not available in standard modes.</p>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold mb-3 text-accent">Special Offers & Daily Deals</h3>
+              <p className="text-gray-300">Limited-time bundles featuring exclusive premium content appear regularly — custom skins, pins, and items not available in the official game. Daily deals let you claim rewards simply by logging in. Token Doublers are permanently activated, letting you progress twice as fast.</p>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold mb-3 text-accent">Private Servers</h3>
+              <p className="text-gray-300">The backbone of Magic Brawl. They keep the game separate from the official one, giving developers room to be creative. Fewer players per server means faster matchmaking, fewer lag spikes, and crisp inputs. Fights play out exactly as you intended.</p>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold mb-3 text-accent">Multiplayer Friendly Battles</h3>
+              <p className="text-gray-300">All competitive multiplayer modes with enhanced matchmaking. Create custom matches with specific rules, maps, and conditions. Invite friends to private rooms, organize mini-tournaments, or practice strategies against bots with customized difficulty levels.</p>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold mb-3 text-accent">Exclusive Skins & Content</h3>
+              <p className="text-gray-300">Designs that don&apos;t exist anywhere else — some wild and colorful, others sleek and intimidating. Custom animations and sound effects on premium skins. Outcast <Link href="/blog/edgar-brawl-stars-unlock-guide-magic-brawl-apk-benefits" className="text-accent hover:underline">Edgar</Link>, Gus skins, and seasonal exclusives are all unlocked and ready to use.</p>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold mb-3 text-accent">Custom Maps</h3>
+              <p className="text-gray-300">Edit maps according to your own taste — narrow corridors for close-quarters chaos, open fields for sniper duels, tricky terrain that rewards clever movement. Player-created maps rotate in friendly games and competitive rotation regularly.</p>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold mb-3 text-accent">Social Features & Clubs</h3>
+              <p className="text-gray-300">Create or join clubs, participate in enhanced club leagues with better rewards, and enjoy the game with friends. Full social features maintained — team play, club wars, and community engagement just like the official version, with added flexibility.</p>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold mb-3 text-accent">Cross-Platform Play</h3>
+              <p className="text-gray-300">Play on Android, PC (via emulator), or iOS (via IPA) with the same account. Your progress is saved across all devices using Null&apos;s Connect, so you can game with friends anywhere.</p>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold mb-3 text-accent">Fast & Regular Updates</h3>
+              <p className="text-gray-300">The server receives regular updates following closely behind the official game&apos;s updates. New brawlers, game modes, custom maps, enhanced club leagues, balanced abilities, bug fixes — all pushed quickly by the Magic Brawl team to keep the experience fresh.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ====== UNLOCKED ITEMS ====== */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <h2 className="text-3xl font-bold mb-4 text-[#FFA500] text-center">Unlocked Gadgets, Star Powers, Gears, Pins & Emotes</h2>
+        <p className="text-gray-400 text-center mb-8 max-w-3xl mx-auto">All gadgets, star powers, and gears are unlocked from the start. This unlimited access lets you focus on improving your skills rather than collecting resources.</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="bg-secondary p-6 rounded-xl border border-gray-800 hover:border-[#FFA500]/50 transition-all">
+            <h3 className="text-xl font-bold mb-3 text-accent">Gadgets</h3>
+            <p className="text-gray-300">All brawlers have their gadgets available immediately, including second gadgets now rolling out. Timing their use shifts momentum and secures victories in intense battles.</p>
+          </div>
+          <div className="bg-secondary p-6 rounded-xl border border-gray-800 hover:border-[#FFA500]/50 transition-all">
+            <h3 className="text-xl font-bold mb-3 text-accent">Star Powers</h3>
+            <p className="text-gray-300">All star powers unlocked — including second star powers newly added for RT, Mandy, Eva, Chester, Willow, and Gray. Experiment with different combinations to find your preferred playstyle.</p>
+          </div>
+          <div className="bg-secondary p-6 rounded-xl border border-gray-800 hover:border-[#FFA500]/50 transition-all">
+            <h3 className="text-xl font-bold mb-3 text-accent">Gears</h3>
+            <p className="text-gray-300">Fully unlocked and upgraded gears give access to powerful modifiers that significantly change how a brawler performs. Combine them strategically to turn close matches into decisive wins.</p>
+          </div>
+          <div className="bg-secondary p-6 rounded-xl border border-gray-800 hover:border-[#FFA500]/50 transition-all">
+            <h3 className="text-xl font-bold mb-3 text-accent">Pins</h3>
+            <p className="text-gray-300">Expressive in-match emotes including exclusive author pins at 70% discount. Well-timed pins add psychological tactics and can influence opponents&apos; confidence in high-pressure moments.</p>
+          </div>
+          <div className="bg-secondary p-6 rounded-xl border border-gray-800 hover:border-[#FFA500]/50 transition-all">
+            <h3 className="text-xl font-bold mb-3 text-accent">Emotes</h3>
+            <p className="text-gray-300">Beyond visuals — emotes are communication tools. Clever use fosters team coordination or distracts rivals without typing a single word. All emotes available instantly.</p>
+          </div>
+          <div className="bg-secondary p-6 rounded-xl border border-gray-800 hover:border-[#4ade80]/50 transition-all bg-gradient-to-br from-[#0A1029] to-[#0a1029]">
+            <h3 className="text-xl font-bold mb-3 text-[#4ade80]">Everything Free</h3>
+            <p className="text-gray-300">No real money purchases, no grinding, no waiting. Every item — skins, sprays, icons, and more — is available in the catalog the moment you open Magic Brawl.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* ====== GAME MODES ====== */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="bg-secondary rounded-xl p-8">
+          <h2 className="text-3xl font-bold mb-4 text-[#FFA500]">All Game Modes Available in Magic Brawl</h2>
+          <p className="text-gray-400 mb-8">Magic Brawl APK offers all the game modes available in official Brawl Stars, plus some exclusive ones:</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              { name: 'Gem Grab', desc: 'Collect and hold gems while defending against opponents. The first team to collect 10 gems and maintain control for 15 seconds wins the match.', hot: true },
+              { name: 'Showdown (Solo/Duo)', desc: 'Battle royale where players fight to be the last one standing. Solo is every player for themselves, while Duo allows teams of two. Collect power cubes to grow stronger.', hot: true },
+              { name: 'Brawl Ball', desc: 'Soccer-inspired mode where teams score goals by carrying or shooting a ball. One of the most popular modes due to fast-paced action and strategic positioning.', hot: true },
+              { name: 'Brawl Ball 5v5', desc: 'An exclusive mode that expands the traditional 3v3 format to 5v5, creating more chaotic and exciting matches with larger teams and bigger plays.', hot: true },
+              { name: 'Heist', desc: 'Defend your safe while destroying the opponent\'s. The team that deals the most damage to the opponent\'s safe within the time limit wins.' },
+              { name: 'Bounty', desc: 'Rewards teams for eliminating opponents. Each player carries a bounty that increases with each elimination. The team with the highest bounty total wins.' },
+              { name: 'Hot Zone', desc: 'Control designated zones on the map. The more zones a team controls, the faster they accumulate points. First team to reach the threshold wins.' },
+              { name: 'Knockout', desc: 'High-stakes mode with no respawns. Each round is a mind game where reading the enemy\'s next move is as valuable as accurate aiming.' },
+              { name: 'Wipeout 3v3', desc: 'Intense elimination mode where teams battle until all opponents are defeated. Limited respawn lives add strategic depth to each match.' },
+              { name: 'Duels', desc: 'Solo mode where players select three brawlers and face off 1v1. Each player uses one brawler at a time, switching when defeated.' },
+              { name: 'Basket Brawl', desc: 'Basketball meets combat. Toss the ball into the hoop while controlling space and predicting rebounds.' },
+              { name: 'Volley Brawl', desc: 'The arena becomes a volleyball court. Keep the ball airborne and force opponents into awkward positions to score.' },
+              { name: 'Big Game', desc: 'One super-powered player vs five normal ones. Strategy changes dramatically depending on your role — fast thinking wins here.' },
+              { name: 'Special Events', desc: 'Limited-time events with unique challenges, community rewards, seasonal content, and exclusive prizes that rotate regularly.' },
+            ].map((mode) => (
+              <div key={mode.name} className="bg-[#0A1029] p-5 rounded-lg hover:border-[#FFA500]/50 border border-transparent transition-all">
+                <h3 className="text-lg font-bold text-white mb-2">
+                  {mode.name} {mode.hot && <span className="text-[#f97316] text-xs font-medium bg-[#f97316]/10 px-2 py-0.5 rounded-full ml-1">Popular</span>}
+                </h3>
+                <p className="text-gray-400 text-sm">{mode.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ====== SCREENSHOTS ====== */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <h2 className="text-3xl md:text-4xl font-bold mb-8 text-[#FFA500] text-center">Magic Brawl App Screenshots</h2>
+        <ScreenshotGallery />
+      </section>
+
+      {/* ====== POPULAR BRAWLER STATS ====== */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="bg-secondary rounded-xl p-8">
+          <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">Popular Brawler Stats</h2>
+          <p className="text-gray-300 mb-6">Top stats of popular exclusive brawlers in Magic Brawl APK — every player should know their strengths.</p>
+          <div className="overflow-x-auto">
+            <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
+              <thead className="bg-[#0a1029]">
+                <tr>
+                  <th className="py-3 px-4 text-left text-white font-semibold text-sm">Brawler</th>
+                  <th className="py-3 px-4 text-left text-white font-semibold text-sm">Attack Name</th>
+                  <th className="py-3 px-4 text-left text-white font-semibold text-sm">Damage</th>
+                  <th className="py-3 px-4 text-left text-white font-semibold text-sm">Ultimate Ability</th>
+                  <th className="py-3 px-4 text-left text-white font-semibold text-sm">Special Trait</th>
+                  <th className="py-3 px-4 text-left text-white font-semibold text-sm">Best For</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-800 text-sm">
+                <tr className="bg-[#06091F]/50"><td className="py-3 px-4 text-accent font-bold">FUMEY</td><td className="py-3 px-4 text-gray-300">Hot Steam</td><td className="py-3 px-4 text-gray-300">1876 (min range)</td><td className="py-3 px-4 text-gray-300">Steam Engine – cannon health 4620</td><td className="py-3 px-4 text-gray-300">Knockback radius increased</td><td className="py-3 px-4 text-gray-300">Gem Grab, Heist</td></tr>
+                <tr className="bg-[#0a1029]/50"><td className="py-3 px-4 text-accent font-bold">RT</td><td className="py-3 px-4 text-gray-300">Laser Burst</td><td className="py-3 px-4 text-gray-300">Medium range</td><td className="py-3 px-4 text-gray-300">Cyber Link – roots enemies</td><td className="py-3 px-4 text-gray-300">High control and zoning</td><td className="py-3 px-4 text-gray-300">Showdown, Brawl Ball</td></tr>
+                <tr className="bg-[#06091F]/50"><td className="py-3 px-4 text-accent font-bold">Willow</td><td className="py-3 px-4 text-gray-300">Toxic Petals</td><td className="py-3 px-4 text-gray-300">Poison over time</td><td className="py-3 px-4 text-gray-300">Mind Control – takes over enemy</td><td className="py-3 px-4 text-gray-300">Disables opponent briefly</td><td className="py-3 px-4 text-gray-300">Gem Grab, Special Events</td></tr>
+                <tr className="bg-[#0a1029]/50"><td className="py-3 px-4 text-accent font-bold">Maisie</td><td className="py-3 px-4 text-gray-300">Precision Shot</td><td className="py-3 px-4 text-gray-300">High at distance</td><td className="py-3 px-4 text-gray-300">Overcharge – burst damage wave</td><td className="py-3 px-4 text-gray-300">Brawl Pass exclusive</td><td className="py-3 px-4 text-gray-300">Bounty, Knockout</td></tr>
+                <tr className="bg-[#06091F]/50"><td className="py-3 px-4 text-accent font-bold">Hank</td><td className="py-3 px-4 text-gray-300">Water Cannon</td><td className="py-3 px-4 text-gray-300">Area splash</td><td className="py-3 px-4 text-gray-300">Tidal Wave – massive AoE push</td><td className="py-3 px-4 text-gray-300">Zone denial specialist</td><td className="py-3 px-4 text-gray-300">Hot Zone, Heist</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* ====== WHY CHOOSE MAGIC BRAWL ====== */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="bg-secondary rounded-xl p-8">
+          <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">Why Choose Magic Brawl APK?</h2>
+          <div className="space-y-5 text-gray-300 leading-relaxed">
+            <p>Choosing Magic Brawl means stepping into a version built with players in mind, not profit. Complete freedom from the limitations of the official release — enjoy the full roster of brawlers, unlimited resources, and exclusive modes right from the start.</p>
+            <p>With private servers, developers add fresh content, balance changes, and unique events faster than the main game. You&apos;re always getting something new — creative game modes, custom maps, seasonal events, and community challenges with their own surprises.</p>
+            <p>It&apos;s also a great space for learning. New players can test every brawler without months of grinding, while experienced players can refine skills by experimenting with unusual strategies. The freedom to try different setups without worrying about losing progress makes it perfect for both casual fun and serious practice.</p>
+            <p className="mt-4"><Link href="/blog/10-must-know-features-hidden-tricks-magic-brawl-2026" className="text-accent hover:underline font-semibold">Discover 10 Must-Know Features & Hidden Tricks →</Link></p>
+          </div>
+        </div>
+      </section>
+
+      {/* ====== WHY PRIVATE SERVERS ====== */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="bg-secondary rounded-xl p-8">
+          <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">Why Choose Private Servers?</h2>
+          <p className="text-gray-300 mb-6">The official Brawl Stars keeps many restrictions — limited resources, locked gadgets, gears, and the Brawl Pass behind paywalls. Private servers unlock all premium features and offer a creative, community-driven environment.</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {['Unlock all premium features instantly', 'No real money needed for anything', 'Play with legendary brawlers from day one', 'Community-driven environment with events', 'Everything is editable — maps, brawlers, skins', 'Best for practice, learning, and experimentation', 'Custom content not in the official game', 'Faster updates and creative game modes', 'No ads or pop-ups interrupting gameplay'].map((benefit) => (
+              <div key={benefit} className="bg-[#0A1029] p-4 rounded-lg flex items-start gap-3">
+                <span className="text-[#4ade80] mt-0.5 flex-shrink-0">&#10003;</span>
+                <span className="text-gray-300 text-sm">{benefit}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ====== GIFT / REWARDS SYSTEM ====== */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="bg-secondary rounded-xl p-8">
+          <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">How to Get Gifts in Magic Brawl</h2>
+          <p className="text-gray-300 mb-6">Magic Brawl offers a unique rewards system for content creators and active community members:</p>
+          <div className="bg-[#0A1029] rounded-xl p-6 border border-[#FFA500]/30 mb-6">
+            <p className="text-accent font-semibold text-lg mb-2">Create content, earn exclusive rewards!</p>
+            <p className="text-gray-300">Shoot a video on any social network, get 1,000+ views, and earn a free skin plus the opportunity to create your own author code that other players can use!</p>
+          </div>
+          <ol className="space-y-3 text-gray-300 list-decimal pl-5">
+            <li>Create engaging content about Magic Brawl — gameplay, tips, reviews, tutorials, or highlight reels.</li>
+            <li>Share it on social media platforms like YouTube, TikTok, or Instagram.</li>
+            <li>Once your content reaches 1,000+ views, contact the Magic Brawl team through official channels.</li>
+            <li>Receive a free skin of your choice and potentially create your own author code.</li>
+          </ol>
+        </div>
+      </section>
+
+      {/* ====== HOW TO DOWNLOAD ANDROID ====== */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="bg-secondary rounded-xl p-8">
+          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">How to Install Magic Brawl APK on Android</h2>
+          <p className="text-gray-300 mb-6">Installing Magic Brawl on your Android device is a straightforward process:</p>
+          <div className="space-y-6 max-w-4xl mx-auto">
+            <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#FFA500]">
+              <h3 className="text-lg font-bold text-[#FFA500] mb-2">Step 1: Download the APK</h3>
+              <p className="text-gray-300 mb-4">Click the Download button on <Link href="/" className="text-accent hover:underline">magicbrawlapk.net</Link> to download the Magic Brawl APK file to your Android device.</p>
+              <div className="flex justify-center">
+                <Image src="/magic-brawl-apk-download-step1-removebg-preview.webp" alt="Magic Brawl APK Download Step 1" width={280} height={500} className="rounded-lg object-contain max-h-[400px] w-auto" />
+              </div>
+            </div>
+            <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#4ade80]">
+              <h3 className="text-lg font-bold text-[#4ade80] mb-2">Step 2: Enable Unknown Sources</h3>
+              <p className="text-gray-300 mb-4">Before installing, enable installation from unknown sources. Go to Settings &gt; Security &gt; Unknown Sources and toggle it on.</p>
+              <div className="flex justify-center">
+                <Image src="/magic-brawl-apk-download-step2-removebg-preview.webp" alt="Magic Brawl APK Download Step 2" width={280} height={500} className="rounded-lg object-contain max-h-[400px] w-auto" />
+              </div>
+            </div>
+            <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#60a5fa]">
+              <h3 className="text-lg font-bold text-[#60a5fa] mb-2">Step 3: Install the APK</h3>
+              <p className="text-gray-300 mb-4">Follow the on-screen instructions to complete the installation process. Tap the downloaded file and confirm.</p>
+              <div className="flex justify-center">
+                <Image src="/magic-brawl-apk-download-step3-removebg-preview.webp" alt="Magic Brawl APK Download Step 3" width={280} height={500} className="rounded-lg object-contain max-h-[400px] w-auto" />
+              </div>
+            </div>
+            <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#f97316]">
+              <h3 className="text-lg font-bold text-[#f97316] mb-2">Step 4: Start Playing</h3>
+              <p className="text-gray-300">Open the game and start playing immediately with all features unlocked — all brawlers, skins, gems, and premium content ready to go!</p>
+            </div>
+          </div>
+          <div className="flex justify-center mt-8">
+            <a href={DOWNLOAD_URL} className="download-btn bg-transparent hover:bg-[#0ea5e9]/10 text-white font-bold py-4 px-8 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl border-2 border-[#0ea5e9]">
+              <span className="text-lg">DOWNLOAD ANDROID APK — FREE</span>
+              <div className="download-icon ml-3 bg-[#f97316] rounded-full p-2">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* ====== HOW TO INSTALL ON iOS ====== */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="bg-secondary rounded-xl p-8">
+          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">How to Install Magic Brawl on iOS</h2>
+          <p className="text-gray-300 mb-6">You can install Magic Brawl on your iPhone or iPad using the IPA file. Follow these steps:</p>
+          <div className="space-y-6 max-w-4xl mx-auto">
+            <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#60a5fa]">
+              <h3 className="text-lg font-bold text-[#60a5fa] mb-2">Step 1: Download the IPA File</h3>
+              <p className="text-gray-300">Select your server and download the Magic Brawl IPA file from <Link href="/magic-brawl-for-ios" className="text-accent hover:underline">magicbrawlapk.net</Link>.</p>
+            </div>
+            <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#FFA500]">
+              <h3 className="text-lg font-bold text-[#FFA500] mb-2">Step 2: Allow Installation from Untrusted Sources</h3>
+              <p className="text-gray-300">Go to Settings &gt; General &gt; Device Management and trust the developer profile. This is required since the app is installed from outside the App Store.</p>
+            </div>
+            <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#4ade80]">
+              <h3 className="text-lg font-bold text-[#4ade80] mb-2">Step 3: Install and Launch</h3>
+              <p className="text-gray-300">Tap &quot;Install&quot; and enter your passcode when prompted. Locate the game icon on your home screen and start playing with full access to all brawlers and skins!</p>
+            </div>
+          </div>
+          <p className="text-gray-400 text-sm mt-6 text-center">You can also use AltStore or Sideloadly for installation — no jailbreak required.</p>
+        </div>
+      </section>
+
+      {/* ====== NULL'S CONNECT SETUP ====== */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="bg-secondary rounded-xl p-8">
+          <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">How to Set Up Null&apos;s Connect</h2>
+          <p className="text-gray-300 mb-6">Setting up Null&apos;s Connect links your gameplay across different devices while keeping your progress secure. It uses an encrypted session key that refreshes automatically, reducing the risk of data loss during updates.</p>
+          <div className="bg-[#0A1029] rounded-xl p-6">
+            <h3 className="text-lg font-bold text-accent mb-4">Steps to Setup:</h3>
+            <ol className="space-y-3 text-gray-300 list-decimal pl-5">
+              <li>Open Magic Brawl on your device.</li>
+              <li>Navigate to the settings menu.</li>
+              <li>Select the &quot;Null&apos;s Connect&quot; option.</li>
+              <li>Create a new account or log in with your existing credentials.</li>
+              <li>Follow the on-screen instructions to complete the setup.</li>
+              <li>Confirm the link and restart the game to sync your data instantly.</li>
             </ol>
           </div>
         </div>
       </section>
 
-      {/* Pros and Cons */}
+      {/* ====== HOW TO UPDATE WITHOUT LOSING PROGRESS ====== */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Pros & Cons of using Card Rummy</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div>
-            <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">Pros</h3>
-            <div className="bg-[#0A1029] px-8 py-8 rounded-lg">
-              <ul className="list-disc pl-5 space-y-3 text-gray-300">
-                <li>Very simple and fun to play</li>
-                <li>Earn money with a small investment</li>
-                <li>Jazzcash and Easypaisa make payment easy</li>
-                <li>Many different games for enjoyment</li>
-                <li>Fast withdrawal of your money</li>
-                <li>Very easy to use and quick to start</li>
-                <li>Daily rewards and bonuses</li>
+          <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">How to Update Magic Brawl Without Losing Progress</h2>
+          <p className="text-gray-300 mb-6">Keeping Magic Brawl updated ensures you enjoy the newest features, bug fixes, and smooth gameplay:</p>
+          <ol className="space-y-3 text-gray-300 list-decimal pl-5">
+            <li>Make sure your account is linked with Null&apos;s Connect.</li>
+            <li>Open your browser and go to <Link href="/" className="text-accent hover:underline">magicbrawlapk.net</Link> download page.</li>
+            <li>Check the version number and release date to confirm it&apos;s newer than your installed version.</li>
+            <li>Tap the download button and wait for the latest APK to finish downloading.</li>
+            <li>Install over your existing version (no need to uninstall).</li>
+            <li>Log in with your Null&apos;s Connect credentials.</li>
+            <li>Your progress will be automatically restored.</li>
+          </ol>
+          <p className="text-gray-400 text-sm mt-4">If your device has limited storage or installation issues, remove the older version before installing the new one, then restore progress via Null&apos;s Connect.</p>
+        </div>
+      </section>
+
+      {/* ====== MINIMUM REQUIREMENTS ====== */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="bg-secondary rounded-xl p-8">
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-[#FFA500]">Minimum Requirements for Android</h2>
+          <div className="overflow-x-auto">
+            <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
+              <tbody className="divide-y divide-gray-800">
+                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-white font-medium">Android Version</td><td className="py-3 px-6 text-gray-300">7.0+ required</td></tr>
+                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-white font-medium">RAM</td><td className="py-3 px-6 text-gray-300">Not less than 2GB</td></tr>
+                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-white font-medium">Storage</td><td className="py-3 px-6 text-gray-300">1.5GB free space</td></tr>
+                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-white font-medium">Processor</td><td className="py-3 px-6 text-gray-300">Quad-core 1.2GHz minimum</td></tr>
+                <tr className="bg-[#06091F]/50"><td className="py-3 px-6 text-white font-medium">GPU</td><td className="py-3 px-6 text-gray-300">Adreno 505 or newer</td></tr>
+                <tr className="bg-[#0a1029]/50"><td className="py-3 px-6 text-white font-medium">Internet</td><td className="py-3 px-6 text-gray-300">Stable connection required for multiplayer</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* ====== DESIGN & UX ====== */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="bg-secondary rounded-xl p-8">
+          <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">Design and User Experience</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+              <h3 className="text-xl font-bold mb-3 text-accent">Interface</h3>
+              <ul className="space-y-2 text-gray-300 text-sm">
+                <li className="flex items-start gap-2"><span className="text-[#4ade80] flex-shrink-0">&#10003;</span> Clean and simple layout with smooth transitions</li>
+                <li className="flex items-start gap-2"><span className="text-[#4ade80] flex-shrink-0">&#10003;</span> All menus and options accessed easily</li>
+                <li className="flex items-start gap-2"><span className="text-[#4ade80] flex-shrink-0">&#10003;</span> Touch controls feel fluid and react instantly</li>
+                <li className="flex items-start gap-2"><span className="text-[#4ade80] flex-shrink-0">&#10003;</span> Consistent experience across all devices</li>
+                <li className="flex items-start gap-2"><span className="text-[#4ade80] flex-shrink-0">&#10003;</span> No ads or unnecessary pop-ups</li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold mb-3 text-accent">Graphics</h3>
+              <ul className="space-y-2 text-gray-300 text-sm">
+                <li className="flex items-start gap-2"><span className="text-[#4ade80] flex-shrink-0">&#10003;</span> Smooth animations during battles and transitions</li>
+                <li className="flex items-start gap-2"><span className="text-[#4ade80] flex-shrink-0">&#10003;</span> No lag or stutter on supported devices</li>
+                <li className="flex items-start gap-2"><span className="text-[#4ade80] flex-shrink-0">&#10003;</span> Colorful maps and animated characters feel alive</li>
+                <li className="flex items-start gap-2"><span className="text-[#4ade80] flex-shrink-0">&#10003;</span> Dynamic effects — explosions, special moves polished</li>
+                <li className="flex items-start gap-2"><span className="text-[#4ade80] flex-shrink-0">&#10003;</span> Consistent performance on both phones and tablets</li>
               </ul>
             </div>
           </div>
-          <div>
-            <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">Cons</h3>
-            <div className="bg-[#0A1029] px-8 py-8 rounded-lg">
-              <ul className="list-disc pl-5 space-y-3 text-gray-300">
-                <li>Risk of losing money</li>
-                <li>Sometimes withdrawals take time</li>
-                <li>Gameplay can be addictive</li>
-                <li>Run slow on weak phones</li>
-                <li>No legal Support</li>
-                <li>No Financial Freedom</li>
-                <li>Gameplay can be complicated</li>
-              </ul>
+        </div>
+      </section>
+
+      {/* ====== PRO TIPS ====== */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="bg-secondary rounded-xl p-8">
+          <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">Pro Tips to Dominate in Magic Brawl</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {[
+              'Use FUMEY\'s knockback to push enemies into traps on custom maps.',
+              'Combine Token Doublers with daily challenges to progress twice as fast.',
+              'Switch load-outs frequently to surprise opponents with different strategies.',
+              'Play during Clash+ weekends to quickly rack up extra trophies.',
+              'Edit custom maps with choke points and obstacles for tactical advantage.',
+              'Master the Mastery System to earn unique titles and rewards.',
+              'Practice in friendly battles before taking strategies into real matches.',
+              'Focus on one brawler first and learn their abilities deeply.',
+              'Use Willow\'s Mind Control to take over key enemy positions.',
+              'Try the exclusive 5v5 Brawl Ball for chaotic team coordination practice.',
+            ].map((tip) => (
+              <div key={tip} className="bg-[#0A1029] p-4 rounded-lg flex items-start gap-3">
+                <span className="text-[#f97316] mt-0.5 flex-shrink-0 font-bold">&#9733;</span>
+                <span className="text-gray-300 text-sm">{tip}</span>
+              </div>
+            ))}
+          </div>
+          <div className="mt-6 pt-4 border-t border-gray-700/50">
+            <Link href="/blog/10-must-know-features-hidden-tricks-magic-brawl-2026" className="text-accent hover:underline font-semibold">More tips & hidden tricks in our full guide →</Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ====== PROS AND CONS ====== */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="bg-secondary rounded-xl p-8">
+          <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">Pros and Cons</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+              <h3 className="text-xl font-bold mb-4 text-[#4ade80]">Pros</h3>
+              <div className="bg-[#0A1029] p-6 rounded-lg space-y-3">
+                {['Every brawler with unique skills — all unlocked from start', 'Unlimited gems, coins, and resources', 'Easily play with friends in custom private rooms', 'Regular monthly updates with new content', 'No real money purchases needed — ever', 'Cross-platform: Android, PC, and iOS', 'Daily login rewards, giveaways, and updated quests', 'Custom editable maps for personalized gameplay', 'Enhanced Brawl Pass with 100 rewards auto-unlocked', 'Community challenges with exclusive prizes', 'No ads or pop-ups interrupting gameplay', 'Content creator rewards program'].map((pro) => (
+                  <div key={pro} className="flex items-start gap-2"><span className="text-[#4ade80] flex-shrink-0">&#10003;</span><span className="text-gray-300 text-sm">{pro}</span></div>
+                ))}
+              </div>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold mb-4 text-[#f87171]">Cons</h3>
+              <div className="bg-[#0A1029] p-6 rounded-lg space-y-3">
+                {['Stable internet connection is required for multiplayer', 'Older devices may not support it', 'Runs on private servers, not the original', 'Not officially supported by Supercell', 'Updates may arrive separately from official releases', 'Cannot transfer progress from official Brawl Stars'].map((con) => (
+                  <div key={con} className="flex items-start gap-2"><span className="text-[#f87171] flex-shrink-0">&#10007;</span><span className="text-gray-300 text-sm">{con}</span></div>
+                ))}
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* About Safety Section */}
+      {/* ====== COMMON ERRORS ====== */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">About the Safety & Security of the Card Rummy</h2>
+          <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">Common Errors — Solution Guide</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {[
+              { title: 'App Not Installing', solution: 'Clear old APK files, enable "Install from Unknown Sources," and use a trusted download link from magicbrawlapk.net to install without conflicts.' },
+              { title: 'Game Stuck on Loading Screen', solution: 'Restart your device, clear app cache, and ensure your internet connection is stable before reopening the game.' },
+              { title: 'Crashing Mid-Match', solution: 'Lower graphics settings, close background apps, and check storage space to prevent memory overload during intense matches.' },
+              { title: 'Can\'t Connect to Private Server', solution: 'Switch to a different Wi-Fi or mobile data network, then restart the game to refresh the server connection.' },
+              { title: 'Update Not Installing', solution: 'Uninstall the outdated version, download the latest APK from magicbrawlapk.net, and reinstall. Restore progress via Null\'s Connect.' },
+              { title: 'Audio Issues', solution: 'Check your device sound settings, verify in-game volume controls, and restart the emulator or app.' },
+            ].map((error) => (
+              <div key={error.title} className="bg-[#0A1029] p-5 rounded-lg">
+                <h3 className="text-white font-bold mb-2">{error.title}</h3>
+                <p className="text-gray-400 text-sm">{error.solution}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ====== FAQ ====== */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="bg-secondary rounded-xl p-8">
+          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Frequently Asked Questions</h2>
           <div className="space-y-4">
-            <p className="text-gray-300 leading-relaxed">
-              Card Rummy is an online gaming platform that provides you with a safe and secure environment. It uses basic security features such as data encryption or SSL certificates that can protect your information. This app also supports local payment options such as JazzCash or Easy Paisa, which can make the transactions safer and secure. However, this app is not officially available on the Google Play Store and may come with some risks, such as malware or scams. So, it is important to make sure that you can download it from official, safe, and secure sources. Always avoid sharing your sensitive personal information or banking details.
-            </p>
+            {[
+              { q: 'What is Magic Brawl APK?', a: 'Magic Brawl APK is a fan-made MOD of Brawl Stars built on private servers. It offers all brawlers unlocked, unlimited gems, exclusive skins, custom maps, enhanced Brawl Pass, and online battles — completely free with regular monthly updates.' },
+              { q: 'Is Magic Brawl APK safe to download?', a: 'Yes, when downloaded from the official website magicbrawlapk.net. It runs on private servers separate from the official game, ensuring a safe experience for your device and data.' },
+              { q: 'Do I need real money to play?', a: 'No. Magic Brawl is 100% free. All brawlers, skins, gems, gadgets, star powers, Brawl Pass rewards, and premium features are unlocked from the start without any purchases.' },
+              { q: 'Can I play Magic Brawl on iOS?', a: 'Yes. iOS users can install Magic Brawl IPA using tools like AltStore or Sideloadly. No jailbreak required. Go to Settings > General > Device Management to trust the developer profile.' },
+              { q: 'Can I play with my friends?', a: 'Absolutely. Magic Brawl supports full multiplayer. Create private rooms, invite friends, set custom rules and conditions, organize mini-tournaments, or practice strategies against bots.' },
+              { q: 'Is this APK anti-ban?', a: 'Magic Brawl runs on private servers completely separate from official Brawl Stars servers, so your official account is not affected or at risk.' },
+              { q: 'Can I play offline?', a: 'A stable internet connection is required for online multiplayer battles. Some practice modes and training may work offline.' },
+              { q: 'Will I lose my progress when updating?', a: 'No. If your account is linked with Null\'s Connect, simply install the new version over your existing one and your progress will be automatically restored.' },
+              { q: 'Can I transfer my progress from official Brawl Stars?', a: 'No. Magic Brawl runs on separate private servers, so official game progress cannot be transferred. However, since everything is unlocked from the start, you won\'t miss anything.' },
+              { q: 'What makes Magic Brawl different from Null\'s Brawl?', a: <>Magic Brawl offers exclusive brawlers (FUMEY, RT, Willow, Maisie, Hank), custom editable maps, community challenges, giveaway events, enhanced Brawl Pass, content creator rewards, and experimental content not found in other private servers. <Link href="/blog/magic-brawl-apk-vs-nulls-brawl-vs-retro-brawl-comparison" className="text-accent hover:underline">Read our full comparison →</Link></> },
+              { q: 'How often does Magic Brawl get updated?', a: 'The server receives regular monthly updates following closely behind the official game. New brawlers, maps, modes, bug fixes, and balance changes are pushed quickly by the Magic Brawl team.' },
+            ].map((faq) => (
+              <details key={faq.q} className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300">
+                <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
+                  {faq.q}
+                  <span className="transition group-open:rotate-180 flex-shrink-0 ml-2"><svg fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6" /></svg></span>
+                </summary>
+                <div className="p-4 pt-0 text-gray-300 border-t border-gray-700/50">{faq.a}</div>
+              </details>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* Contact Support Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">How Can We Contact the Card Rummy?</h2>
-          <p className="text-gray-300 mb-6">To contact the customer support team of Card Rummy, you can use the given methods:</p>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="bg-[#0A1029] p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">Live Chat</h3>
-              <p className="text-gray-300">Card Rummy provides you with a live chat feature inside the app so that you can directly talk to the support team if you face any problems. Whether you face any issue like playing or using the app, this team responds to you quickly and helps you solve your issues in real time. Live chat is the fastest way to get support without leaving the app.</p>
-            </div>
-            <div className="bg-[#0A1029] p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">WhatsApp</h3>
-              <p className="text-gray-300">You can also contact the support team through WhatsApp. You can simply use the number that is provided in the app to send your problem. This support team replies to you with instructions or solutions that make it easy to fix any problem. This WhatsApp support is very convenient because this is a simple and easy way to get help.</p>
-            </div>
-            <div className="bg-[#0A1029] p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3 text-[#FFA500]">FAQs</h3>
-              <p className="text-gray-300">This app also dedicates a FAQs section where common questions are given with their answers. You can check this section before contacting the customer support team to save time. These FAQs mostly cover all topics such as registration, deposit, withdrawals, bonuses, and game rules. So, this is quick and easy to find the solution without waiting long.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ Section */}
-      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-        <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Frequently Asked Questions</h2>
-        <div className="space-y-4">
-          <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
-            <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
-              What is Card Rummy and how does it work?
-              <span className="transition group-open:rotate-180">
-                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
-                  <path d="M6 9l6 6 6-6"></path>
-                </svg>
-              </span>
-            </summary>
-            <div className="p-4 pt-0 text-gray-300 border-t border-gray-700/50">
-              Card Rummy is Pakistan's premier online card game platform where you can play Teen Patti, Rummy, Dragon vs Tiger, and many other exciting casino games. You can play Card Rummy without depositing money by using free bonuses like the Welcome Bonus and Referral Commission. Card Rummy offers real cash rewards with fast withdrawals via JazzCash and EasyPaisa.
-            </div>
-          </details>
-
-          <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
-            <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
-              How to download Card Rummy APK?
-              <span className="transition group-open:rotate-180">
-                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
-                  <path d="M6 9l6 6 6-6"></path>
-                </svg>
-              </span>
-            </summary>
-            <div className="p-4 pt-0 text-gray-300 border-t border-gray-700/50">
-              To download Card Rummy APK, visit cardrummyapp.com.pk and click the download button. The Card Rummy APK file will be saved to your device. Enable "Install from Unknown Sources" in your Android settings, then open the downloaded file to install Card Rummy.
-            </div>
-          </details>
-
-          <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
-            <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
-              What makes Card Rummy different from other card games?
-              <span className="transition group-open:rotate-180">
-                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
-                  <path d="M6 9l6 6 6-6"></path>
-                </svg>
-              </span>
-            </summary>
-            <div className="p-4 pt-0 text-gray-300 border-t border-gray-700/50">
-              Card Rummy stands out with its simple design, fast transactions via JazzCash and EasyPaisa, exciting games like Teen Patti and Rummy, daily bonuses, and secure platform. Card Rummy offers the best card gaming experience in Pakistan with real cash rewards.
-            </div>
-          </details>
-
-          <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
-            <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
-              Is Card Rummy safe and legal to use?
-              <span className="transition group-open:rotate-180">
-                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
-                  <path d="M6 9l6 6 6-6"></path>
-                </svg>
-              </span>
-            </summary>
-            <div className="p-4 pt-0 text-gray-300 border-t border-gray-700/50">
-              Yes, Card Rummy is safe to use with secure data encryption and privacy protection. Card Rummy ensures your personal information and transactions are protected. However, the legality of online gaming depends on your local laws, so always check your region's regulations before playing Card Rummy.
-            </div>
-          </details>
-
-          <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
-            <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
-              Can users lose money while playing?
-              <span className="transition group-open:rotate-180">
-                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
-                  <path d="M6 9l6 6 6-6"></path>
-                </svg>
-              </span>
-            </summary>
-            <div className="p-4 pt-0 text-gray-300 border-t border-gray-700/50">
-              Yes, this app is involved with real money, so you might lose some amount if you do not play the games carefully. So, always play wisely and set a limit while playing.
-            </div>
-          </details>
-
-          <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
-            <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
-              Is it possible to change the language of Card Rummy?
-              <span className="transition group-open:rotate-180">
-                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
-                  <path d="M6 9l6 6 6-6"></path>
-                </svg>
-              </span>
-            </summary>
-            <div className="p-4 pt-0 text-gray-300 border-t border-gray-700/50">
-              Yes, it is possible because this app supports multiple languages, so you can change the language from the settings menu easily.
-            </div>
-          </details>
-
-          <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
-            <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
-              How do referral rewards work?
-              <span className="transition group-open:rotate-180">
-                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
-                  <path d="M6 9l6 6 6-6"></path>
-                </svg>
-              </span>
-            </summary>
-            <div className="p-4 pt-0 text-gray-300 border-t border-gray-700/50">
-              When you share your referral link with others, or when someone joins this app through your link, you can receive a commission.
-            </div>
-          </details>
-
-          <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300 shadow-md hover:shadow-lg">
-            <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
-              Is Card Rummy available on iPhone (iOS)?
-              <span className="transition group-open:rotate-180">
-                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
-                  <path d="M6 9l6 6 6-6"></path>
-                </svg>
-              </span>
-            </summary>
-            <div className="p-4 pt-0 text-gray-300 border-t border-gray-700/50">
-              This app is mainly available for Android devices, but you can also check the official website or store for updates about iOS availability.
-            </div>
-          </details>
-          </div>
-        </div>
-      </section>
-
-      {/* Conclusion */}
+      {/* ====== CONCLUSION ====== */}
       <section className="pt-12 pb-4 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Final Thoughts</h2>
-          <div className="space-y-4">
-          <p className="text-gray-300">
-            Card Rummy is one of the most popular online card games in the world. It not only provides you with fun or entertainment but also provides you with a great chance to earn money if you play games wisely. This app provides you with a simple and user-friendly interface that can make it easy, especially for beginners, to play games. The deposit or withdrawal system through JazzCash or EasyPaisa is very convenient, which makes this platform very easy to use. If you play responsibly, make plans with smart strategies, and focus on your skill rather than luck, Card Rummy can become a more exciting or rewarding gaming experience.
-          </p>
+          <h2 className="text-3xl font-bold mb-6 text-accent">Conclusion</h2>
+          <div className="space-y-4 text-gray-300 leading-relaxed">
+            <p>
+              <strong className="text-white">Magic Brawl APK</strong> is the ultimate private server experience for Brawl Stars fans. With all brawlers unlocked from the start, unlimited gems, exclusive skins, enhanced Brawl Pass, custom editable maps, community challenges, and unique game modes — it delivers everything the official game holds behind paywalls and grinding, completely free.
+            </p>
+            <p>
+              The addition of exclusive brawlers like FUMEY, RT, Willow, Maisie, and Hank, along with Season 18 content, daily giveaways, the Bling system, and regular monthly updates, ensures there&apos;s always something new to explore. Whether you&apos;re looking to test strategies without progression pressure, enjoy faster matchmaking, create custom maps, or try modes like 5v5 Brawl Ball not available in the official version, Magic Brawl delivers a gameplay experience that feels both fresh and rewarding.
+            </p>
+            <p className="text-white font-semibold">Download now and dive into a world where everything is unlocked. Enjoy the battle, build your team, and play without any restrictions.</p>
+            <div className="flex flex-wrap gap-4 mt-4">
+              <Link href="/blog/comparison-magic-brawl-brawl-stars" className="text-accent hover:underline font-semibold text-sm">Magic Brawl vs Brawl Stars →</Link>
+              <Link href="/blog/download-magic-brawl-mod-menu-v50-221" className="text-accent hover:underline font-semibold text-sm">Mod Menu v50.221 Guide →</Link>
+              <Link href="/blog/magic-brawl-apk-download-old-version" className="text-accent hover:underline font-semibold text-sm">Download Old Version →</Link>
+            </div>
+          </div>
+          <div className="flex justify-center mt-8">
+            <a href={DOWNLOAD_URL} className="download-btn bg-transparent hover:bg-[#0ea5e9]/10 text-white font-bold py-4 px-10 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl border-2 border-[#0ea5e9]">
+              <span className="text-lg">DOWNLOAD MAGIC BRAWL APK v50.221</span>
+              <div className="download-icon ml-3 bg-[#f97316] rounded-full p-2">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+              </div>
+            </a>
           </div>
         </div>
       </section>

@@ -62,15 +62,15 @@ export default function MobileNavigation() {
             <Link href="/" className="flex items-center gap-3" onClick={() => setIsOpen(false)}>
               <div className="relative w-8 h-8 flex-shrink-0">
                 <Image
-                  src="/card-rummy.webp"
-                  alt="Card Rummy Logo"
+                  src="/magic-brawl-apk.webp"
+                  alt="Magic Brawl APK Logo"
                   fill
                   sizes="(max-width: 768px) 32px, 40px"
                   className="object-contain"
                   priority={true}
                 />
               </div>
-              <span className="text-accent text-xl font-bold">Card Rummy</span>
+              <span className="text-accent text-xl font-bold">Magic Brawl APK</span>
             </Link>
             <button 
               onClick={() => setIsOpen(false)}
@@ -106,25 +106,25 @@ export default function MobileNavigation() {
               Download
             </Link>
             <Link 
-              href="/deposit-money-in-card-rummy" 
-              className="text-white hover:text-accent py-2 text-lg font-medium transition-colors"
-              onClick={() => setIsOpen(false)}
-            >
-              Deposit Guide
-            </Link>
-            <Link 
-              href="/withdraw-money-from-card-rummy" 
-              className="text-white hover:text-accent py-2 text-lg font-medium transition-colors"
-              onClick={() => setIsOpen(false)}
-            >
-              Withdraw Guide
-            </Link>
-            <Link 
               href="/card-rummy-for-pc" 
               className="text-white hover:text-accent py-2 text-lg font-medium transition-colors"
               onClick={() => setIsOpen(false)}
             >
-              PC Version
+              For PC
+            </Link>
+            <Link 
+              href="/magic-brawl-for-ios" 
+              className="text-white hover:text-accent py-2 text-lg font-medium transition-colors"
+              onClick={() => setIsOpen(false)}
+            >
+              For iOS
+            </Link>
+            <Link 
+              href="/retro-brawl" 
+              className="text-white hover:text-accent py-2 text-lg font-medium transition-colors"
+              onClick={() => setIsOpen(false)}
+            >
+              Retro Brawl
             </Link>
             <Link 
               href="/about-us" 
