@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
@@ -84,8 +83,9 @@ export default function RetroBrawlPage() {
         </div>
 
         <div className="flex justify-center mb-12">
-          <div className="relative" style={{ width: '280px', height: '280px', maxWidth: '100%' }}>
-            <Image src="/download-retro-brawl-apk.webp" alt="Retro Brawl - Classic Brawl Stars 2018" width={280} height={280} className="object-contain drop-shadow-2xl" priority />
+          <div className="relative w-[280px] h-[280px] max-w-full flex items-center justify-center">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/retro-brawl-apk.webp" alt="Retro Brawl - Classic Brawl Stars 2018" width={280} height={280} className="max-w-full max-h-full object-contain drop-shadow-2xl" />
           </div>
         </div>
       </section>

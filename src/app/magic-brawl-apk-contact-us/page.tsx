@@ -47,23 +47,24 @@ export default function Contact() {
               </p>
 
               {/* Email Contact Section */}
-              <div className="bg-secondary rounded-xl p-8 border-2 border-orange-200">
+              <div className="bg-[#0A1029] rounded-xl p-8 border border-[#FFA500]/30">
                 <div className="flex items-center justify-center mb-4">
                   <svg className="w-16 h-16 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                   </svg>
                 </div>
-                <h2 className="text-2xl md:text-3xl font-bold text-center mb-4 text-white">Email Us</h2>
-                <p className="text-center mb-4 text-gray-400">Send us your questions or concerns via email</p>
+                <h2 className="text-2xl md:text-3xl font-bold text-center mb-2 text-white">Email Us</h2>
+                <p className="text-center mb-2 text-gray-400">Send us your questions or concerns via email</p>
+                <p className="text-center text-accent font-semibold mb-6 text-lg">support@magicbrawlapk.net</p>
                 <div className="text-center">
                   <a 
                     href="mailto:support@magicbrawlapk.net" 
-                    className="inline-flex items-center justify-center bg-accent hover:bg-accent/90 text-primary font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+                    className="inline-flex items-center justify-center bg-accent hover:bg-[#e6ac00] text-primary font-bold py-4 px-10 rounded-full text-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
                   >
-                    <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                     </svg>
-                    support@magicbrawlapk.net
+                    Send Email
                   </a>
                 </div>
               </div>

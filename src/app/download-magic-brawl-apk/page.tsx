@@ -2,8 +2,7 @@ import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 
-// Replace with your actual Magic Brawl APK download URL when available
-const DOWNLOAD_URL = process.env.NEXT_PUBLIC_DOWNLOAD_URL || '#';
+const DOWNLOAD_URL = 'https://dl.magicbrawlapk.net/file/Magicbrawlapk/magic-brawl-apk-by-magicbrawlapk.net.apk';
 
 export const metadata: Metadata = {
   title: 'Download Magic Brawl APK Free for Android | Version 50.221',
@@ -69,7 +68,7 @@ export default function DownloadPage() {
           </p>
         </div>
 
-        <div className="flex justify-center my-12">
+        <div className="flex flex-col items-center gap-4 my-6">
           <a 
             href={DOWNLOAD_URL}
             target="_blank"
@@ -81,13 +80,10 @@ export default function DownloadPage() {
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
             </div>
           </a>
-        </div>
-
-        <div className="flex justify-center mb-8">
           <span className="bg-[#0A1029] text-[#4ade80] px-6 py-2 rounded-full text-sm font-semibold">Free Entertainment Game — No Real Money</span>
         </div>
 
-        <div className="flex justify-center mb-12">
+        <div className="flex justify-center mb-6">
           <div className="relative" style={{ width: '320px', height: '320px', maxWidth: '100%' }}>
             <Image src="/magic-brawl-apk.webp" alt="Magic Brawl APK Logo" width={320} height={320} className="object-contain drop-shadow-2xl" priority fetchPriority="high" quality={90} />
           </div>
@@ -169,9 +165,9 @@ export default function DownloadPage() {
         </div>
       </section>
 
-      <section className="py-8 px-4 md:px-8 max-w-7xl mx-auto text-center">
+      <div className="pb-4 pt-2 px-4 max-w-7xl mx-auto text-center">
         <Link href="/" className="text-[#0ea5e9] hover:text-[#6366f1] font-medium transition-colors">← Back to Home</Link>
-      </section>
+      </div>
     </>
   );
 }

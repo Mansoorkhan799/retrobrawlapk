@@ -199,7 +199,7 @@ export default function CardRummyForPCPage() {
           {/* Download Button */}
           <div className="flex justify-center mt-10">
             <a
-              href={process.env.NEXT_PUBLIC_DOWNLOAD_URL || '/download-magic-brawl-apk'}
+              href="https://dl.magicbrawlapk.net/file/Magicbrawlapk/magic-brawl-apk-by-magicbrawlapk.net.apk"
               className="relative flex items-center px-10 py-5 text-white font-bold text-lg rounded-full border-2 border-[#0ea5e9] hover:bg-[#0ea5e9]/10 transition-all duration-300 group shadow-2xl hover:shadow-[0_0_30px_rgba(14,165,233,0.3)] hover:scale-105 animate-pulse-glow"
             >
               <span>Magic Brawl APK</span>
@@ -407,12 +407,11 @@ export default function CardRummyForPCPage() {
         </div>
       </section>
 
-      {/* Back to Home */}
-      <section className="py-8 px-4 md:px-8 max-w-7xl mx-auto text-center">
+      <div className="pb-4 pt-2 px-4 max-w-7xl mx-auto text-center">
         <Link href="/" className="text-[#0ea5e9] hover:text-[#6366f1] font-medium transition-colors">
           ← Back to Home
         </Link>
-      </section>
+      </div>
     </>
   );
 }

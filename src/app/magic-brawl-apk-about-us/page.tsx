@@ -38,31 +38,26 @@ export default function AboutPage() {
           
           {/* Main Content */}
           <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 mb-12">
-            <div className="flex flex-col md:flex-row items-center gap-8 mb-8">
-              <div className="w-full md:w-1/3 flex-shrink-0 flex justify-center md:justify-start">
-                <Link href="/" className="block">
-                  <div className="relative w-[280px] h-[280px] md:w-[320px] md:h-[320px] mx-auto md:mx-0 rounded-lg overflow-hidden bg-[#0A1029]">
-                    <Image 
-                      src="/magic-brawl-apk.webp" 
-                      alt="Magic Brawl APK Logo" 
-                      width={320}
-                      height={320}
-                      sizes="(max-width: 768px) 280px, 320px"
-                      className="object-contain p-4 w-full h-full"
-                      priority
-                    />
-                  </div>
+            <div className="flex flex-col md:flex-row items-center gap-8">
+              <div className="flex-shrink-0 flex justify-center">
+                <Link href="/">
+                  <Image 
+                    src="/magic-brawl-apk.webp" 
+                    alt="Magic Brawl APK Logo" 
+                    width={220}
+                    height={220}
+                    className="object-contain drop-shadow-2xl"
+                    priority
+                  />
                 </Link>
               </div>
-              <div className="md:w-2/3">
-                <div className="prose prose-lg max-w-none">
-                  <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                    Welcome to <Link href="/" className="text-accent hover:underline font-semibold">magicbrawlapk.net</Link>, your trusted source for <strong>Magic Brawl APK</strong>. Magic Brawl is a rebirth of Brawl Stars and its golden era — a free entertainment game featuring online battles, unique brawlers, exclusive skins, and regular updates. <Link href="/download-magic-brawl-apk" className="text-accent hover:underline font-semibold">Download Magic Brawl</Link> now and enjoy the game to the fullest!
-                  </p>
-                  <p className="text-lg text-gray-300 leading-relaxed">
-                    Magic Brawl is not an online earning game — it&apos;s pure entertainment. Play for fun with online battles, all characters, unique brawlers, skins, and other exclusive elements.
-                  </p>
-                </div>
+              <div className="flex-1">
+                <p className="text-lg text-gray-300 leading-relaxed mb-6">
+                  Welcome to <Link href="/" className="text-accent hover:underline font-semibold">magicbrawlapk.net</Link>, your trusted source for <strong className="text-white">Magic Brawl APK</strong>. Magic Brawl is a rebirth of Brawl Stars and its golden era — a free entertainment game featuring online battles, unique brawlers, exclusive skins, and regular updates. <Link href="/download-magic-brawl-apk" className="text-accent hover:underline font-semibold">Download Magic Brawl</Link> now and enjoy the game to the fullest!
+                </p>
+                <p className="text-lg text-gray-300 leading-relaxed">
+                  Magic Brawl is not an online earning game — it&apos;s pure entertainment. Play for fun with online battles, all characters, unique brawlers, skins, and other exclusive elements.
+                </p>
               </div>
             </div>
           </div>

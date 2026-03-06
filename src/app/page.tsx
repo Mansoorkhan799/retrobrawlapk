@@ -191,9 +191,9 @@ export default function Home() {
             <div className="flex gap-3 flex-wrap">
               <Link href="/download-retro-brawl" className="text-sm font-semibold text-[#4ade80] hover:underline">Learn More</Link>
               <span className="text-gray-600">|</span>
-              <Link href="/download-magic-brawl-apk" className="text-sm font-semibold text-[#60a5fa] hover:underline">Download Android</Link>
+              <a href="https://dl.magicbrawlapk.net/file/Magicbrawlapk/retrobrawl-by-magicbrawlapk.net.apk" className="text-sm font-semibold text-[#60a5fa] hover:underline">Download Android</a>
               <span className="text-gray-600">|</span>
-              <Link href="/blog/magic-brawl-vs-retro-brawl-biggest-differences" className="text-sm font-semibold text-[#f97316] hover:underline">Compare</Link>
+              <a href="https://dl.magicbrawlapk.net/file/Magicbrawlapk/retrobrawl-by-magicbrawlapk.net.ipa" className="text-sm font-semibold text-[#a78bfa] hover:underline">Download iOS</a>
             </div>
           </div>
         </div>
