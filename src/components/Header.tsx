@@ -31,10 +31,10 @@ export default function Header() {
           <Link href="/" className="text-white hover:text-accent font-medium transition-colors">
             Home
           </Link>
-          <Link href="/download-card-rummy" className="text-white hover:text-accent font-medium transition-colors">
+          <Link href="/download-magic-brawl-apk" className="text-white hover:text-accent font-medium transition-colors">
             Download
           </Link>
-          <Link href="/card-rummy-for-pc" className="text-white hover:text-accent font-medium transition-colors">
+          <Link href="/magic-brawl-for-pc" className="text-white hover:text-accent font-medium transition-colors">
             For PC
           </Link>
           <Link href="/magic-brawl-for-ios" className="text-white hover:text-accent font-medium transition-colors">

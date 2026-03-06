@@ -31,10 +31,10 @@ Disallow: /api/
 Disallow: /admin/
 
 # Priority pages
-Allow: /download-card-rummy
+Allow: /download-magic-brawl-apk
 Allow: /magic-brawl-for-ios
 Allow: /retro-brawl
-Allow: /card-rummy-for-pc
+Allow: /magic-brawl-for-pc
 Allow: /about-us
 Allow: /blog
 
@@ -43,8 +43,8 @@ Allow: /contact-us
 Allow: /privacy
 Allow: /disclaimer
 Allow: /dmca
-Allow: /deposit-money-in-card-rummy
-Allow: /withdraw-money-from-card-rummy
+Allow: /deposit-money-in-magic-brawl
+Allow: /withdraw-money-from-magic-brawl
 
 # ============================================
 # AI BOT RESTRICTIONS (Training Prevention)

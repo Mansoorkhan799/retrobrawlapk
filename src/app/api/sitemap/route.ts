@@ -37,7 +37,7 @@ export async function GET() {
       ]
     },
     {
-      url: '/download-card-rummy',
+      url: '/download-magic-brawl-apk',
       lastMod: new Date().toISOString(),
       changeFreq: 'weekly',
       priority: 0.9,
@@ -50,13 +50,13 @@ export async function GET() {
       ]
     },
     {
-      url: '/deposit-money-in-card-rummy',
+      url: '/deposit-money-in-magic-brawl',
       lastMod: new Date().toISOString(),
       changeFreq: 'weekly',
       priority: 0.9
     },
     {
-      url: '/withdraw-money-from-card-rummy',
+      url: '/withdraw-money-from-magic-brawl',
       lastMod: new Date().toISOString(),
       changeFreq: 'weekly',
       priority: 0.9
@@ -74,7 +74,7 @@ export async function GET() {
       priority: 0.9
     },
     {
-      url: '/card-rummy-for-pc',
+      url: '/magic-brawl-for-pc',
       lastMod: new Date().toISOString(),
       changeFreq: 'weekly',
       priority: 0.9,

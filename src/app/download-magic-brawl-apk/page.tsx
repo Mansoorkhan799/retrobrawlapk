@@ -18,11 +18,11 @@ export const metadata: Metadata = {
     'Brawl Stars private server'
   ],
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 } },
-  alternates: { canonical: "https://magicbrawlapk.net/download-card-rummy" },
+  alternates: { canonical: "https://magicbrawlapk.net/download-magic-brawl-apk" },
   openGraph: {
     title: 'Download Magic Brawl APK Free for Android | v50.221',
     description: 'Magic Brawl - Brawl Stars rebirth. Online battles, unique brawlers, exclusive skins. Free entertainment game. Download now!',
-    url: "https://magicbrawlapk.net/download-card-rummy",
+    url: "https://magicbrawlapk.net/download-magic-brawl-apk",
     siteName: "Magic Brawl APK",
     locale: "en_US",
     type: "website",
@@ -54,7 +54,7 @@ export default function DownloadPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://magicbrawlapk.net" }, { "@type": "ListItem", "position": 2, "name": "Download", "item": "https://magicbrawlapk.net/download-card-rummy" }] }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://magicbrawlapk.net" }, { "@type": "ListItem", "position": 2, "name": "Download", "item": "https://magicbrawlapk.net/download-magic-brawl-apk" }] }) }} />
       
       <section className="py-8 md:py-16 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="text-center mb-12">

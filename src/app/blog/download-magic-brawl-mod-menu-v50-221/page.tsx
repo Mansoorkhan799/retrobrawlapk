@@ -51,7 +51,7 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-[#FFA500] mt-8">How to Download & Install</h2>
           <p>Installation is straightforward and takes under 3 minutes:</p>
           <ol className="list-decimal pl-6 space-y-2">
-            <li>Visit <Link href="/download-card-rummy" className="text-accent hover:underline">magicbrawlapk.net</Link> and tap the download button to get the v50.221 APK file.</li>
+            <li>Visit <Link href="/download-magic-brawl-apk" className="text-accent hover:underline">magicbrawlapk.net</Link> and tap the download button to get the v50.221 APK file.</li>
             <li>If prompted, enable &quot;Install from Unknown Sources&quot; in your Android settings (Settings → Security → Unknown Sources).</li>
             <li>Open the downloaded APK file and tap Install.</li>
             <li>Wait for the installation to complete, then launch the app.</li>
@@ -71,7 +71,7 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-[#FFA500] mt-8">Is Magic Brawl Safe?</h2>
           <p>Magic Brawl is a standalone application that does not modify your device or interact with other apps. It connects to private servers operated by the Magic Brawl team, not to Supercell&apos;s official servers. Your official Brawl Stars account remains completely unaffected. The APK has been scanned and verified clean of malware, adware, and trackers.</p>
 
-          <p className="mt-8"><Link href="/download-card-rummy" className="text-accent hover:underline font-semibold">Download Magic Brawl v50.221</Link> now and enjoy the full experience — every brawler, every skin, unlimited gems, zero restrictions.</p>
+          <p className="mt-8"><Link href="/download-magic-brawl-apk" className="text-accent hover:underline font-semibold">Download Magic Brawl v50.221</Link> now and enjoy the full experience — every brawler, every skin, unlimited gems, zero restrictions.</p>
         </div>
       </article>
     </>

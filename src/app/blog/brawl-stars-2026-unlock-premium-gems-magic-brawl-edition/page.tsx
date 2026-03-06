@@ -92,7 +92,7 @@ export default function BlogPost() {
 
           <h2 className="text-2xl font-bold text-[#FFA500] mt-10">Conclusion</h2>
           <p>Finding free gems in Brawl Stars is simpler than it&apos;s ever been — and safer, too. Instead of wasting time on fake generators, risky hacks, or limited event rewards, players can use Magic Brawl APK to unlock unlimited gems instantly. The APK runs on private servers, doesn&apos;t affect your official account, and delivers a complete premium experience from day one. If you&apos;re a Brawl Stars fan who wants everything unlocked without spending a cent, this is the definitive solution for 2026.</p>
-          <p><Link href="/download-card-rummy" className="text-accent hover:underline font-semibold">Download Magic Brawl APK</Link> and enjoy premium access from day one.</p>
+          <p><Link href="/download-magic-brawl-apk" className="text-accent hover:underline font-semibold">Download Magic Brawl APK</Link> and enjoy premium access from day one.</p>
 
           <h2 className="text-2xl font-bold text-[#FFA500] mt-10">Frequently Asked Questions</h2>
           <div className="space-y-4 mt-6">

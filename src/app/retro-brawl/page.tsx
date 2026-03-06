@@ -72,7 +72,7 @@ export default function RetroBrawlPage() {
           </p>
           <div className="flex justify-center mt-8">
             <a
-              href={process.env.NEXT_PUBLIC_DOWNLOAD_URL || '/download-card-rummy'}
+              href={process.env.NEXT_PUBLIC_DOWNLOAD_URL || '/download-magic-brawl-apk'}
               className="relative flex items-center px-10 py-5 text-white font-bold text-lg rounded-full border-2 border-[#60a5fa] hover:bg-[#60a5fa]/10 transition-all duration-300 group shadow-2xl hover:shadow-[0_0_30px_rgba(96,165,250,0.3)] hover:scale-105"
             >
               <span>Download Retro Brawl APK</span>

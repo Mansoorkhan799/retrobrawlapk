@@ -4,7 +4,7 @@ import Script from 'next/script';
 import ScreenshotGallery from '@/components/ScreenshotGallery';
 import { Metadata } from 'next';
 
-const DOWNLOAD_URL = process.env.NEXT_PUBLIC_DOWNLOAD_URL || '/download-card-rummy';
+const DOWNLOAD_URL = process.env.NEXT_PUBLIC_DOWNLOAD_URL || '/download-magic-brawl-apk';
 
 export const metadata: Metadata = {
   title: "Magic Brawl APK v50.221 | Unlocked Premium – Unlimited Gems [2026]",
@@ -84,7 +84,7 @@ export default function Home() {
         "image": "https://magicbrawlapk.net/magic-brawl-apk-logo.webp",
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.7", "ratingCount": "20000000", "bestRating": "5" },
-        "downloadUrl": "https://magicbrawlapk.net/download-card-rummy",
+        "downloadUrl": "https://magicbrawlapk.net/download-magic-brawl-apk",
         "softwareVersion": "50.221",
         "fileSize": "363MB",
         "description": "Magic Brawl is a rebirth of Brawl Stars — a fan-made MOD built on private servers. All brawlers unlocked, unlimited gems, exclusive skins, custom maps, and online battles.",
@@ -176,7 +176,7 @@ export default function Home() {
             <div className="flex gap-3">
               <a href={DOWNLOAD_URL} className="text-sm font-semibold text-[#4ade80] hover:underline">Download Android</a>
               <span className="text-gray-600">|</span>
-              <Link href="/download-card-rummy" className="text-sm font-semibold text-[#60a5fa] hover:underline">Download iOS</Link>
+              <Link href="/download-magic-brawl-apk" className="text-sm font-semibold text-[#60a5fa] hover:underline">Download iOS</Link>
             </div>
           </div>
           <div className="bg-secondary rounded-xl p-6 border border-gray-700 hover:border-[#FFA500]/50 transition-all">
@@ -191,7 +191,7 @@ export default function Home() {
             <div className="flex gap-3 flex-wrap">
               <Link href="/retro-brawl" className="text-sm font-semibold text-[#4ade80] hover:underline">Learn More</Link>
               <span className="text-gray-600">|</span>
-              <Link href="/download-card-rummy" className="text-sm font-semibold text-[#60a5fa] hover:underline">Download Android</Link>
+              <Link href="/download-magic-brawl-apk" className="text-sm font-semibold text-[#60a5fa] hover:underline">Download Android</Link>
               <span className="text-gray-600">|</span>
               <Link href="/blog/magic-brawl-vs-retro-brawl-biggest-differences" className="text-sm font-semibold text-[#f97316] hover:underline">Compare</Link>
             </div>

@@ -99,14 +99,14 @@ export default function MobileNavigation() {
               Home
             </Link>
             <Link 
-              href="/download-card-rummy" 
+              href="/download-magic-brawl-apk" 
               className="text-white hover:text-accent py-2 text-lg font-medium transition-colors"
               onClick={() => setIsOpen(false)}
             >
               Download
             </Link>
             <Link 
-              href="/card-rummy-for-pc" 
+              href="/magic-brawl-for-pc" 
               className="text-white hover:text-accent py-2 text-lg font-medium transition-colors"
               onClick={() => setIsOpen(false)}
             >

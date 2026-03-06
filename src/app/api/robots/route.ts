@@ -38,11 +38,11 @@ Disallow: /api/
 Disallow: /admin/
 
 # Priority pages
-Allow: /download-card-rummy
-Allow: /deposit-money-in-card-rummy
-Allow: /withdraw-money-from-card-rummy
+Allow: /download-magic-brawl-apk
+Allow: /deposit-money-in-magic-brawl
+Allow: /withdraw-money-from-magic-brawl
 Allow: /magic-brawl-for-ios
-Allow: /card-rummy-for-pc
+Allow: /magic-brawl-for-pc
 Allow: /about-us
 Allow: /blog
 

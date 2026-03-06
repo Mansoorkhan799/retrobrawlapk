@@ -76,7 +76,7 @@ export default function MagicBrawlForIOSPage() {
 
         <div className="flex justify-center mt-8 mb-8">
           <Link
-            href="/download-card-rummy"
+            href="/download-magic-brawl-apk"
             className="inline-flex items-center px-8 py-4 font-bold rounded-full border-2 border-[#0ea5e9] text-white hover:bg-[#0ea5e9]/10 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_rgba(14,165,233,0.3)] animate-pulse-glow"
           >
             <span className="mr-2">Get Magic Brawl IPA</span>

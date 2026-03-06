@@ -58,7 +58,7 @@ export default function BlogPost() {
 
           <h2 className="text-2xl font-bold text-[#FFA500] mt-8">How to Get Started</h2>
           <p>Getting started is simple. Visit <Link href="/" className="text-accent hover:underline">magicbrawlapk.net</Link>, download the latest APK (v50.221), enable installation from unknown sources on your Android device, and install. The entire process takes under 3 minutes. iOS users can install via IPA — check our <Link href="/magic-brawl-for-ios" className="text-accent hover:underline">iOS guide</Link>.</p>
-          <p><Link href="/download-card-rummy" className="text-accent hover:underline font-semibold">Download Magic Brawl APK</Link> and see why 2026 is the year of the rebirth.</p>
+          <p><Link href="/download-magic-brawl-apk" className="text-accent hover:underline font-semibold">Download Magic Brawl APK</Link> and see why 2026 is the year of the rebirth.</p>
         </div>
       </article>
     </>

@@ -16,11 +16,11 @@ export const metadata: Metadata = {
     'Android Emulator Magic Brawl'
   ],
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 } },
-  alternates: { canonical: "https://magicbrawlapk.net/card-rummy-for-pc" },
+  alternates: { canonical: "https://magicbrawlapk.net/magic-brawl-for-pc" },
   openGraph: {
     title: 'Magic Brawl for PC | Download with Android Emulator',
     description: 'Play Magic Brawl on PC using Android Emulator. Brawl Stars rebirth on bigger screen.',
-    url: "https://magicbrawlapk.net/card-rummy-for-pc",
+    url: "https://magicbrawlapk.net/magic-brawl-for-pc",
     siteName: "Magic Brawl APK",
     locale: "en_US",
     type: "website",
@@ -46,7 +46,7 @@ export default function CardRummyForPCPage() {
     "publisher": { "@type": "Organization", "name": "Magic Brawl APK", "logo": { "@type": "ImageObject", "url": "https://magicbrawlapk.net/magic-brawl-apk-logo.webp" } },
     "datePublished": "2026-01-03",
     "dateModified": "2026-01-03",
-    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://magicbrawlapk.net/card-rummy-for-pc" },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://magicbrawlapk.net/magic-brawl-for-pc" },
     "about": { "@type": "SoftwareApplication", "name": "Magic Brawl APK", "operatingSystem": "Windows 7 or higher", "applicationCategory": "GameApplication" },
     "articleSection": "Gaming",
     "keywords": "Magic Brawl for PC, Magic Brawl PC download, BlueStacks, Android Emulator",
@@ -60,7 +60,7 @@ export default function CardRummyForPCPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://magicbrawlapk.net" }, { "@type": "ListItem", "position": 2, "name": "Magic Brawl for PC", "item": "https://magicbrawlapk.net/card-rummy-for-pc" }] }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://magicbrawlapk.net" }, { "@type": "ListItem", "position": 2, "name": "Magic Brawl for PC", "item": "https://magicbrawlapk.net/magic-brawl-for-pc" }] }) }} />
       
       {/* Hero Section */}
       <section className="py-8 md:py-16 px-4 md:px-8 max-w-7xl mx-auto">
@@ -74,7 +74,7 @@ export default function CardRummyForPCPage() {
             Using Android Emulator — Free
           </h2>
           <p className="text-lg text-gray-300 leading-relaxed max-w-4xl mx-auto">
-            <Link href="/" className="text-accent hover:underline font-semibold">Magic Brawl</Link> is a rebirth of Brawl Stars. <Link href="/download-card-rummy" className="text-accent hover:underline font-semibold">Download Magic Brawl</Link> APK first, then follow this guide to play on PC using an Android emulator like BlueStacks. Enjoy online battles, unique brawlers, and exclusive content on a bigger screen. Free entertainment game!
+            <Link href="/" className="text-accent hover:underline font-semibold">Magic Brawl</Link> is a rebirth of Brawl Stars. <Link href="/download-magic-brawl-apk" className="text-accent hover:underline font-semibold">Download Magic Brawl</Link> APK first, then follow this guide to play on PC using an Android emulator like BlueStacks. Enjoy online battles, unique brawlers, and exclusive content on a bigger screen. Free entertainment game!
           </p>
         </div>
 
@@ -199,7 +199,7 @@ export default function CardRummyForPCPage() {
           {/* Download Button */}
           <div className="flex justify-center mt-10">
             <a
-              href={process.env.NEXT_PUBLIC_DOWNLOAD_URL || '/download-card-rummy'}
+              href={process.env.NEXT_PUBLIC_DOWNLOAD_URL || '/download-magic-brawl-apk'}
               className="relative flex items-center px-10 py-5 text-white font-bold text-lg rounded-full border-2 border-[#0ea5e9] hover:bg-[#0ea5e9]/10 transition-all duration-300 group shadow-2xl hover:shadow-[0_0_30px_rgba(14,165,233,0.3)] hover:scale-105 animate-pulse-glow"
             >
               <span>Magic Brawl APK</span>

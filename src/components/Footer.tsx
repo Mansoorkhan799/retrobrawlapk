@@ -50,12 +50,12 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/download-card-rummy" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/download-magic-brawl-apk" className="text-gray-300 hover:text-accent transition-colors">
                   Download
                 </Link>
               </li>
               <li>
-                <Link href="/card-rummy-for-pc" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/magic-brawl-for-pc" className="text-gray-300 hover:text-accent transition-colors">
                   For PC
                 </Link>
               </li>
@@ -121,7 +121,7 @@ export default function Footer() {
               Download Magic Brawl APK to enjoy the best Brawl Stars experience — online battles, unique brawlers, and exclusive content.
             </p>
             <Link 
-              href="/download-card-rummy" 
+              href="/download-magic-brawl-apk" 
               className="download-btn bg-transparent hover:bg-[#0ea5e9]/10 text-white font-bold py-3 px-6 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl border-2 border-[#0ea5e9]"
             >
               <span>DOWNLOAD NOW</span>
