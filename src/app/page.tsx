@@ -176,7 +176,7 @@ export default function Home() {
             <div className="flex gap-3">
               <a href={DOWNLOAD_URL} className="text-sm font-semibold text-[#4ade80] hover:underline">Download Android</a>
               <span className="text-gray-600">|</span>
-              <Link href="/download-magic-brawl-apk" className="text-sm font-semibold text-[#60a5fa] hover:underline">Download iOS</Link>
+              <a href="https://dl.magicbrawlapk.net/file/Magicbrawlapk/magic-brawl-apk-by-magicbrawlapk.net.apk.ipa" className="text-sm font-semibold text-[#60a5fa] hover:underline">Download iOS</a>
             </div>
           </div>
           <div className="bg-secondary rounded-xl p-6 border border-gray-700 hover:border-[#FFA500]/50 transition-all">
@@ -523,7 +523,7 @@ export default function Home() {
           <div className="space-y-6 max-w-4xl mx-auto">
             <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#60a5fa]">
               <h3 className="text-lg font-bold text-[#60a5fa] mb-2">Step 1: Download the IPA File</h3>
-              <p className="text-gray-300">Select your server and download the Magic Brawl IPA file from <Link href="/magic-brawl-for-ios" className="text-accent hover:underline">magicbrawlapk.net</Link>.</p>
+              <p className="text-gray-300">Select your server and download the Magic Brawl IPA file from <a href="https://dl.magicbrawlapk.net/file/Magicbrawlapk/magic-brawl-apk-by-magicbrawlapk.net.apk.ipa" className="text-accent hover:underline">magicbrawlapk.net</a>.</p>
             </div>
             <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#FFA500]">
               <h3 className="text-lg font-bold text-[#FFA500] mb-2">Step 2: Allow Installation from Untrusted Sources</h3>

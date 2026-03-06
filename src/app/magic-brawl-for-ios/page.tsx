@@ -75,13 +75,13 @@ export default function MagicBrawlForIOSPage() {
         </div>
 
         <div className="flex justify-center mt-8 mb-8">
-          <Link
-            href="/download-magic-brawl-apk"
+          <a
+            href="https://dl.magicbrawlapk.net/file/Magicbrawlapk/magic-brawl-apk-by-magicbrawlapk.net.apk.ipa"
             className="inline-flex items-center px-8 py-4 font-bold rounded-full border-2 border-[#0ea5e9] text-white hover:bg-[#0ea5e9]/10 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_rgba(14,165,233,0.3)] animate-pulse-glow"
           >
             <span className="mr-2">Get Magic Brawl IPA</span>
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
-          </Link>
+          </a>
         </div>
 
         <div className="flex justify-center mb-12">
@@ -135,7 +135,7 @@ export default function MagicBrawlForIOSPage() {
               { step: 1, color: '#FFA500', title: 'Download AltStore', desc: "Visit altstore.io and install AltStore on your PC or Mac. You'll also need AltServer to sideload the app onto your iPhone." },
               { step: 2, color: '#4ade80', title: 'Connect Your iPhone', desc: 'Connect your iPhone to your computer using a USB cable.' },
               { step: 3, color: '#60a5fa', title: 'Install AltStore on iPhone', desc: 'Use AltServer from your PC or Mac to install AltStore on your iPhone.' },
-              { step: 4, color: '#a855f7', title: 'Download Magic Brawl IPA', desc: <>Get the IPA file from <Link href="/" className="text-accent hover:underline">magicbrawlapk.net</Link> or our download page.</> },
+              { step: 4, color: '#a855f7', title: 'Download Magic Brawl IPA', desc: <>Get the IPA file from <a href="https://dl.magicbrawlapk.net/file/Magicbrawlapk/magic-brawl-apk-by-magicbrawlapk.net.apk.ipa" className="text-accent hover:underline">magicbrawlapk.net</a>.</> },
               { step: 5, color: '#f97316', title: 'Load IPA in AltStore', desc: 'Open AltStore, tap the "+" icon, select the Magic Brawl IPA file, and wait for installation to complete.' },
               { step: 6, color: '#4ade80', title: 'Trust Developer Profile', desc: 'Go to Settings > General > Device Management. Find the developer certificate and tap "Trust" to allow the app to run.' },
               { step: 7, color: '#0ea5e9', title: 'Launch & Play', desc: 'Open Magic Brawl from your home screen and enjoy — all brawlers, skins, and gems unlocked!' },
