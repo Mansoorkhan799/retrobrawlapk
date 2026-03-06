@@ -164,9 +164,11 @@ export default function Home() {
         <h2 className="text-3xl font-bold mb-8 text-[#FFA500] text-center">Our Servers</h2>
         <p className="text-gray-400 text-center mb-8">Choose your preferred server — or download them all for the complete experience!</p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-          <div className="bg-secondary rounded-xl p-6 border border-[#FFA500]/30 hover:border-[#FFA500] transition-all">
+          <div className="bg-secondary rounded-xl p-6 border border-[#FFA500]/30 hover:border-[#FFA500] hover:shadow-[0_0_16px_rgba(255,165,0,0.2)] transition-all duration-300">
             <div className="flex items-center gap-3 mb-3">
-              <div className="w-12 h-12 bg-[#FFA500]/20 rounded-lg flex items-center justify-center"><span className="text-2xl">⚔️</span></div>
+              <div className="w-12 h-12 rounded-lg overflow-hidden flex-shrink-0">
+                <Image src="/magic-brawl-apk-logo.webp" alt="Magic Brawl APK Logo" width={48} height={48} className="w-full h-full object-cover" />
+              </div>
               <div>
                 <h3 className="text-xl font-bold text-white">Magic Brawl APK</h3>
                 <p className="text-gray-400 text-sm">Version: v50.221</p>
@@ -179,9 +181,11 @@ export default function Home() {
               <a href="https://dl.magicbrawlapk.net/file/Magicbrawlapk/magic-brawl-apk-by-magicbrawlapk.net.apk.ipa" className="text-sm font-semibold text-[#60a5fa] hover:underline">Download iOS</a>
             </div>
           </div>
-          <div className="bg-secondary rounded-xl p-6 border border-gray-700 hover:border-[#FFA500]/50 transition-all">
+          <div className="bg-secondary rounded-xl p-6 border border-[#FFA500]/30 hover:border-[#FFA500] hover:shadow-[0_0_16px_rgba(255,165,0,0.2)] transition-all duration-300">
             <div className="flex items-center gap-3 mb-3">
-              <div className="w-12 h-12 bg-[#60a5fa]/20 rounded-lg flex items-center justify-center"><span className="text-2xl">🕹️</span></div>
+              <div className="w-12 h-12 rounded-lg overflow-hidden flex-shrink-0">
+                <Image src="/retro-brawl-apk.webp" alt="Retro Brawl Logo" width={48} height={48} className="w-full h-full object-cover" />
+              </div>
               <div>
                 <h3 className="text-xl font-bold text-white">Retro Brawl</h3>
                 <p className="text-gray-400 text-sm">Version: v12.98</p>
