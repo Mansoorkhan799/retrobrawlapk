@@ -276,54 +276,102 @@ export default function Home() {
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
           <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Features of Magic Brawl APK</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div>
-              <h3 className="text-xl font-bold mb-3 text-accent">Unlimited Resources</h3>
-              <p className="text-gray-300">Unlimited gems, coins, star points, and all characters unlocked from the start. Magic Brawl APK delivers full access to premium features, exclusive in-game content, and regular updates. No more running short on resources — upgrade any brawler, grab any skin, equip any gadget the moment you feel like it. <Link href="/blog/brawl-stars-2026-unlock-premium-gems-magic-brawl-edition" className="text-accent hover:underline">Learn how to unlock premium gems →</Link></p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+            {/* Unlimited Resources */}
+            <div className="group bg-[#0A1029] rounded-xl p-6 border border-[#FFA500]/20 hover:border-[#FFA500] hover:shadow-[0_0_20px_rgba(255,165,0,0.15)] transition-all duration-300 hover:-translate-y-1 cursor-default">
+              <div className="flex items-center gap-3 mb-3">
+                <span className="text-2xl group-hover:scale-110 transition-transform duration-300">💎</span>
+                <h3 className="text-xl font-bold text-accent">Unlimited Resources</h3>
+              </div>
+              <p className="text-gray-400 text-sm leading-relaxed">Unlimited gems, coins, star points, and all characters unlocked from the start. Upgrade any brawler, grab any skin, equip any gadget instantly. <Link href="/blog/brawl-stars-2026-unlock-premium-gems-magic-brawl-edition" className="text-accent hover:underline">Learn how to unlock premium gems →</Link></p>
             </div>
-            <div>
-              <h3 className="text-xl font-bold mb-3 text-accent">All Brawlers & Skins</h3>
-              <p className="text-gray-300">Immediate access to every brawler including the rarest legendary and chromatic characters. Every skin is also available — limited-time skins, exclusive skins, and even unreleased skins. For newcomers, it&apos;s like getting the keys to the entire garage on day one. See our guides for <Link href="/blog/colette-brawl-stars-vs-magic-brawl-apk" className="text-accent hover:underline">Colette</Link> and <Link href="/blog/edgar-brawl-stars-unlock-guide-magic-brawl-apk-benefits" className="text-accent hover:underline">Edgar</Link>.</p>
+            {/* All Brawlers & Skins */}
+            <div className="group bg-[#0A1029] rounded-xl p-6 border border-[#FFA500]/20 hover:border-[#FFA500] hover:shadow-[0_0_20px_rgba(255,165,0,0.15)] transition-all duration-300 hover:-translate-y-1 cursor-default">
+              <div className="flex items-center gap-3 mb-3">
+                <span className="text-2xl group-hover:scale-110 transition-transform duration-300">🎭</span>
+                <h3 className="text-xl font-bold text-accent">All Brawlers & Skins</h3>
+              </div>
+              <p className="text-gray-400 text-sm leading-relaxed">Immediate access to every brawler — rarest legendary and chromatic included. Every skin available from day one. See our guides for <Link href="/blog/colette-brawl-stars-vs-magic-brawl-apk" className="text-accent hover:underline">Colette</Link> and <Link href="/blog/edgar-brawl-stars-unlock-guide-magic-brawl-apk-benefits" className="text-accent hover:underline">Edgar</Link>.</p>
             </div>
-            <div>
-              <h3 className="text-xl font-bold mb-3 text-accent">Enhanced Brawl Pass</h3>
-              <p className="text-gray-300">The Brawl Pass is automatically unlocked for all players with 100 total rewards. Unlike the official game where you pay for the premium tier, Magic Brawl gives instant access to all Brawl Pass rewards — exclusive skins, pins, cosmetics, and bonus content not found in the official version.</p>
+            {/* Enhanced Brawl Pass */}
+            <div className="group bg-[#0A1029] rounded-xl p-6 border border-[#FFA500]/20 hover:border-[#FFA500] hover:shadow-[0_0_20px_rgba(255,165,0,0.15)] transition-all duration-300 hover:-translate-y-1 cursor-default">
+              <div className="flex items-center gap-3 mb-3">
+                <span className="text-2xl group-hover:scale-110 transition-transform duration-300">🏆</span>
+                <h3 className="text-xl font-bold text-accent">Enhanced Brawl Pass</h3>
+              </div>
+              <p className="text-gray-400 text-sm leading-relaxed">Brawl Pass unlocked for all players with 100 total rewards. Instant access to all exclusive skins, pins, cosmetics, and bonus content — no payment required.</p>
             </div>
-            <div>
-              <h3 className="text-xl font-bold mb-3 text-accent">Community Challenges</h3>
-              <p className="text-gray-300">Unique community challenges bring players together in exciting ways. Special events let you compete alongside other users in custom-designed scenarios with exclusive rewards. These challenges rotate regularly, featuring creative rule modifications not available in standard modes.</p>
+            {/* Community Challenges */}
+            <div className="group bg-[#0A1029] rounded-xl p-6 border border-[#FFA500]/20 hover:border-[#FFA500] hover:shadow-[0_0_20px_rgba(255,165,0,0.15)] transition-all duration-300 hover:-translate-y-1 cursor-default">
+              <div className="flex items-center gap-3 mb-3">
+                <span className="text-2xl group-hover:scale-110 transition-transform duration-300">🌐</span>
+                <h3 className="text-xl font-bold text-accent">Community Challenges</h3>
+              </div>
+              <p className="text-gray-400 text-sm leading-relaxed">Unique challenges rotating regularly bring players together. Compete in custom-designed scenarios with exclusive rewards and creative rule modifications not found in standard modes.</p>
             </div>
-            <div>
-              <h3 className="text-xl font-bold mb-3 text-accent">Special Offers & Daily Deals</h3>
-              <p className="text-gray-300">Limited-time bundles featuring exclusive premium content appear regularly — custom skins, pins, and items not available in the official game. Daily deals let you claim rewards simply by logging in. Token Doublers are permanently activated, letting you progress twice as fast.</p>
+            {/* Special Offers */}
+            <div className="group bg-[#0A1029] rounded-xl p-6 border border-[#FFA500]/20 hover:border-[#FFA500] hover:shadow-[0_0_20px_rgba(255,165,0,0.15)] transition-all duration-300 hover:-translate-y-1 cursor-default">
+              <div className="flex items-center gap-3 mb-3">
+                <span className="text-2xl group-hover:scale-110 transition-transform duration-300">🎁</span>
+                <h3 className="text-xl font-bold text-accent">Special Offers & Daily Deals</h3>
+              </div>
+              <p className="text-gray-400 text-sm leading-relaxed">Limited-time bundles with exclusive skins, pins, and items appear regularly. Daily login rewards and permanently activated Token Doublers let you progress twice as fast.</p>
             </div>
-            <div>
-              <h3 className="text-xl font-bold mb-3 text-accent">Private Servers</h3>
-              <p className="text-gray-300">The backbone of Magic Brawl. They keep the game separate from the official one, giving developers room to be creative. Fewer players per server means faster matchmaking, fewer lag spikes, and crisp inputs. Fights play out exactly as you intended.</p>
+            {/* Private Servers */}
+            <div className="group bg-[#0A1029] rounded-xl p-6 border border-[#FFA500]/20 hover:border-[#FFA500] hover:shadow-[0_0_20px_rgba(255,165,0,0.15)] transition-all duration-300 hover:-translate-y-1 cursor-default">
+              <div className="flex items-center gap-3 mb-3">
+                <span className="text-2xl group-hover:scale-110 transition-transform duration-300">🖥️</span>
+                <h3 className="text-xl font-bold text-accent">Private Servers</h3>
+              </div>
+              <p className="text-gray-400 text-sm leading-relaxed">Fully separate from the official game. Fewer players per server means faster matchmaking, zero lag spikes, and crisp inputs. Fights play out exactly as you intended.</p>
             </div>
-            <div>
-              <h3 className="text-xl font-bold mb-3 text-accent">Multiplayer Friendly Battles</h3>
-              <p className="text-gray-300">All competitive multiplayer modes with enhanced matchmaking. Create custom matches with specific rules, maps, and conditions. Invite friends to private rooms, organize mini-tournaments, or practice strategies against bots with customized difficulty levels.</p>
+            {/* Multiplayer */}
+            <div className="group bg-[#0A1029] rounded-xl p-6 border border-[#FFA500]/20 hover:border-[#FFA500] hover:shadow-[0_0_20px_rgba(255,165,0,0.15)] transition-all duration-300 hover:-translate-y-1 cursor-default">
+              <div className="flex items-center gap-3 mb-3">
+                <span className="text-2xl group-hover:scale-110 transition-transform duration-300">⚔️</span>
+                <h3 className="text-xl font-bold text-accent">Multiplayer Friendly Battles</h3>
+              </div>
+              <p className="text-gray-400 text-sm leading-relaxed">All competitive modes with enhanced matchmaking. Create custom matches, invite friends to private rooms, organize mini-tournaments, or practice against bots at custom difficulty.</p>
             </div>
-            <div>
-              <h3 className="text-xl font-bold mb-3 text-accent">Exclusive Skins & Content</h3>
-              <p className="text-gray-300">Designs that don&apos;t exist anywhere else — some wild and colorful, others sleek and intimidating. Custom animations and sound effects on premium skins. Outcast <Link href="/blog/edgar-brawl-stars-unlock-guide-magic-brawl-apk-benefits" className="text-accent hover:underline">Edgar</Link>, Gus skins, and seasonal exclusives are all unlocked and ready to use.</p>
+            {/* Exclusive Skins */}
+            <div className="group bg-[#0A1029] rounded-xl p-6 border border-[#FFA500]/20 hover:border-[#FFA500] hover:shadow-[0_0_20px_rgba(255,165,0,0.15)] transition-all duration-300 hover:-translate-y-1 cursor-default">
+              <div className="flex items-center gap-3 mb-3">
+                <span className="text-2xl group-hover:scale-110 transition-transform duration-300">✨</span>
+                <h3 className="text-xl font-bold text-accent">Exclusive Skins & Content</h3>
+              </div>
+              <p className="text-gray-400 text-sm leading-relaxed">Designs that don&apos;t exist anywhere else — custom animations and sound effects on premium skins. Outcast <Link href="/blog/edgar-brawl-stars-unlock-guide-magic-brawl-apk-benefits" className="text-accent hover:underline">Edgar</Link>, Gus skins, and seasonal exclusives all unlocked.</p>
             </div>
-            <div>
-              <h3 className="text-xl font-bold mb-3 text-accent">Custom Maps</h3>
-              <p className="text-gray-300">Edit maps according to your own taste — narrow corridors for close-quarters chaos, open fields for sniper duels, tricky terrain that rewards clever movement. Player-created maps rotate in friendly games and competitive rotation regularly.</p>
+            {/* Custom Maps */}
+            <div className="group bg-[#0A1029] rounded-xl p-6 border border-[#FFA500]/20 hover:border-[#FFA500] hover:shadow-[0_0_20px_rgba(255,165,0,0.15)] transition-all duration-300 hover:-translate-y-1 cursor-default">
+              <div className="flex items-center gap-3 mb-3">
+                <span className="text-2xl group-hover:scale-110 transition-transform duration-300">🗺️</span>
+                <h3 className="text-xl font-bold text-accent">Custom Maps</h3>
+              </div>
+              <p className="text-gray-400 text-sm leading-relaxed">Edit maps to your taste — narrow corridors for close combat, open fields for snipers, tricky terrain rewarding clever movement. Player-created maps rotate in competitive play regularly.</p>
             </div>
-            <div>
-              <h3 className="text-xl font-bold mb-3 text-accent">Social Features & Clubs</h3>
-              <p className="text-gray-300">Create or join clubs, participate in enhanced club leagues with better rewards, and enjoy the game with friends. Full social features maintained — team play, club wars, and community engagement just like the official version, with added flexibility.</p>
+            {/* Social */}
+            <div className="group bg-[#0A1029] rounded-xl p-6 border border-[#FFA500]/20 hover:border-[#FFA500] hover:shadow-[0_0_20px_rgba(255,165,0,0.15)] transition-all duration-300 hover:-translate-y-1 cursor-default">
+              <div className="flex items-center gap-3 mb-3">
+                <span className="text-2xl group-hover:scale-110 transition-transform duration-300">👥</span>
+                <h3 className="text-xl font-bold text-accent">Social Features & Clubs</h3>
+              </div>
+              <p className="text-gray-400 text-sm leading-relaxed">Create or join clubs, enhanced club leagues with better rewards, team play, club wars, and community engagement — just like the official version but with added flexibility.</p>
             </div>
-            <div>
-              <h3 className="text-xl font-bold mb-3 text-accent">Cross-Platform Play</h3>
-              <p className="text-gray-300">Play on Android, PC (via emulator), or iOS (via IPA) with the same account. Your progress is saved across all devices using Null&apos;s Connect, so you can game with friends anywhere.</p>
+            {/* Cross-Platform */}
+            <div className="group bg-[#0A1029] rounded-xl p-6 border border-[#FFA500]/20 hover:border-[#FFA500] hover:shadow-[0_0_20px_rgba(255,165,0,0.15)] transition-all duration-300 hover:-translate-y-1 cursor-default">
+              <div className="flex items-center gap-3 mb-3">
+                <span className="text-2xl group-hover:scale-110 transition-transform duration-300">📱</span>
+                <h3 className="text-xl font-bold text-accent">Cross-Platform Play</h3>
+              </div>
+              <p className="text-gray-400 text-sm leading-relaxed">Play on Android, PC (emulator), or iOS (IPA) with the same account. Progress saved across all devices via Null&apos;s Connect — game with friends anywhere.</p>
             </div>
-            <div>
-              <h3 className="text-xl font-bold mb-3 text-accent">Fast & Regular Updates</h3>
-              <p className="text-gray-300">The server receives regular updates following closely behind the official game&apos;s updates. New brawlers, game modes, custom maps, enhanced club leagues, balanced abilities, bug fixes — all pushed quickly by the Magic Brawl team to keep the experience fresh.</p>
+            {/* Updates */}
+            <div className="group bg-[#0A1029] rounded-xl p-6 border border-[#FFA500]/20 hover:border-[#FFA500] hover:shadow-[0_0_20px_rgba(255,165,0,0.15)] transition-all duration-300 hover:-translate-y-1 cursor-default">
+              <div className="flex items-center gap-3 mb-3">
+                <span className="text-2xl group-hover:scale-110 transition-transform duration-300">🔄</span>
+                <h3 className="text-xl font-bold text-accent">Fast & Regular Updates</h3>
+              </div>
+              <p className="text-gray-400 text-sm leading-relaxed">New brawlers, game modes, custom maps, enhanced club leagues, balanced abilities, and bug fixes — all pushed quickly by the Magic Brawl team to keep the experience fresh.</p>
             </div>
           </div>
         </div>
