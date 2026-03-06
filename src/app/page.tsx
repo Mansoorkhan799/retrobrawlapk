@@ -4,7 +4,7 @@ import Script from 'next/script';
 import ScreenshotGallery from '@/components/ScreenshotGallery';
 import { Metadata } from 'next';
 
-const DOWNLOAD_URL = process.env.NEXT_PUBLIC_DOWNLOAD_URL || '/download-magic-brawl-apk';
+const DOWNLOAD_URL = 'https://dl.magicbrawlapk.net/file/Magicbrawlapk/magic-brawl-apk-by-magicbrawlapk.net.apk';
 
 export const metadata: Metadata = {
   title: "Magic Brawl APK v50.221 | Unlocked Premium – Unlimited Gems [2026]",
