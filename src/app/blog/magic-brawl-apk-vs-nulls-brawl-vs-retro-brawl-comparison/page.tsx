@@ -93,7 +93,7 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-[#FFA500] pt-4">Which Private Server Is Right for You?</h2>
           <p>Choose <strong>Magic Brawl APK</strong> if you want the most complete experience: latest updates, exclusive brawlers, custom maps, community events, and multi-platform support. It&apos;s the most feature-rich private server available.</p>
           <p>Choose <strong>Null&apos;s Brawl</strong> if you want a straightforward, maxed-out version of the official game without extras. It&apos;s polished and stable, but doesn&apos;t offer exclusive content or custom features.</p>
-          <p>Choose <strong><Link href="/retro-brawl" className="text-accent hover:underline">Retro Brawl</Link></strong> if you want to relive the 2018 experience. It&apos;s purely about nostalgia — the original brawlers, classic maps, and old-school UI.</p>
+          <p>Choose <strong><Link href="/download-retro-brawl" className="text-accent hover:underline">Retro Brawl</Link></strong> if you want to relive the 2018 experience. It&apos;s purely about nostalgia — the original brawlers, classic maps, and old-school UI.</p>
           <p>All three are free. Many players install multiple servers and switch between them depending on their mood. There&apos;s no conflict — each runs independently on its own private infrastructure.</p>
 
           <p className="mt-8"><Link href="/" className="text-accent hover:underline font-semibold">Download Magic Brawl APK</Link> and experience the full difference yourself.</p>

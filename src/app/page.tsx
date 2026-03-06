@@ -189,7 +189,7 @@ export default function Home() {
             </div>
             <p className="text-gray-300 text-sm mb-4">Retro Brawl brings back 2018 Brawl Stars! Original 21 heroes, classic maps, old-school UI. Preserves the nostalgic gameplay you love.</p>
             <div className="flex gap-3 flex-wrap">
-              <Link href="/retro-brawl" className="text-sm font-semibold text-[#4ade80] hover:underline">Learn More</Link>
+              <Link href="/download-retro-brawl" className="text-sm font-semibold text-[#4ade80] hover:underline">Learn More</Link>
               <span className="text-gray-600">|</span>
               <Link href="/download-magic-brawl-apk" className="text-sm font-semibold text-[#60a5fa] hover:underline">Download Android</Link>
               <span className="text-gray-600">|</span>

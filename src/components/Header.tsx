@@ -40,16 +40,16 @@ export default function Header() {
           <Link href="/magic-brawl-for-ios" className="text-white hover:text-accent font-medium transition-colors">
             For iOS
           </Link>
-          <Link href="/retro-brawl" className="text-white hover:text-accent font-medium transition-colors">
+          <Link href="/download-retro-brawl" className="text-white hover:text-accent font-medium transition-colors">
             Retro Brawl
           </Link>
-          <Link href="/about-us" className="text-white hover:text-accent font-medium transition-colors">
+          <Link href="/magic-brawl-apk-about-us" className="text-white hover:text-accent font-medium transition-colors">
             About Us
           </Link>
           <Link href="/blog" className="text-white hover:text-accent font-medium transition-colors">
             Blog
           </Link>
-          <Link href="/contact-us" className="text-white hover:text-accent font-medium transition-colors">
+          <Link href="/magic-brawl-apk-contact-us" className="text-white hover:text-accent font-medium transition-colors">
             Contact Us
           </Link>
         </nav>

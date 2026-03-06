@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   description: 'Learn about Magic Brawl APK, a rebirth of Brawl Stars. Online battles, unique brawlers, exclusive skins. Free entertainment game with regular updates.',
   keywords: ['Magic Brawl about', 'about us', 'Magic Brawl APK', 'Brawl Stars rebirth', 'entertainment game', 'Magic Brawl history'],
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 } },
-  alternates: { canonical: "https://magicbrawlapk.net/about-us" },
+  alternates: { canonical: "https://magicbrawlapk.net/magic-brawl-apk-about-us" },
   openGraph: {
     title: 'About Magic Brawl APK - Brawl Stars Rebirth',
     description: 'Magic Brawl - A rebirth of Brawl Stars. Online battles, unique brawlers, exclusive content. Free entertainment game.',
-    url: "https://magicbrawlapk.net/about-us",
+    url: "https://magicbrawlapk.net/magic-brawl-apk-about-us",
     siteName: "Magic Brawl APK",
     locale: "en_US",
     type: "website",
@@ -71,7 +71,7 @@ export default function AboutPage() {
           <div className="bg-gradient-to-r from-orange-600 to-orange-500 rounded-2xl shadow-xl p-8 md:p-12 mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white text-center">Our Aim!</h2>
             <p className="text-lg md:text-xl text-white leading-relaxed text-center">
-              Our aim is to provide users with the latest information about Magic Brawl — a rebirth of Brawl Stars. For any questions or queries, visit our <Link href="/contact-us" className="underline hover:text-orange-100 font-semibold">contact us page</Link>.
+              Our aim is to provide users with the latest information about Magic Brawl — a rebirth of Brawl Stars. For any questions or queries, visit our <Link href="/magic-brawl-apk-contact-us" className="underline hover:text-orange-100 font-semibold">contact us page</Link>.
             </p>
           </div>
           
@@ -82,7 +82,7 @@ export default function AboutPage() {
               We&apos;re here to help! Contact our team for any information or queries about Magic Brawl.
             </p>
             <Link 
-              href="/contact-us" 
+              href="/magic-brawl-apk-contact-us" 
               className="inline-block bg-accent hover:bg-accent/90 text-primary font-bold py-3 px-8 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
             >
               Contact Us
@@ -91,7 +91,7 @@ export default function AboutPage() {
         </div>
       </div>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://magicbrawlapk.net" }, { "@type": "ListItem", "position": 2, "name": "About Us", "item": "https://magicbrawlapk.net/about-us" }] }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://magicbrawlapk.net" }, { "@type": "ListItem", "position": 2, "name": "About Us", "item": "https://magicbrawlapk.net/magic-brawl-apk-about-us" }] }) }} />
       <Script
         id="about-page-schema"
         type="application/ld+json"
@@ -112,7 +112,7 @@ export default function AboutPage() {
               "name": "Entertainment Game",
               "description": "Brawl Stars rebirth - online battles, unique brawlers, exclusive content"
             },
-            "mainEntityOfPage": { "@type": "WebPage", "@id": "https://magicbrawlapk.net/about-us" }
+            "mainEntityOfPage": { "@type": "WebPage", "@id": "https://magicbrawlapk.net/magic-brawl-apk-about-us" }
           })
         }}
       />

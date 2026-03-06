@@ -120,14 +120,14 @@ export default function MobileNavigation() {
               For iOS
             </Link>
             <Link 
-              href="/retro-brawl" 
+              href="/download-retro-brawl" 
               className="text-white hover:text-accent py-2 text-lg font-medium transition-colors"
               onClick={() => setIsOpen(false)}
             >
               Retro Brawl
             </Link>
             <Link 
-              href="/about-us" 
+              href="/magic-brawl-apk-about-us" 
               className="text-white hover:text-accent py-2 text-lg font-medium transition-colors"
               onClick={() => setIsOpen(false)}
             >
@@ -141,7 +141,7 @@ export default function MobileNavigation() {
               Blog
             </Link>
             <Link 
-              href="/contact-us" 
+              href="/magic-brawl-apk-contact-us" 
               className="text-white hover:text-accent py-2 text-lg font-medium transition-colors"
               onClick={() => setIsOpen(false)}
             >

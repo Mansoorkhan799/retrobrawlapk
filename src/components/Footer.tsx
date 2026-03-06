@@ -65,7 +65,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/retro-brawl" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/download-retro-brawl" className="text-gray-300 hover:text-accent transition-colors">
                   Retro Brawl
                 </Link>
               </li>
@@ -75,12 +75,12 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/about-us" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/magic-brawl-apk-about-us" className="text-gray-300 hover:text-accent transition-colors">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/contact-us" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/magic-brawl-apk-contact-us" className="text-gray-300 hover:text-accent transition-colors">
                   Contact Us
                 </Link>
               </li>

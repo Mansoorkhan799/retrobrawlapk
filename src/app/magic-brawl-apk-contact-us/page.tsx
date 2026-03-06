@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Contact Us - Magic Brawl APK',
     description: 'Get in touch with Magic Brawl APK support team for any queries or assistance.',
-    url: 'https://magicbrawlapk.net/contact-us',
+    url: 'https://magicbrawlapk.net/magic-brawl-apk-contact-us',
     siteName: 'Magic Brawl APK',
     type: 'website',
     images: [{ url: 'https://magicbrawlapk.net/feature/og-image.webp', width: 1200, height: 630, alt: 'Magic Brawl APK' }],
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     images: ['https://magicbrawlapk.net/feature/twitter-card.webp'],
   },
   alternates: {
-    canonical: 'https://magicbrawlapk.net/contact-us',
+    canonical: 'https://magicbrawlapk.net/magic-brawl-apk-contact-us',
   },
   robots: {
     index: true,
@@ -43,7 +43,7 @@ export default function Contact() {
           <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 mb-8">
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-gray-300 leading-relaxed mb-8">
-                Welcome to the Contact Us page. Feel free to contact us if you have any questions about <Link href="/" className="text-accent hover:underline font-semibold">Magic Brawl APK</Link>, <Link href="/about-us" className="text-accent hover:text-accent font-semibold">About us</Link>, <Link href="/privacy" className="text-accent hover:text-accent font-semibold">privacy policy</Link>, or anything else.
+                Welcome to the Contact Us page. Feel free to contact us if you have any questions about <Link href="/" className="text-accent hover:underline font-semibold">Magic Brawl APK</Link>, <Link href="/magic-brawl-apk-about-us" className="text-accent hover:text-accent font-semibold">About us</Link>, <Link href="/privacy" className="text-accent hover:text-accent font-semibold">privacy policy</Link>, or anything else.
               </p>
 
               {/* Email Contact Section */}
@@ -106,7 +106,7 @@ export default function Contact() {
               </div>
               <h3 className="text-xl font-bold mb-2 text-white">About Us</h3>
               <p className="text-gray-400 mb-4">Learn more about our platform</p>
-              <Link href="/about-us" className="text-accent hover:text-accent font-semibold">
+              <Link href="/magic-brawl-apk-about-us" className="text-accent hover:text-accent font-semibold">
                 About Us →
               </Link>
             </div>
@@ -115,7 +115,7 @@ export default function Contact() {
       </div>
 
       {/* Structured Data */}
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://magicbrawlapk.net" }, { "@type": "ListItem", "position": 2, "name": "Contact Us", "item": "https://magicbrawlapk.net/contact-us" }] }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://magicbrawlapk.net" }, { "@type": "ListItem", "position": 2, "name": "Contact Us", "item": "https://magicbrawlapk.net/magic-brawl-apk-contact-us" }] }) }} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

@@ -33,13 +33,13 @@ Disallow: /admin/
 # Priority pages
 Allow: /download-magic-brawl-apk
 Allow: /magic-brawl-for-ios
-Allow: /retro-brawl
+Allow: /download-retro-brawl
 Allow: /magic-brawl-for-pc
-Allow: /about-us
+Allow: /magic-brawl-apk-about-us
 Allow: /blog
 
 # Standard pages
-Allow: /contact-us
+Allow: /magic-brawl-apk-contact-us
 Allow: /privacy
 Allow: /disclaimer
 Allow: /dmca

@@ -122,7 +122,7 @@ export default function Disclaimer() {
                   If you have any questions about this Disclaimer, please feel free to contact us.
                 </p>
                 <Link 
-                  href="/contact-us" 
+                  href="/magic-brawl-apk-contact-us" 
                   className="inline-block bg-accent hover:bg-accent/90 text-primary font-bold py-3 px-6 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
                 >
                   Contact Us

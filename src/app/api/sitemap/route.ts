@@ -68,7 +68,7 @@ export async function GET() {
       priority: 0.9
     },
     {
-      url: '/retro-brawl',
+      url: '/download-retro-brawl',
       lastMod: new Date().toISOString(),
       changeFreq: 'weekly',
       priority: 0.9
@@ -93,7 +93,7 @@ export async function GET() {
       priority: 0.5
     },
     {
-      url: '/about-us',
+      url: '/magic-brawl-apk-about-us',
       lastMod: new Date().toISOString(),
       changeFreq: 'monthly',
       priority: 0.7,
@@ -119,7 +119,7 @@ export async function GET() {
       ]
     },
     {
-      url: '/contact-us',
+      url: '/magic-brawl-apk-contact-us',
       lastMod: new Date().toISOString(),
       changeFreq: 'monthly',
       priority: 0.7

@@ -42,12 +42,13 @@ Allow: /download-magic-brawl-apk
 Allow: /deposit-money-in-magic-brawl
 Allow: /withdraw-money-from-magic-brawl
 Allow: /magic-brawl-for-ios
+Allow: /download-retro-brawl
 Allow: /magic-brawl-for-pc
-Allow: /about-us
+Allow: /magic-brawl-apk-about-us
 Allow: /blog
 
 # Standard pages
-Allow: /contact-us
+Allow: /magic-brawl-apk-contact-us
 Allow: /privacy
 Allow: /disclaimer
 Allow: /dmca

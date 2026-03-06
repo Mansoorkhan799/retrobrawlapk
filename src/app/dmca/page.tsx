@@ -152,7 +152,7 @@ export default function DMCA() {
                   If you believe any content on this website infringes your copyright, please reach out to us. We take all claims seriously and will respond promptly.
                 </p>
                 <Link
-                  href="/contact-us"
+                  href="/magic-brawl-apk-contact-us"
                   className="inline-block bg-accent hover:bg-accent/90 text-primary font-bold py-3 px-6 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
                 >
                   Contact Us

@@ -15,11 +15,11 @@ export const metadata: Metadata = {
     'Retro Brawl Stars'
   ],
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 } },
-  alternates: { canonical: 'https://magicbrawlapk.net/retro-brawl' },
+  alternates: { canonical: 'https://magicbrawlapk.net/download-retro-brawl' },
   openGraph: {
     title: 'Retro Brawl | Download 2018 Brawl Stars APK - Classic Nostalgia',
     description: 'Retro Brawl brings back 2018 Brawl Stars — original 21 heroes, classic maps, old-school UI. Download free for Android.',
-    url: 'https://magicbrawlapk.net/retro-brawl',
+    url: 'https://magicbrawlapk.net/download-retro-brawl',
     siteName: 'Magic Brawl APK',
     locale: 'en_US',
     type: 'website',
@@ -44,7 +44,7 @@ export default function RetroBrawlPage() {
     publisher: { '@type': 'Organization', name: 'Magic Brawl APK', logo: { '@type': 'ImageObject', url: 'https://magicbrawlapk.net/magic-brawl-apk-logo.webp' } },
     datePublished: '2026-03-06',
     dateModified: '2026-03-06',
-    mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://magicbrawlapk.net/retro-brawl' },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://magicbrawlapk.net/download-retro-brawl' },
     about: { '@type': 'SoftwareApplication', name: 'Retro Brawl', operatingSystem: 'Android', applicationCategory: 'GameApplication' },
     articleSection: 'Gaming',
     keywords: 'Retro Brawl, Brawl Stars 2018, classic Brawl Stars, nostalgia',
@@ -54,7 +54,7 @@ export default function RetroBrawlPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://magicbrawlapk.net" }, { "@type": "ListItem", "position": 2, "name": "Retro Brawl", "item": "https://magicbrawlapk.net/retro-brawl" }] }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://magicbrawlapk.net" }, { "@type": "ListItem", "position": 2, "name": "Retro Brawl", "item": "https://magicbrawlapk.net/download-retro-brawl" }] }) }} />
 
       {/* Hero Section */}
       <section className="py-8 md:py-16 px-4 md:px-8 max-w-7xl mx-auto">
@@ -72,7 +72,7 @@ export default function RetroBrawlPage() {
           </p>
           <div className="flex justify-center mt-8">
             <a
-              href="https://magicbrawlapk.net/file/Magicbrawlapk/retro-brawl-apk-by-magicbrawlapk.net.apk"
+              href="https://magicbrawlapk.net/file/Magicbrawlapk/download-retro-brawl-apk-by-magicbrawlapk.net.apk"
               className="relative flex items-center px-10 py-5 text-white font-bold text-lg rounded-full border-2 border-[#60a5fa] hover:bg-[#60a5fa]/10 transition-all duration-300 group shadow-2xl hover:shadow-[0_0_30px_rgba(96,165,250,0.3)] hover:scale-105"
             >
               <span>Download Retro Brawl APK</span>
@@ -85,7 +85,7 @@ export default function RetroBrawlPage() {
 
         <div className="flex justify-center mb-12">
           <div className="relative" style={{ width: '280px', height: '280px', maxWidth: '100%' }}>
-            <Image src="/retro-brawl-apk.webp" alt="Retro Brawl - Classic Brawl Stars 2018" width={280} height={280} className="object-contain drop-shadow-2xl" priority />
+            <Image src="/download-retro-brawl-apk.webp" alt="Retro Brawl - Classic Brawl Stars 2018" width={280} height={280} className="object-contain drop-shadow-2xl" priority />
           </div>
         </div>
       </section>

@@ -237,7 +237,7 @@ export default function PrivacyPolicyPage() {
                       <path d="M15 7v2a4 4 0 01-4 4H9.828l-1.766 1.767c.28.149.599.233.938.233h2l3 3v-3h2a2 2 0 002-2V9a2 2 0 00-2-2h-1z"/>
                     </svg>
                     <strong className="text-white mr-2">Support:</strong>
-                    <Link href="/contact-us" className="text-accent hover:underline">Visit Contact Us page</Link>
+                    <Link href="/magic-brawl-apk-contact-us" className="text-accent hover:underline">Visit Contact Us page</Link>
                   </li>
               </ul>
               </div>

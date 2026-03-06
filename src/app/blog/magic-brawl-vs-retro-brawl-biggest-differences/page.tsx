@@ -70,10 +70,10 @@ export default function BlogPost() {
 
           <h2 className="text-2xl font-bold text-[#FFA500] mt-8">Which Should You Choose?</h2>
           <p>Choose <strong>Magic Brawl</strong> if you want the full modern experience with cutting-edge features, the latest brawlers, custom maps, exclusive content, and active community events. It&apos;s for players who want freedom and freshness.</p>
-          <p>Choose <strong><Link href="/retro-brawl" className="text-accent hover:underline">Retro Brawl</Link></strong> if you want to relive the golden era of 2018 Brawl Stars. It&apos;s for veteran players who miss the simpler mechanics, the original roster, and the old-school interface. It&apos;s pure nostalgia — no modern complexity.</p>
+          <p>Choose <strong><Link href="/download-retro-brawl" className="text-accent hover:underline">Retro Brawl</Link></strong> if you want to relive the golden era of 2018 Brawl Stars. It&apos;s for veteran players who miss the simpler mechanics, the original roster, and the old-school interface. It&apos;s pure nostalgia — no modern complexity.</p>
           <p>Both are free, both have all content unlocked, and both run on private servers. Many players install both and switch between them depending on their mood.</p>
 
-          <p className="mt-8"><Link href="/" className="text-accent hover:underline font-semibold">Download Magic Brawl</Link> or <Link href="/retro-brawl" className="text-accent hover:underline font-semibold">Retro Brawl</Link> from our site.</p>
+          <p className="mt-8"><Link href="/" className="text-accent hover:underline font-semibold">Download Magic Brawl</Link> or <Link href="/download-retro-brawl" className="text-accent hover:underline font-semibold">Retro Brawl</Link> from our site.</p>
         </div>
       </article>
     </>
