@@ -7,10 +7,10 @@ const BlogCategoryDropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
   
   const categories: { name: string; href: string }[] = [
-    { name: 'Guides & Tips', href: '/blog/10-must-know-features-hidden-tricks-magic-brawl-2026' },
-    { name: 'Brawler Guides', href: '/blog/colette-brawl-stars-vs-magic-brawl-apk' },
-    { name: 'Comparisons', href: '/blog/comparison-magic-brawl-brawl-stars' },
-    { name: 'Downloads', href: '/blog/download-magic-brawl-mod-menu-v50-221' },
+    { name: 'Guides & Tips', href: '/blog/10-must-know-features-hidden-tricks-retro-brawl-2026' },
+    { name: 'Brawler Guides', href: '/blog/colette-brawl-stars-vs-retro-brawl-apk' },
+    { name: 'Comparisons', href: '/blog/comparison-retro-brawl-brawl-stars' },
+    { name: 'Downloads', href: '/blog/download-retro-brawl-mod-menu-v50-221' },
   ];
 
   return (

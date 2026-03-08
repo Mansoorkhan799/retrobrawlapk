@@ -2,24 +2,24 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'DMCA Policy - Magic Brawl APK | Copyright Notice',
-  description: 'DMCA policy for Magic Brawl APK. We promote third-party content for informational purposes only. We do not claim to be the official app. Report copyright concerns here.',
-  keywords: ['Magic Brawl DMCA', 'Magic Brawl copyright', 'DMCA policy', 'copyright notice', 'Magic Brawl APK'],
+  title: 'DMCA Policy - Retro Brawl APK | Copyright Notice',
+  description: 'DMCA policy for retrobrawlapk.com. Retro Brawl APK is a fan-made Brawl Stars private server not affiliated with Supercell. Report copyright concerns here.',
+  keywords: ['Retro Brawl DMCA', 'Retro Brawl copyright', 'DMCA policy', 'copyright notice', 'Retro Brawl APK'],
   openGraph: {
-    title: 'DMCA Policy - Magic Brawl APK',
-    description: 'DMCA and copyright policy for magicbrawlapk.net. We promote content for informational purposes only.',
-    url: 'https://magicbrawlapk.net/dmca',
-    siteName: 'Magic Brawl APK',
+    title: 'DMCA Policy - Retro Brawl APK',
+    description: 'DMCA and copyright policy for retrobrawlapk.com. We promote content for informational purposes only.',
+    url: 'https://retrobrawlapk.com/dmca',
+    siteName: 'Retro Brawl APK',
     type: 'website',
-    images: [{ url: 'https://magicbrawlapk.net/feature/og-image.webp', width: 1200, height: 630, alt: 'DMCA Policy - Magic Brawl APK' }],
+    images: [{ url: 'https://retrobrawlapk.com/feature/og-image.webp', width: 1200, height: 630, alt: 'DMCA Policy - Retro Brawl APK' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'DMCA Policy - Magic Brawl APK',
-    description: 'DMCA and copyright policy for magicbrawlapk.net.',
-    images: ['https://magicbrawlapk.net/feature/twitter-card.webp'],
+    title: 'DMCA Policy - Retro Brawl APK',
+    description: 'DMCA and copyright policy for retrobrawlapk.com.',
+    images: ['https://retrobrawlapk.com/feature/twitter-card.webp'],
   },
-  alternates: { canonical: 'https://magicbrawlapk.net/dmca' },
+  alternates: { canonical: 'https://retrobrawlapk.com/dmca' },
   robots: { index: true, follow: true },
 };
 
@@ -43,7 +43,7 @@ export default function DMCA() {
                   <div>
                     <h3 className="text-xl font-bold text-[#f97316] mb-2">Important Disclaimer</h3>
                     <p className="text-gray-300 mb-0">
-                      <strong className="text-white">magicbrawlapk.net</strong> is <strong>not</strong> affiliated with, endorsed by, or connected to Supercell Oy or any of its subsidiaries. We do <strong>not</strong> claim to be the official developers or publishers of Brawl Stars.
+                      <strong className="text-white">retrobrawlapk.com</strong> is <strong>not</strong> affiliated with, endorsed by, or connected to Supercell Oy or any of its subsidiaries. We do <strong>not</strong> claim to be the official developers or publishers of Brawl Stars.
                     </p>
                   </div>
                 </div>
@@ -152,7 +152,7 @@ export default function DMCA() {
                   If you believe any content on this website infringes your copyright, please reach out to us. We take all claims seriously and will respond promptly.
                 </p>
                 <Link
-                  href="/magic-brawl-apk-contact-us"
+                  href="/retro-brawl-apk-contact-us"
                   className="inline-block bg-accent hover:bg-accent/90 text-primary font-bold py-3 px-6 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
                 >
                   Contact Us
@@ -163,8 +163,8 @@ export default function DMCA() {
         </div>
       </div>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://magicbrawlapk.net" }, { "@type": "ListItem", "position": 2, "name": "DMCA Policy", "item": "https://magicbrawlapk.net/dmca" }] }) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "WebPage", "name": "DMCA Policy - Magic Brawl APK", "description": "DMCA and copyright policy for magicbrawlapk.net. We promote content for informational purposes only and do not claim to be the official app.", "url": "https://magicbrawlapk.net/dmca" }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://retrobrawlapk.com" }, { "@type": "ListItem", "position": 2, "name": "DMCA Policy", "item": "https://retrobrawlapk.com/dmca" }] }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "WebPage", "name": "DMCA Policy - Retro Brawl APK", "description": "DMCA and copyright policy for retrobrawlapk.com. We promote content for informational purposes only and do not claim to be the official app.", "url": "https://retrobrawlapk.com/dmca" }) }} />
     </div>
   );
 }

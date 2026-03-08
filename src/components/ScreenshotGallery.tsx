@@ -4,15 +4,15 @@ import Image from 'next/image';
 import { useState } from 'react';
 
 const screenshots = [
-  { src: '/magic-brawl-apk-game.webp', alt: 'Magic Brawl APK Game' },
-  { src: '/magic-brawl-apk-interface.webp', alt: 'Magic Brawl APK Interface' },
-  { src: '/magic-brawl-apk-play-online.webp', alt: 'Magic Brawl APK Play Online' },
-  { src: '/magic-brawl-apk-for-android.webp', alt: 'Magic Brawl APK for Android' },
-  { src: '/magic-brawl-game.webp', alt: 'Magic Brawl Game' },
-  { src: '/magic-brawl-shop.webp', alt: 'Magic Brawl Shop' },
-  { src: '/magic-brawl-profile.webp', alt: 'Magic Brawl Profile' },
-  { src: '/magic-brawl-add-friends.webp', alt: 'Magic Brawl Add Friends' },
-  { src: '/magic-barwlers.webp', alt: 'Magic Brawlers' },
+  { src: '/retro-brawl-add-friends.webp', alt: 'Retro Brawl Add Friends' },
+  { src: '/retro-brawl-app.webp', alt: 'Retro Brawl App' },
+  { src: '/retro-brawl-band.webp', alt: 'Retro Brawl Band' },
+  { src: '/retro-brawl-battle.webp', alt: 'Retro Brawl Battle' },
+  { src: '/retro-brawl-brawlers.webp', alt: 'Retro Brawlers' },
+  { src: '/retro-brawl-enchanted.webp', alt: 'Retro Brawl Enchanted' },
+  { src: '/retro-brawl-important-notice.webp', alt: 'Retro Brawl Important Notice' },
+  { src: '/retro-brawl-match.webp', alt: 'Retro Brawl Match' },
+  { src: '/retro-brawl-shop.webp', alt: 'Retro Brawl Shop' },
 ];
 
 export default function ScreenshotGallery() {

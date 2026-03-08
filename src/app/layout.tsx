@@ -18,44 +18,44 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://magicbrawlapk.net'),
+  metadataBase: new URL('https://retrobrawlapk.com'),
   title: {
-    default: "Magic Brawl APK v50.221 | Unlocked Premium – Unlimited Gems [2026]",
-    template: "%s | Magic Brawl APK"
+    default: "Retro Brawl APK v12.98 | Unlocked Premium – Unlimited Gems [2026]",
+    template: "%s | Retro Brawl APK"
   },
-  description: "Download Magic Brawl APK v50.221 — Brawl Stars MOD with all brawlers unlocked, unlimited gems, exclusive skins, custom maps & online battles. Free entertainment game for Android.",
+  description: "Download Retro Brawl APK v12.98 — Brawl Stars MOD with all brawlers unlocked, unlimited gems, exclusive skins, custom maps & online battles. Free entertainment game for Android.",
   keywords: [
-    "Magic Brawl APK",
-    "magic brawl game",
-    "magic brawl download",
-    "magic brawl app",
-    "magic brawl apk download",
-    "magic brawl online",
-    "download magic brawl",
-    "magic brawl 2026",
-    "magicbrawlapk",
-    "magicbrawlapk.net",
+    "Retro Brawl APK",
+    "retro brawl game",
+    "retro brawl download",
+    "retro brawl app",
+    "retro brawl apk download",
+    "retro brawl online",
+    "download retro brawl",
+    "retro brawl 2026",
+    "retrobrawl",
+    "retrobrawlapk.com",
     "Brawl Stars",
     "brawl stars private server",
     "brawl stars rebirth",
     "brawl stars clone",
-    "magic brawl apk latest version",
-    "magic brawl free download",
-    "magic brawl official apk",
+    "retro brawl apk latest version",
+    "retro brawl free download",
+    "retro brawl official apk",
     "brawl game download",
-    "magic brawl android",
-    "magic brawl review",
-    "magic brawl brawlers",
-    "magic brawl skins",
+    "retro brawl android",
+    "retro brawl review",
+    "retro brawl brawlers",
+    "retro brawl skins",
     "online battles game",
-    "magic brawl version 50",
-    "magic brawl exclusive content",
+    "retro brawl version 50",
+    "retro brawl exclusive content",
     "entertainment game",
     "free mobile game"
   ],
-  authors: [{ name: "Magic Brawl Team" }],
-  creator: "Magic Brawl APK",
-  publisher: "Magic Brawl APK",
+  authors: [{ name: "Retro Brawl Team" }],
+  creator: "Retro Brawl APK",
+  publisher: "Retro Brawl APK",
   robots: {
     index: true,
     follow: true,
@@ -69,59 +69,71 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: '/magic-brawl-apk-logo.webp', type: 'image/webp', sizes: '192x192' },
-      { url: '/magic-brawl-apk.webp', type: 'image/webp', sizes: '512x512' }
+      { url: '/retro-brawl-logo.webp', type: 'image/webp', sizes: '192x192' },
+      { url: '/retro-brawl-logo.webp', type: 'image/webp', sizes: '512x512' }
     ],
     apple: [
-      { url: '/magic-brawl-apk-logo.webp', sizes: '180x180' }
+      { url: '/retro-brawl-logo.webp', sizes: '180x180' }
     ],
     shortcut: [
-      { url: '/magic-brawl-apk-logo.webp', type: 'image/webp' }
+      { url: '/retro-brawl-logo.webp', type: 'image/webp' }
     ]
   },
   verification: {
     google: "8a7c21f6e90a89ef",
   },
   alternates: {
-    canonical: "https://magicbrawlapk.net",
+    canonical: "https://retrobrawlapk.com",
   },
   openGraph: {
-    title: "Magic Brawl APK v50.221 | Unlocked Premium – Unlimited Gems [2026]",
-    description: "Magic Brawl - A rebirth of Brawl Stars! Online battles, unique brawlers, exclusive skins. Free entertainment game. Download now!",
-    url: "https://magicbrawlapk.net",
-    siteName: "Magic Brawl APK",
+    title: "Retro Brawl APK v12.98 | Unlocked Premium – Unlimited Gems [2026]",
+    description: "Retro Brawl - A rebirth of Brawl Stars! Online battles, unique brawlers, exclusive skins. Free entertainment game. Download now!",
+    url: "https://retrobrawlapk.com",
+    siteName: "Retro Brawl APK",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://magicbrawlapk.net/feature/og-image.webp",
+        url: "https://retrobrawlapk.com/feature/og-image.webp",
         width: 1200,
         height: 630,
-        alt: "Magic Brawl APK - Official Gaming Platform",
+        alt: "Retro Brawl APK - Official Gaming Platform",
       },
       {
-        url: "https://magicbrawlapk.net/feature/og-image-square.webp",
+        url: "https://retrobrawlapk.com/feature/og-image.webp",
+        width: 1200,
+        height: 630,
+        alt: "Retro Brawl APK - Official Gaming Platform",
+      },
+      {
+        url: "https://retrobrawlapk.com/feature/og-image-square.webp",
         width: 800,
         height: 800,
-        alt: "Magic Brawl APK - Official Gaming Platform",
+        alt: "Retro Brawl APK - Official Gaming Platform",
       }
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Magic Brawl APK v50.221 | Unlocked Premium – Unlimited Gems [2026]",
-    description: "Magic Brawl — Brawl Stars MOD with all brawlers unlocked, unlimited gems, exclusive skins & custom maps. Free entertainment game!",
-    creator: "@magicbrawlapk",
+    title: "Retro Brawl APK v12.98 | Unlocked Premium – Unlimited Gems [2026]",
+    description: "Retro Brawl — Brawl Stars MOD with all brawlers unlocked, unlimited gems, exclusive skins & custom maps. Free entertainment game!",
+    creator: "@retrobrawl",
     images: [
       {
-        url: "https://magicbrawlapk.net/feature/twitter-card.webp",
+        url: "https://retrobrawlapk.com/feature/og-image.webp",
         width: 1200,
         height: 600,
-        alt: "Magic Brawl APK - Official Gaming Platform",
+        alt: "Retro Brawl APK - Official Gaming Platform",
+      },
+      {
+        url: "https://retrobrawlapk.com/feature/twitter-card.webp",
+        width: 1200,
+        height: 600,
+        alt: "Retro Brawl APK - Official Gaming Platform",
       }
     ],
   },
-  applicationName: "Magic Brawl APK",
+  applicationName: "Retro Brawl APK",
   category: "Gaming",
   classification: "Gaming Platform",
 };
@@ -136,9 +148,9 @@ export default function RootLayout({
       <head>
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        <link rel="icon" href="/magic-brawl-apk-logo.webp" type="image/webp" sizes="192x192" />
-        <link rel="icon" href="/magic-brawl-apk.webp" type="image/webp" sizes="512x512" />
-        <link rel="apple-touch-icon" href="/magic-brawl-apk-logo.webp" sizes="180x180" />
+        <link rel="icon" href="/retro-brawl-logo.webp" type="image/webp" sizes="192x192" />
+        <link rel="icon" href="/retro-brawl-logo.webp" type="image/webp" sizes="512x512" />
+        <link rel="apple-touch-icon" href="/retro-brawl-logo.webp" sizes="180x180" />
         
         {/* Preconnect to external domains for faster loading */}
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
@@ -183,6 +195,7 @@ export default function RootLayout({
       >
         <div className="stars-bg fixed inset-0 z-0 opacity-20"></div>
         <Header />
+        <div className="pt-[72px]" />
         <main className="flex-grow relative z-10">
         {children}
         </main>
@@ -199,13 +212,13 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              "name": "Magic Brawl APK",
-              "url": "https://magicbrawlapk.net",
-              "logo": "https://magicbrawlapk.net/magic-brawl-apk-logo.webp",
-              "description": "Magic Brawl APK is a rebirth of Brawl Stars — an entertainment game featuring online battles, unique brawlers, exclusive skins, and regular updates.",
+              "name": "Retro Brawl APK",
+              "url": "https://retrobrawlapk.com",
+              "logo": "https://retrobrawlapk.com/retro-brawl-logo.webp",
+              "description": "Retro Brawl APK is a rebirth of Brawl Stars — an entertainment game featuring online battles, unique brawlers, exclusive skins, and regular updates.",
               "sameAs": [
                 "https://www.facebook.com/profile.php?id=61584893160619",
-                "https://x.com/magicbrawlapk",
+                "https://x.com/retrobrawl",
                 "https://www.instagram.com/magicbrawalapk/",
                 "https://www.youtube.com/@Magicbrawlapk",
                 "https://pin.it/UmqsWyxKX"
@@ -222,7 +235,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "SoftwareApplication",
-              "name": "Magic Brawl APK",
+              "name": "Retro Brawl APK",
               "operatingSystem": "Android",
               "applicationCategory": "GameApplication",
               "offers": {

@@ -7,9 +7,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* About Column */}
           <div>
-            <h3 className="text-xl font-bold text-accent mb-4">Magic Brawl APK</h3>
+            <h3 className="text-xl font-bold text-accent mb-4">Retro Brawl APK</h3>
             <p className="text-sm text-gray-300 mb-4">
-              Magic Brawl APK is a rebirth of Brawl Stars — a free entertainment game with online battles, unique brawlers, exclusive skins, and regular updates.
+              Retro Brawl APK is a rebirth of Brawl Stars — a free entertainment game with online battles, unique brawlers, exclusive skins, and regular updates.
             </p>
             <div className="flex space-x-4">
               <a href="https://www.facebook.com/profile.php?id=61584893160619" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
@@ -50,23 +50,18 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/download-magic-brawl-apk" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/download-retro-brawl-apk" className="text-gray-300 hover:text-accent transition-colors">
                   Download
                 </Link>
               </li>
               <li>
-                <Link href="/magic-brawl-for-pc" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/retro-brawl-for-pc" className="text-gray-300 hover:text-accent transition-colors">
                   For PC
                 </Link>
               </li>
               <li>
-                <Link href="/magic-brawl-for-ios" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/retro-brawl-for-ios" className="text-gray-300 hover:text-accent transition-colors">
                   For iOS
-                </Link>
-              </li>
-              <li>
-                <Link href="/download-retro-brawl" className="text-gray-300 hover:text-accent transition-colors">
-                  Retro Brawl
                 </Link>
               </li>
               <li>
@@ -75,12 +70,12 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/magic-brawl-apk-about-us" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/retro-brawl-apk-about-us" className="text-gray-300 hover:text-accent transition-colors">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/magic-brawl-apk-contact-us" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/retro-brawl-apk-contact-us" className="text-gray-300 hover:text-accent transition-colors">
                   Contact Us
                 </Link>
               </li>
@@ -118,10 +113,10 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-accent">Download App</h3>
             <p className="text-sm text-gray-300 mb-4">
-              Download Magic Brawl APK to enjoy the best Brawl Stars experience — online battles, unique brawlers, and exclusive content.
+              Download Retro Brawl APK to enjoy the best Brawl Stars experience — online battles, unique brawlers, and exclusive content.
             </p>
             <Link 
-              href="/download-magic-brawl-apk" 
+              href="/download-retro-brawl-apk" 
               className="download-btn bg-transparent hover:bg-[#0ea5e9]/10 text-white font-bold py-3 px-6 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl border-2 border-[#0ea5e9]"
             >
               <span>DOWNLOAD NOW</span>
@@ -135,7 +130,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-4 pb-3 text-center text-sm text-gray-400">
-          <p className="mb-0">© 2026 Magic Brawl APK. All rights reserved. | <Link href="/" className="hover:text-accent">magicbrawlapk.net</Link></p>
+          <p className="mb-0">© 2026 Retro Brawl APK. All rights reserved. | <Link href="/" className="hover:text-accent">retrobrawlapk.com</Link></p>
         </div>
       </div>
     </footer>

@@ -1,11 +1,11 @@
 import { NextResponse } from 'next/server';
 
 export async function GET() {
-  const baseUrl = 'https://magicbrawlapk.net';
+  const baseUrl = 'https://retrobrawlapk.com';
   
   // This API route ensures consistent robots.txt across all URL variations
   // (HTTP/HTTPS, www/non-www). Matches the static file exactly.
-  const robotsTxt = `# robots.txt for magicbrawlapk.net
+  const robotsTxt = `# robots.txt for retrobrawlapk.com
 
 # ============================================
 # AI CONTENT USAGE POLICY
@@ -38,17 +38,14 @@ Disallow: /api/
 Disallow: /admin/
 
 # Priority pages
-Allow: /download-magic-brawl-apk
-Allow: /deposit-money-in-magic-brawl
-Allow: /withdraw-money-from-magic-brawl
-Allow: /magic-brawl-for-ios
-Allow: /download-retro-brawl
-Allow: /magic-brawl-for-pc
-Allow: /magic-brawl-apk-about-us
+Allow: /download-retro-brawl-apk
+Allow: /retro-brawl-for-ios
+Allow: /retro-brawl-for-pc
+Allow: /retro-brawl-apk-about-us
 Allow: /blog
 
 # Standard pages
-Allow: /magic-brawl-apk-contact-us
+Allow: /retro-brawl-apk-contact-us
 Allow: /privacy
 Allow: /disclaimer
 Allow: /dmca

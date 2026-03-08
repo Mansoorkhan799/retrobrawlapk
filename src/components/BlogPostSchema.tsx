@@ -1,4 +1,4 @@
-const BASE = "https://magicbrawlapk.net";
+const BASE = "https://retrobrawlapk.com";
 
 function safeJsonLd(obj: object): string {
   return JSON.stringify(obj).replace(/</g, "\\u003c");
@@ -20,7 +20,7 @@ export default function BlogPostSchema({
   slug,
   datePublished,
   dateModified,
-  image = `${BASE}/magic-brawl-apk-logo.webp`,
+  image = `${BASE}/retro-brawl-logo.webp`,
   breadcrumbOnly = false,
 }: BlogPostSchemaProps) {
   const url = `${BASE}/blog/${slug}`;
@@ -39,11 +39,11 @@ export default function BlogPostSchema({
     headline: title,
     description,
     image,
-    author: { "@type": "Organization", name: "Magic Brawl APK", url: BASE },
+    author: { "@type": "Organization", name: "Retro Brawl APK", url: BASE },
     publisher: {
       "@type": "Organization",
-      name: "Magic Brawl APK",
-      logo: { "@type": "ImageObject", url: `${BASE}/magic-brawl-apk-logo.webp` },
+      name: "Retro Brawl APK",
+      logo: { "@type": "ImageObject", url: `${BASE}/retro-brawl-logo.webp` },
     },
     datePublished,
     dateModified: dateModified || datePublished,

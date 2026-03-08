@@ -2,24 +2,24 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Disclaimer - Magic Brawl APK | Legal Information',
-  description: 'Read the disclaimer for Magic Brawl APK. Important legal information about the use of this website.',
-  keywords: ['Magic Brawl disclaimer', 'legal disclaimer', 'terms', 'conditions', 'entertainment game'],
+  title: 'Disclaimer - Retro Brawl APK | Fan-Made Brawl Stars MOD',
+  description: 'Legal disclaimer for Retro Brawl APK. Retro Brawl is a fan-made MOD (private server) of Brawl Stars and is not affiliated with Supercell Oy.',
+  keywords: ['Retro Brawl disclaimer', 'retro brawl legal', 'brawl stars private server disclaimer', 'retro brawl not affiliated supercell'],
   openGraph: {
-    title: 'Disclaimer - Magic Brawl APK',
-    description: 'Legal disclaimer and important information about Magic Brawl APK.',
-    url: 'https://magicbrawlapk.net/disclaimer',
-    siteName: 'Magic Brawl APK',
+    title: 'Disclaimer - Retro Brawl APK',
+    description: 'Legal disclaimer for Retro Brawl APK — a fan-made Brawl Stars private server not affiliated with Supercell.',
+    url: 'https://retrobrawlapk.com/disclaimer',
+    siteName: 'Retro Brawl APK',
     type: 'website',
-    images: [{ url: 'https://magicbrawlapk.net/feature/og-image.webp', width: 1200, height: 630, alt: 'Magic Brawl APK' }],
+    images: [{ url: 'https://retrobrawlapk.com/feature/og-image.webp', width: 1200, height: 630, alt: 'Retro Brawl APK' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Disclaimer - Magic Brawl APK',
-    description: 'Legal disclaimer and important information about Magic Brawl APK.',
-    images: ['https://magicbrawlapk.net/feature/twitter-card.webp'],
+    title: 'Disclaimer - Retro Brawl APK',
+    description: 'Legal disclaimer for Retro Brawl APK — a fan-made Brawl Stars private server not affiliated with Supercell.',
+    images: ['https://retrobrawlapk.com/feature/twitter-card.webp'],
   },
-  alternates: { canonical: 'https://magicbrawlapk.net/disclaimer' },
+  alternates: { canonical: 'https://retrobrawlapk.com/disclaimer' },
   robots: {
     index: true,
     follow: true,
@@ -34,7 +34,7 @@ export default function Disclaimer() {
           {/* Hero Section */}
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">Disclaimer</h1>
-            <p className="text-lg text-gray-400">Please read this disclaimer carefully before using our website</p>
+            <p className="text-lg text-gray-400">Important legal information about Retro Brawl APK and this website</p>
           </div>
           
           {/* Main Content */}
@@ -55,62 +55,75 @@ export default function Disclaimer() {
                 </div>
               </div>
 
-              {/* Main Disclaimer Content */}
               <div className="space-y-6 text-gray-300">
                 <p className="text-lg leading-relaxed">
-                  The information provided on this blog (<a href="https://magicbrawlapk.net" className="text-accent hover:text-accent font-semibold" target="_blank" rel="noopener noreferrer">magicbrawlapk.net</a>) about <Link href="/" className="text-accent hover:underline font-semibold">Magic Brawl APK</Link> is for <strong>general informational and entertainment purposes only</strong>. We do not host, promote, or encourage any form of gambling or betting activities.
+                  The information provided on <a href="https://retrobrawlapk.com" className="text-accent hover:underline font-semibold" target="_blank" rel="noopener noreferrer">retrobrawlapk.com</a> about <Link href="/" className="text-accent hover:underline font-semibold">Retro Brawl APK</Link> is for <strong>general informational and entertainment purposes only</strong>.
                 </p>
 
                 <div className="bg-[#0A1029] rounded-xl p-6 border border-accent">
-                  <h2 className="text-2xl font-bold mb-4 text-white">⚠️ Important Warnings</h2>
+                  <h2 className="text-2xl font-bold mb-4 text-white">Not Affiliated with Supercell</h2>
+                  <p className="text-gray-300 leading-relaxed mb-4">
+                    <strong className="text-white">Retro Brawl APK is a fan-made MOD</strong> (private server) of Brawl Stars. It is <strong>not</strong> developed, endorsed, sponsored, or affiliated with <strong className="text-white">Supercell Oy</strong> in any way.
+                  </p>
                   <ul className="space-y-3 text-gray-300">
                     <li className="flex items-start">
-                      <span className="text-accent mr-2 font-bold">•</span>
-                      <span>Magic Brawl APK is a free entertainment game. It is a fan-made MOD of Brawl Stars built on private servers.</span>
+                      <span className="text-accent mr-2 font-bold">&bull;</span>
+                      <span>&quot;Brawl Stars&quot; is a registered trademark of Supercell Oy. All game characters, assets, and related content are the intellectual property of Supercell.</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-accent mr-2 font-bold">•</span>
-                      <span>Users are advised to be aware of their <strong>local laws and regulations</strong> related to online gaming and gambling before engaging with any app or website mentioned.</span>
+                      <span className="text-accent mr-2 font-bold">&bull;</span>
+                      <span>Retro Brawl runs on independent private servers and is completely separate from the official Brawl Stars game.</span>
                     </li>
-              </ul>
+                    <li className="flex items-start">
+                      <span className="text-accent mr-2 font-bold">&bull;</span>
+                      <span>This website provides guides, download links, and informational content for entertainment purposes.</span>
+                    </li>
+                  </ul>
                 </div>
 
-                <div className="bg-[#0A1029] rounded-xl p-6 border border-red-200">
-                  <h2 className="text-2xl font-bold mb-4 text-red-400">🚫 No Liability</h2>
+                <div className="bg-[#0A1029] rounded-xl p-6 border border-[#FFA500]">
+                  <h2 className="text-2xl font-bold mb-4 text-[#FFA500]">Free to Play — No Real Money</h2>
                   <p className="text-gray-300 leading-relaxed mb-0">
-                    We are <strong>not responsible</strong> for any loss, risk, or legal issues resulting from the use of third-party platforms. All app names, logos, and trademarks belong to their respective owners, and we do not claim any affiliation or endorsement.
+                    Retro Brawl APK is a <strong className="text-white">100% free</strong> game. There are no in-app purchases, no real-money transactions, no deposits, and no withdrawals. All gems, coins, brawlers, and skins are provided for free within the private server.
                   </p>
                 </div>
 
-                <div className="bg-[#0A1029] rounded-xl p-6 border border-blue-200">
-                  <h2 className="text-2xl font-bold mb-4 text-blue-400">📋 User Responsibility</h2>
+                <div className="bg-[#0A1029] rounded-xl p-6 border border-red-500/40">
+                  <h2 className="text-2xl font-bold mb-4 text-red-400">Limitation of Liability</h2>
                   <p className="text-gray-300 leading-relaxed mb-0">
-                    By using this blog, you agree that any actions you take based on the content are <strong>strictly at your own risk</strong>. We encourage all users to:
+                    We are <strong>not responsible</strong> for any issues that may arise from downloading or using third-party APK files, including but not limited to data loss, device issues, or account-related matters on official platforms. Use Retro Brawl APK at your own risk and always download from the official source at <a href="https://retrobrawlapk.com" className="text-accent hover:underline">retrobrawlapk.com</a>.
+                  </p>
+                </div>
+
+                <div className="bg-[#0A1029] rounded-xl p-6 border border-blue-500/40">
+                  <h2 className="text-2xl font-bold mb-4 text-blue-400">User Responsibility</h2>
+                  <p className="text-gray-300 leading-relaxed mb-0">
+                    By using this website and downloading Retro Brawl APK, you acknowledge and agree that:
                   </p>
                   <ul className="mt-4 space-y-2 text-gray-300">
                     <li className="flex items-start">
-                      <span className="text-blue-600 mr-2">✓</span>
-                      <span>Verify local laws before engaging with any gaming platform</span>
+                      <span className="text-blue-400 mr-2">&#10003;</span>
+                      <span>You understand this is a fan-made MOD and not the official Brawl Stars app</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-blue-600 mr-2">✓</span>
-                      <span>Play responsibly and within your means</span>
+                      <span className="text-blue-400 mr-2">&#10003;</span>
+                      <span>You use the app at your own risk and discretion</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-blue-600 mr-2">✓</span>
-                      <span>Be aware of the risks involved in real money gaming</span>
-                </li>
+                      <span className="text-blue-400 mr-2">&#10003;</span>
+                      <span>You are responsible for verifying whether modified apps comply with your local regulations</span>
+                    </li>
                     <li className="flex items-start">
-                      <span className="text-blue-600 mr-2">✓</span>
-                      <span>Seek professional help if you have gambling concerns</span>
-                </li>
-              </ul>
+                      <span className="text-blue-400 mr-2">&#10003;</span>
+                      <span>You will not hold this website liable for any consequences arising from your use of the app</span>
+                    </li>
+                  </ul>
                 </div>
 
                 <div className="bg-[#0A1029] rounded-xl p-6 border border-accent">
-                  <h2 className="text-2xl font-bold mb-4 text-white">™️ Trademarks & Affiliations</h2>
+                  <h2 className="text-2xl font-bold mb-4 text-white">Trademarks &amp; Intellectual Property</h2>
                   <p className="text-gray-300 leading-relaxed mb-0">
-                    All app names, logos, and trademarks mentioned on this website belong to their respective owners. We do not claim any affiliation, endorsement, or partnership with any of the apps or platforms mentioned on this blog.
+                    All app names, logos, characters, and trademarks mentioned on this website — including &quot;Brawl Stars&quot; — belong to their respective owners, primarily Supercell Oy. We use these references solely for identification and informational purposes and do not claim any ownership, affiliation, or endorsement.
                   </p>
                 </div>
               </div>
@@ -122,7 +135,7 @@ export default function Disclaimer() {
                   If you have any questions about this Disclaimer, please feel free to contact us.
                 </p>
                 <Link 
-                  href="/magic-brawl-apk-contact-us" 
+                  href="/retro-brawl-apk-contact-us" 
                   className="inline-block bg-accent hover:bg-accent/90 text-primary font-bold py-3 px-6 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
                 >
                   Contact Us
@@ -134,16 +147,16 @@ export default function Disclaimer() {
       </div>
 
       {/* Structured Data */}
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://magicbrawlapk.net" }, { "@type": "ListItem", "position": 2, "name": "Disclaimer", "item": "https://magicbrawlapk.net/disclaimer" }] }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://retrobrawlapk.com" }, { "@type": "ListItem", "position": 2, "name": "Disclaimer", "item": "https://retrobrawlapk.com/disclaimer" }] }) }} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": "Disclaimer - Magic Brawl APK",
-            "description": "Legal disclaimer and important information about Magic Brawl APK website.",
-            "url": "https://magicbrawlapk.net/disclaimer"
+            "name": "Disclaimer - Retro Brawl APK",
+            "description": "Legal disclaimer for Retro Brawl APK — a fan-made Brawl Stars private server not affiliated with Supercell Oy.",
+            "url": "https://retrobrawlapk.com/disclaimer"
           })
         }}
       />

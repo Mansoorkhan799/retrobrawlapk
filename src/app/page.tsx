@@ -4,54 +4,55 @@ import Script from 'next/script';
 import ScreenshotGallery from '@/components/ScreenshotGallery';
 import { Metadata } from 'next';
 
-const DOWNLOAD_URL = 'https://dl.magicbrawlapk.net/file/Magicbrawlapk/magic-brawl-apk-by-magicbrawlapk.net.apk';
+const DOWNLOAD_URL = 'https://dl.retrobrawlapk.com/file/retrobrawl/retro-brawl-apk-by-retrobrawlapk.com.apk';
 
 export const metadata: Metadata = {
-  title: "Magic Brawl APK v50.221 | Unlocked Premium – Unlimited Gems [2026]",
-  description: "Download Magic Brawl APK v50.221 — a rebirth of Brawl Stars with all brawlers unlocked, unlimited gems, exclusive skins, custom maps, online battles & private servers. Free entertainment game for Android & iOS.",
+  title: "Retro Brawl APK v12.98 | Unlocked Premium – Unlimited Gems [2026]",
+  description: "Download Retro Brawl APK v12.98 — a rebirth of Brawl Stars with all brawlers unlocked, unlimited gems, exclusive skins, custom maps, online battles & private servers. Free entertainment game for Android & iOS.",
   keywords: [
-    "Magic Brawl APK",
-    "Magic Brawl",
-    "magic brawl apk download",
-    "magic brawl v50.221",
+    "Retro Brawl APK",
+    "Retro Brawl",
+    "retro brawl apk download",
+    "retro brawl v12.98",
     "Brawl Stars rebirth",
     "Brawl Stars private server",
     "Brawl Stars mod",
     "unlimited gems brawl stars",
     "all brawlers unlocked",
-    "magic brawl latest version",
-    "magic brawl free download",
-    "magicbrawlapk.net",
-    "magic brawl android",
-    "magic brawl ios",
-    "magic brawl exclusive skins",
-    "magic brawl custom maps",
-    "magic brawl game modes",
+    "retro brawl latest version",
+    "retro brawl free download",
+    "retrobrawlapk.com",
+    "retro brawl android",
+    "retro brawl ios",
+    "retro brawl exclusive skins",
+    "retro brawl custom maps",
+    "retro brawl game modes",
     "brawl stars free gems 2026",
-    "magic brawl FUMEY",
-    "magic brawl RT",
-    "magic brawl Maisie",
-    "magic brawl Hank",
-    "magic brawl season 18",
-    "magic brawl brawl pass",
+    "retro brawl FUMEY",
+    "retro brawl RT",
+    "retro brawl Maisie",
+    "retro brawl Hank",
+    "retro brawl season 18",
+    "retro brawl brawl pass",
     "entertainment game",
     "null's brawl alternative",
     "retro brawl",
   ],
   openGraph: {
-    title: 'Magic Brawl APK v50.221 | Unlocked Premium – Unlimited Gems [2026]',
-    description: 'Magic Brawl — a rebirth of Brawl Stars. All brawlers unlocked, unlimited gems, exclusive skins, custom maps & online battles. Free download for Android & iOS!',
+    title: 'Retro Brawl APK v12.98 | Unlocked Premium – Unlimited Gems [2026]',
+    description: 'Retro Brawl — a rebirth of Brawl Stars. All brawlers unlocked, unlimited gems, exclusive skins, custom maps & online battles. Free download for Android & iOS!',
     images: [
-      { url: 'https://magicbrawlapk.net/feature/og-image.webp', width: 1200, height: 630, alt: 'Magic Brawl APK v50.221' },
-      { url: 'https://magicbrawlapk.net/feature/og-image-square.webp', width: 800, height: 800, alt: 'Magic Brawl APK' }
+      { url: 'https://retrobrawlapk.com/feature/og-image.webp', width: 1200, height: 630, alt: 'Retro Brawl APK v12.98' },
+      { url: 'https://retrobrawlapk.com/feature/og-image.webp', width: 1200, height: 630, alt: 'Retro Brawl APK' },
+      { url: 'https://retrobrawlapk.com/feature/og-image-square.webp', width: 800, height: 800, alt: 'Retro Brawl APK' }
     ],
     type: 'website'
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Magic Brawl APK v50.221 | Unlocked Premium – Unlimited Gems [2026]',
-    description: 'Magic Brawl — Brawl Stars rebirth with all brawlers, unlimited gems, exclusive skins. Free entertainment game!',
-    images: ['https://magicbrawlapk.net/feature/og-image.webp']
+    title: 'Retro Brawl APK v12.98 | Unlocked Premium – Unlimited Gems [2026]',
+    description: 'Retro Brawl — Brawl Stars rebirth with all brawlers, unlimited gems, exclusive skins. Free entertainment game!',
+    images: ['https://retrobrawlapk.com/feature/og-image.webp']
   }
 };
 
@@ -61,49 +62,49 @@ export default function Home() {
     "@graph": [
       {
         "@type": "WebSite",
-        "@id": "https://magicbrawlapk.net/#website",
-        "url": "https://magicbrawlapk.net/",
-        "name": "Magic Brawl APK",
-        "description": "Magic Brawl — a rebirth of Brawl Stars with all brawlers unlocked, unlimited gems, exclusive skins, custom maps, and online battles",
+        "@id": "https://retrobrawlapk.com/#website",
+        "url": "https://retrobrawlapk.com/",
+        "name": "Retro Brawl APK",
+        "description": "Retro Brawl — a rebirth of Brawl Stars with all brawlers unlocked, unlimited gems, exclusive skins, custom maps, and online battles",
         "inLanguage": "en-US",
-        "potentialAction": { "@type": "SearchAction", "target": "https://magicbrawlapk.net/?s={search_term_string}", "query-input": "required name=search_term_string" }
+        "potentialAction": { "@type": "SearchAction", "target": "https://retrobrawlapk.com/?s={search_term_string}", "query-input": "required name=search_term_string" }
       },
       {
         "@type": "Organization",
-        "@id": "https://magicbrawlapk.net/#organization",
-        "name": "Magic Brawl APK",
-        "url": "https://magicbrawlapk.net/",
-        "logo": { "@type": "ImageObject", "url": "https://magicbrawlapk.net/magic-brawl-apk-logo.webp", "width": 512, "height": 512 },
-        "contactPoint": { "@type": "ContactPoint", "email": "support@magicbrawlapk.net", "contactType": "Customer Support" }
+        "@id": "https://retrobrawlapk.com/#organization",
+        "name": "Retro Brawl APK",
+        "url": "https://retrobrawlapk.com/",
+        "logo": { "@type": "ImageObject", "url": "https://retrobrawlapk.com/retro-brawl-logo.webp", "width": 512, "height": 512 },
+        "contactPoint": { "@type": "ContactPoint", "email": "support@retrobrawlapk.com", "contactType": "Customer Support" }
       },
       {
         "@type": "SoftwareApplication",
-        "name": "Magic Brawl APK",
+        "name": "Retro Brawl APK",
         "operatingSystem": "Android 7.0+",
         "applicationCategory": "GameApplication",
-        "image": "https://magicbrawlapk.net/magic-brawl-apk-logo.webp",
+        "image": "https://retrobrawlapk.com/retro-brawl-logo.webp",
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.7", "ratingCount": "20000000", "bestRating": "5" },
-        "downloadUrl": "https://magicbrawlapk.net/download-magic-brawl-apk",
-        "softwareVersion": "50.221",
+        "downloadUrl": "https://retrobrawlapk.com/download-retro-brawl-apk",
+        "softwareVersion": "12.98",
         "fileSize": "363MB",
-        "description": "Magic Brawl is a rebirth of Brawl Stars — a fan-made MOD built on private servers. All brawlers unlocked, unlimited gems, exclusive skins, custom maps, and online battles.",
-        "author": { "@type": "Organization", "name": "Magic Brawl APK" }
+        "description": "Retro Brawl is a rebirth of Brawl Stars — a fan-made MOD built on private servers. All brawlers unlocked, unlimited gems, exclusive skins, custom maps, and online battles.",
+        "author": { "@type": "Organization", "name": "Retro Brawl APK" }
       },
       {
         "@type": "FAQPage",
         "mainEntity": [
-          { "@type": "Question", "name": "What is Magic Brawl APK?", "acceptedAnswer": { "@type": "Answer", "text": "Magic Brawl APK is a fan-made MOD of Brawl Stars built on private servers. It offers all brawlers unlocked from the start, unlimited gems, exclusive skins, custom maps, and online battles. It is a free entertainment game that is regularly updated with new content." } },
-          { "@type": "Question", "name": "Is Magic Brawl APK safe to download?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, when downloaded from the official website magicbrawlapk.net. The APK runs on private servers separate from the official game, ensuring a safe and smooth gaming experience." } },
-          { "@type": "Question", "name": "Do I need real money to play Magic Brawl?", "acceptedAnswer": { "@type": "Answer", "text": "No. Magic Brawl is completely free. All brawlers, skins, gems, and premium features are unlocked from the start without any in-app purchases." } },
-          { "@type": "Question", "name": "Can I play Magic Brawl on iOS?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. iOS users can install Magic Brawl IPA using tools like AltStore or Sideloadly without jailbreak. Visit our iOS download page for step-by-step instructions." } },
-          { "@type": "Question", "name": "Can I play with friends in Magic Brawl?", "acceptedAnswer": { "@type": "Answer", "text": "Absolutely. Magic Brawl supports multiplayer battles. You can create private rooms, invite friends, and play custom matches together." } },
-          { "@type": "Question", "name": "What brawlers are exclusive to Magic Brawl?", "acceptedAnswer": { "@type": "Answer", "text": "Magic Brawl features exclusive brawlers like FUMEY, RT, Willow, Maisie, and Hank with unique abilities not found in the official Brawl Stars game." } },
-          { "@type": "Question", "name": "Is Magic Brawl APK anti-ban?", "acceptedAnswer": { "@type": "Answer", "text": "Magic Brawl runs on private servers completely separate from the official Brawl Stars servers, so your official account is not affected." } },
-          { "@type": "Question", "name": "Can I play Magic Brawl offline?", "acceptedAnswer": { "@type": "Answer", "text": "A stable internet connection is required for online multiplayer battles. However, some practice modes may work offline." } },
-          { "@type": "Question", "name": "How do I update Magic Brawl APK?", "acceptedAnswer": { "@type": "Answer", "text": "Visit magicbrawlapk.net, download the latest APK, and install over your existing version. If you've linked your account with Null's Connect, your progress will be preserved automatically." } },
-          { "@type": "Question", "name": "Will I lose my progress when updating Magic Brawl?", "acceptedAnswer": { "@type": "Answer", "text": "No. If your account is linked with Null's Connect, simply install the new version over your existing one and your progress will be automatically restored." } },
-          { "@type": "Question", "name": "Can I transfer progress from official Brawl Stars to Magic Brawl?", "acceptedAnswer": { "@type": "Answer", "text": "No. Magic Brawl runs on separate private servers, so progress from the official game cannot be transferred. However, since everything is unlocked from the start, you won't miss anything." } }
+          { "@type": "Question", "name": "What is Retro Brawl APK?", "acceptedAnswer": { "@type": "Answer", "text": "Retro Brawl APK is a fan-made MOD of Brawl Stars built on private servers. It offers all brawlers unlocked from the start, unlimited gems, exclusive skins, custom maps, and online battles. It is a free entertainment game that is regularly updated with new content." } },
+          { "@type": "Question", "name": "Is Retro Brawl APK safe to download?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, when downloaded from the official website retrobrawlapk.com. The APK runs on private servers separate from the official game, ensuring a safe and smooth gaming experience." } },
+          { "@type": "Question", "name": "Do I need real money to play Retro Brawl?", "acceptedAnswer": { "@type": "Answer", "text": "No. Retro Brawl is completely free. All brawlers, skins, gems, and premium features are unlocked from the start without any in-app purchases." } },
+          { "@type": "Question", "name": "Can I play Retro Brawl on iOS?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. iOS users can install Retro Brawl IPA using tools like AltStore or Sideloadly without jailbreak. Visit our iOS download page for step-by-step instructions." } },
+          { "@type": "Question", "name": "Can I play with friends in Retro Brawl?", "acceptedAnswer": { "@type": "Answer", "text": "Absolutely. Retro Brawl supports multiplayer battles. You can create private rooms, invite friends, and play custom matches together." } },
+          { "@type": "Question", "name": "What brawlers are exclusive to Retro Brawl?", "acceptedAnswer": { "@type": "Answer", "text": "Retro Brawl features exclusive brawlers like FUMEY, RT, Willow, Maisie, and Hank with unique abilities not found in the official Brawl Stars game." } },
+          { "@type": "Question", "name": "Is Retro Brawl APK anti-ban?", "acceptedAnswer": { "@type": "Answer", "text": "Retro Brawl runs on private servers completely separate from the official Brawl Stars servers, so your official account is not affected." } },
+          { "@type": "Question", "name": "Can I play Retro Brawl offline?", "acceptedAnswer": { "@type": "Answer", "text": "A stable internet connection is required for online multiplayer battles. However, some practice modes may work offline." } },
+          { "@type": "Question", "name": "How do I update Retro Brawl APK?", "acceptedAnswer": { "@type": "Answer", "text": "Visit retrobrawlapk.com, download the latest APK, and install over your existing version. If you've linked your account with Null's Connect, your progress will be preserved automatically." } },
+          { "@type": "Question", "name": "Will I lose my progress when updating Retro Brawl?", "acceptedAnswer": { "@type": "Answer", "text": "No. If your account is linked with Null's Connect, simply install the new version over your existing one and your progress will be automatically restored." } },
+          { "@type": "Question", "name": "Can I transfer progress from official Brawl Stars to Retro Brawl?", "acceptedAnswer": { "@type": "Answer", "text": "No. Retro Brawl runs on separate private servers, so progress from the official game cannot be transferred. However, since everything is unlocked from the start, you won't miss anything." } }
         ]
       }
     ]
@@ -112,7 +113,7 @@ export default function Home() {
   return (
     <>
       <Script id="homepage-schema" type="application/ld+json" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://magicbrawlapk.net" }] }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://retrobrawlapk.com" }] }) }} />
 
       {/* ====== HERO SECTION ====== */}
       <section className="py-8 md:py-16 px-4 md:px-8 max-w-7xl mx-auto" style={{ minHeight: '400px' }}>
@@ -120,16 +121,16 @@ export default function Home() {
           <div className="md:w-3/5 space-y-6">
             <div className="space-y-3">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight text-white">
-                Magic Brawl APK
+                Retro Brawl APK
               </h1>
-              <p className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#FFA500]">v50.221</p>
+              <p className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#FFA500]">v12.98</p>
               <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-200">
                 Unlocked Premium – <span className="text-[#4ade80]">[Unlimited Gems]</span> 2026
               </h2>
             </div>
 
             <p className="text-lg text-gray-300 leading-relaxed">
-              Download the latest <Link href="/" className="text-white font-bold hover:text-accent transition-colors">Magic Brawl APK</Link> v50.221, the ultimate rebirth of Brawl Stars and its best times! Experience our private server with unlimited gems, coins, and exciting new content. Enjoy <strong className="text-accent">Season 18 – THE RESCUE!</strong> featuring new brawlers Maisie and Hank, exclusive author pins, daily giveaways including the unique Gamer Sprout skin, and all content unlocked from the start — online battles, all characters, second star powers, and gadgets. No real money needed.
+              Ready for the ultimate Brawl Stars experience? <Link href="/" className="text-white font-semibold hover:text-accent hover:underline">Retro Brawl APK</Link> gives you everything the official game locks behind paywalls — <span className="text-[#4ade80]">unlimited gems</span>, every brawler unlocked, exclusive skins, and custom maps — all free. Play on Android, iOS, or PC. Join millions who&apos;ve switched to private servers for stress-free, full-access gameplay. No grinding. No real money. Just pure action.
             </p>
 
             <div className="flex justify-center md:justify-start my-6">
@@ -137,7 +138,7 @@ export default function Home() {
                 href={DOWNLOAD_URL}
                 className="relative flex items-center px-10 py-5 text-white font-bold text-lg rounded-full border-2 border-[#0ea5e9] hover:bg-[#0ea5e9]/10 transition-all duration-300 group shadow-2xl hover:shadow-[0_0_30px_rgba(14,165,233,0.3)] hover:scale-105 animate-pulse-glow"
               >
-                <span>Magic Brawl APK</span>
+                <span>Retro Brawl APK</span>
                 <div className="ml-3 bg-[#f97316] rounded-full p-2.5 group-hover:scale-110 transition-transform">
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
                 </div>
@@ -148,79 +149,84 @@ export default function Home() {
           {/* Hero Image */}
           <div className="hidden md:flex md:w-2/5 md:mt-4 justify-center items-start">
             <div className="relative" style={{ width: '340px', height: '340px' }}>
-              <Image src="/magic-brawl-apk.webp" alt="Magic Brawl APK v50.221 - Brawl Stars Private Server with Unlimited Gems" width={340} height={340} className="object-contain drop-shadow-2xl" priority fetchPriority="high" quality={90} sizes="340px" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+              <Image src="/feature/og-image.webp" alt="Retro Brawl APK v12.98 - Brawl Stars Private Server with Unlimited Gems" width={340} height={340} className="object-contain drop-shadow-2xl rounded-2xl" priority fetchPriority="high" quality={90} sizes="340px" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
             </div>
           </div>
           <div className="mt-8 md:hidden flex justify-center">
             <div className="relative" style={{ width: '260px', height: '260px' }}>
-              <Image src="/magic-brawl-apk.webp" alt="Magic Brawl APK v50.221" width={260} height={260} className="object-contain drop-shadow-2xl" priority fetchPriority="high" quality={90} sizes="260px" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+              <Image src="/feature/og-image.webp" alt="Retro Brawl APK v12.98" width={260} height={260} className="object-contain drop-shadow-2xl rounded-2xl" priority fetchPriority="high" quality={90} sizes="260px" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
             </div>
           </div>
         </div>
       </section>
 
-      {/* ====== OUR SERVERS ====== */}
+      {/* ====== RETRO BRAWL ====== */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold mb-8 text-[#FFA500] text-center">Our Servers</h2>
-        <p className="text-gray-400 text-center mb-8">Choose your preferred server — or download them all for the complete experience!</p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        <h2 className="text-3xl font-bold mb-4 text-[#FFA500] text-center">Download Retro Brawl APK — Free</h2>
+        <p className="text-gray-400 text-center mb-8 max-w-2xl mx-auto">Unlimited gems, all brawlers unlocked, exclusive skins. Play on Android or iOS — no real money needed. The ultimate Brawl Stars private server.</p>
+        <div className="max-w-xl mx-auto">
           <div className="bg-secondary rounded-xl p-6 border border-[#FFA500]/30 hover:border-[#FFA500] hover:shadow-[0_0_16px_rgba(255,165,0,0.2)] transition-all duration-300">
             <div className="flex items-center gap-3 mb-3">
               <div className="w-12 h-12 rounded-lg overflow-hidden flex-shrink-0">
-                <Image src="/magic-brawl-apk-logo.webp" alt="Magic Brawl APK Logo" width={48} height={48} className="w-full h-full object-cover" />
-              </div>
-              <div>
-                <h3 className="text-xl font-bold text-white">Magic Brawl APK</h3>
-                <p className="text-gray-400 text-sm">Version: v50.221</p>
-              </div>
-            </div>
-            <p className="text-gray-300 text-sm mb-4">The ultimate Brawl Stars experience! All characters, skins, and powers unlocked. Private server updates monthly with exclusive modes.</p>
-            <div className="flex gap-3">
-              <a href={DOWNLOAD_URL} className="text-sm font-semibold text-[#4ade80] hover:underline">Download Android</a>
-              <span className="text-gray-600">|</span>
-              <a href="https://dl.magicbrawlapk.net/file/Magicbrawlapk/magic-brawl-apk-by-magicbrawlapk.net.apk.ipa" className="text-sm font-semibold text-[#60a5fa] hover:underline">Download iOS</a>
-            </div>
-          </div>
-          <div className="bg-secondary rounded-xl p-6 border border-[#FFA500]/30 hover:border-[#FFA500] hover:shadow-[0_0_16px_rgba(255,165,0,0.2)] transition-all duration-300">
-            <div className="flex items-center gap-3 mb-3">
-              <div className="w-12 h-12 rounded-lg overflow-hidden flex-shrink-0">
-                <Image src="/retro-brawl-apk.webp" alt="Retro Brawl Logo" width={48} height={48} className="w-full h-full object-cover" />
+                <Image src="/retro-brawl-logo.webp" alt="Retro Brawl Logo" width={48} height={48} className="w-full h-full object-cover" />
               </div>
               <div>
                 <h3 className="text-xl font-bold text-white">Retro Brawl</h3>
                 <p className="text-gray-400 text-sm">Version: v12.98</p>
               </div>
             </div>
-            <p className="text-gray-300 text-sm mb-4">Retro Brawl brings back 2018 Brawl Stars! Original 21 heroes, classic maps, old-school UI. Preserves the nostalgic gameplay you love.</p>
+            <p className="text-gray-300 text-sm mb-4">The ultimate Brawl Stars experience! All characters, skins, and powers unlocked. Private server updates monthly with exclusive modes.</p>
             <div className="flex gap-3 flex-wrap">
-              <Link href="/download-retro-brawl" className="text-sm font-semibold text-[#4ade80] hover:underline">Learn More</Link>
+              <a href={DOWNLOAD_URL} className="text-sm font-semibold text-[#4ade80] hover:underline">Download Android</a>
               <span className="text-gray-600">|</span>
-              <a href="https://dl.magicbrawlapk.net/file/Magicbrawlapk/retrobrawl-by-magicbrawlapk.net.apk" className="text-sm font-semibold text-[#60a5fa] hover:underline">Download Android</a>
-              <span className="text-gray-600">|</span>
-              <a href="https://dl.magicbrawlapk.net/file/Magicbrawlapk/retrobrawl-by-magicbrawlapk.net.ipa" className="text-sm font-semibold text-[#a78bfa] hover:underline">Download iOS</a>
+              <a href="https://dl.retrobrawlapk.com/file/Magicbrawlapk/magic-brawl-apk-by-retrobrawlapk.com.apk.ipa" className="text-sm font-semibold text-[#60a5fa] hover:underline">Download iOS</a>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ====== WHAT IS MAGIC BRAWL APK & HOW DOES IT WORK ====== */}
+      {/* ====== WHAT IS RETRO BRAWL APK ====== */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-[#FFA500]">What is Magic Brawl APK and Why You Will Like It?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-[#FFA500]">What is Retro Brawl APK?</h2>
           <div className="space-y-5 text-gray-300 leading-relaxed">
             <p>
-              <strong className="text-white">Magic Brawl APK</strong> is a popular private server for Brawl Stars that offers an enhanced gaming experience with unlimited resources and exclusive features. If you&apos;re looking to enjoy Brawl Stars without limitations, Magic Brawl is the perfect choice for you.
+              <strong className="text-white">Retro Brawl APK</strong> is a fan-made MOD of Brawl Stars built on private servers — similar to Null&apos;s Brawl, but with its own twists. It delivers fast-paced action, responsive controls, and the full roster of brawlers from day one. No waiting. No paywalls. Just instant access to everything.
             </p>
             <p>
-              The game is a fan-made MOD of Brawl Stars (created by Supercell) built on private servers. It overcomes all restrictions you face in the official version — locked brawlers, limited gems, paywalled skins — and gives you full premium access the moment you install it. Unlike the official game where you slowly unlock content over weeks or months, everything is available from the start.
+              The official game locks brawlers, skins, and gems behind months of grinding or real money. Retro Brawl flips that: <strong className="text-accent">unlimited gems</strong>, every character unlocked, all gadgets and star powers ready — the moment you install. Your device connects to a secure private server where progress is saved. Gameplay stays smooth with minimal lag.
             </p>
             <p>
-              There are unique twists that make it stand apart: exclusive brawlers like <strong className="text-accent">FUMEY</strong>, <strong className="text-accent">RT</strong>, <strong className="text-accent">Willow</strong>, <strong className="text-accent">Maisie</strong>, and <strong className="text-accent">Hank</strong>, custom maps you can edit to your liking, and a multiplayer online battle arena (MOBA) experience with stunning graphics and an <Link href="/blog/magic-brawl-2026-soundtrack-music-powers-every-battle" className="text-accent hover:underline">immersive soundtrack</Link>. Your device connects to a secure custom server where all your items and progress are stored. Gameplay stays smooth with no lag.
+              What sets it apart: exclusive brawlers like <strong className="text-accent">FUMEY</strong>, <strong className="text-accent">RT</strong>, <strong className="text-accent">Willow</strong>, <strong className="text-accent">Maisie</strong>, and <strong className="text-accent">Hank</strong> with abilities you won&apos;t find in the original. Custom maps you can edit. An <Link href="/blog/retro-brawl-2026-soundtrack-music-powers-every-battle" className="text-accent hover:underline">immersive soundtrack</Link> that powers every battle. Whether you want casual fun or competitive practice, Retro Brawl delivers.
             </p>
             <p>
-              At its heart, this isn&apos;t just a &quot;full unlock&quot; version — it&apos;s a creative playground. Whether you&apos;re a casual player looking for fun or a competitive fan wanting to test bold new tactics, it delivers a unique experience you can&apos;t find anywhere else.
+              <strong className="text-white">Play anywhere</strong> — Android, PC (emulator), or iOS. Regular updates add new brawlers, modes, and events. It&apos;s the Brawl Stars experience you love, without the restrictions.
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* ====== WHY RETROBRAWL.ORG ====== */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="bg-secondary rounded-xl p-8 border border-[#FFA500]/20">
+          <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">Why Download Retro Brawl from retrobrawlapk.com?</h2>
+          <p className="text-gray-300 mb-6">Not all download sources are equal. Here&apos;s why retrobrawlapk.com is the trusted choice for millions of players:</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              { title: 'Official & Verified', desc: 'Direct downloads from our servers. No third-party mirrors or risky redirects.' },
+              { title: 'Malware-Free APKs', desc: 'Every file is scanned and verified clean. Safe for your device and data.' },
+              { title: 'Latest Version Always', desc: 'Get v12.98 and future updates as soon as they release.' },
+              { title: 'No Registration Required', desc: 'Download in one tap. No sign-up walls or email harvesting.' },
+              { title: 'Fast & Reliable', desc: 'Optimized servers for quick downloads. No broken links or dead mirrors.' },
+              { title: 'Support When You Need It', desc: 'Clear guides, FAQs, and a contact page for real help.' },
+            ].map((item) => (
+              <div key={item.title} className="bg-[#0A1029] p-4 rounded-lg flex flex-col gap-2">
+                <h3 className="text-accent font-bold text-sm">{item.title}</h3>
+                <p className="text-gray-400 text-sm">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+          <p className="text-gray-400 text-sm mt-6"><strong className="text-white">Important:</strong> Always download from retrobrawlapk.com. Avoid APKs from unknown sites — they may contain malware or outdated versions.</p>
         </div>
       </section>
 
@@ -230,8 +236,8 @@ export default function Home() {
         <div className="overflow-hidden rounded-2xl shadow-2xl border border-gray-800">
           <table className="min-w-full divide-y divide-gray-800">
             <tbody className="divide-y divide-gray-800">
-              <tr className="bg-[#0a1029]/50"><td className="py-4 px-6 font-medium text-white">App Name</td><td className="py-4 px-6 text-white">Magic Brawl APK</td></tr>
-              <tr className="bg-[#06091F]/50"><td className="py-4 px-6 font-medium text-white">Version</td><td className="py-4 px-6 text-white">v50.221</td></tr>
+              <tr className="bg-[#0a1029]/50"><td className="py-4 px-6 font-medium text-white">App Name</td><td className="py-4 px-6 text-white">Retro Brawl APK</td></tr>
+              <tr className="bg-[#06091F]/50"><td className="py-4 px-6 font-medium text-white">Version</td><td className="py-4 px-6 text-white">v12.98</td></tr>
               <tr className="bg-[#0a1029]/50"><td className="py-4 px-6 font-medium text-white">Size</td><td className="py-4 px-6 text-white">363MB</td></tr>
               <tr className="bg-[#06091F]/50"><td className="py-4 px-6 font-medium text-white">Last Update</td><td className="py-4 px-6 text-white">2026</td></tr>
               <tr className="bg-[#0a1029]/50"><td className="py-4 px-6 font-medium text-white">Downloads</td><td className="py-4 px-6 text-white">20,000,000+</td></tr>
@@ -247,7 +253,7 @@ export default function Home() {
       {/* ====== WHAT'S NEW IN LATEST VERSION ====== */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-3 text-[#FFA500]">What&apos;s New in Magic Brawl APK Latest Version v50.221</h2>
+          <h2 className="text-3xl font-bold mb-3 text-[#FFA500]">What&apos;s New in Retro Brawl APK Latest Version v12.98</h2>
           <p className="text-gray-300 mb-6">The latest version brings several exciting updates to enhance your gaming experience:</p>
           <ul className="space-y-3 text-gray-300">
             <li className="flex items-start gap-3"><span className="text-[#4ade80] mt-1 flex-shrink-0">&#10003;</span><span><strong className="text-white">New Brawlers Added</strong> — Maisie (available in Brawl Pass) and Hank (purchase within 7 days or obtain later on the Star Road) with unique abilities and fresh battle strategies.</span></li>
@@ -267,7 +273,7 @@ export default function Home() {
             <li className="flex items-start gap-3"><span className="text-[#4ade80] mt-1 flex-shrink-0">&#10003;</span><span><strong className="text-white">Performance & Stability</strong> — Bug fixes, faster loading, smoother gameplay, and reduced crashes across all devices.</span></li>
           </ul>
           <div className="mt-6 pt-4 border-t border-gray-700/50">
-            <Link href="/blog/magic-brawl-apk-2026-whats-new-why-everyones-playing" className="text-accent hover:underline font-semibold">Read the full breakdown: What&apos;s New in Magic Brawl 2026 →</Link>
+            <Link href="/blog/retro-brawl-apk-2026-whats-new-why-everyones-playing" className="text-accent hover:underline font-semibold">Read the full breakdown: What&apos;s New in Retro Brawl 2026 →</Link>
           </div>
         </div>
       </section>
@@ -275,7 +281,8 @@ export default function Home() {
       {/* ====== FEATURES ====== */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Features of Magic Brawl APK</h2>
+          <h2 className="text-3xl font-bold mb-4 text-[#FFA500]">Key Features of Retro Brawl APK</h2>
+          <p className="text-gray-400 mb-8">Dynamic visuals, responsive controls, and constant updates — here&apos;s what makes Retro Brawl the go-to Brawl Stars experience for millions of players.</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             {/* Unlimited Resources */}
             <div className="group bg-[#0A1029] rounded-xl p-6 border border-[#FFA500]/20 hover:border-[#FFA500] hover:shadow-[0_0_20px_rgba(255,165,0,0.15)] transition-all duration-300 hover:-translate-y-1 cursor-default">
@@ -283,7 +290,7 @@ export default function Home() {
                 <span className="text-2xl group-hover:scale-110 transition-transform duration-300">💎</span>
                 <h3 className="text-xl font-bold text-accent">Unlimited Resources</h3>
               </div>
-              <p className="text-gray-400 text-sm leading-relaxed">Unlimited gems, coins, star points, and all characters unlocked from the start. Upgrade any brawler, grab any skin, equip any gadget instantly. <Link href="/blog/brawl-stars-2026-unlock-premium-gems-magic-brawl-edition" className="text-accent hover:underline">Learn how to unlock premium gems →</Link></p>
+              <p className="text-gray-400 text-sm leading-relaxed">Unlimited gems, coins, star points, and all characters unlocked from the start. Upgrade any brawler, grab any skin, equip any gadget instantly. <Link href="/blog/brawl-stars-2026-unlock-premium-gems-retro-brawl-edition" className="text-accent hover:underline">Learn how to unlock premium gems →</Link></p>
             </div>
             {/* All Brawlers & Skins */}
             <div className="group bg-[#0A1029] rounded-xl p-6 border border-[#FFA500]/20 hover:border-[#FFA500] hover:shadow-[0_0_20px_rgba(255,165,0,0.15)] transition-all duration-300 hover:-translate-y-1 cursor-default">
@@ -291,7 +298,7 @@ export default function Home() {
                 <span className="text-2xl group-hover:scale-110 transition-transform duration-300">🎭</span>
                 <h3 className="text-xl font-bold text-accent">All Brawlers & Skins</h3>
               </div>
-              <p className="text-gray-400 text-sm leading-relaxed">Immediate access to every brawler — rarest legendary and chromatic included. Every skin available from day one. See our guides for <Link href="/blog/colette-brawl-stars-vs-magic-brawl-apk" className="text-accent hover:underline">Colette</Link> and <Link href="/blog/edgar-brawl-stars-unlock-guide-magic-brawl-apk-benefits" className="text-accent hover:underline">Edgar</Link>.</p>
+              <p className="text-gray-400 text-sm leading-relaxed">Immediate access to every brawler — rarest legendary and chromatic included. Every skin available from day one. See our guides for <Link href="/blog/colette-brawl-stars-vs-retro-brawl-apk" className="text-accent hover:underline">Colette</Link> and <Link href="/blog/edgar-brawl-stars-unlock-guide-retro-brawl-apk-benefits" className="text-accent hover:underline">Edgar</Link>.</p>
             </div>
             {/* Enhanced Brawl Pass */}
             <div className="group bg-[#0A1029] rounded-xl p-6 border border-[#FFA500]/20 hover:border-[#FFA500] hover:shadow-[0_0_20px_rgba(255,165,0,0.15)] transition-all duration-300 hover:-translate-y-1 cursor-default">
@@ -339,7 +346,7 @@ export default function Home() {
                 <span className="text-2xl group-hover:scale-110 transition-transform duration-300">✨</span>
                 <h3 className="text-xl font-bold text-accent">Exclusive Skins & Content</h3>
               </div>
-              <p className="text-gray-400 text-sm leading-relaxed">Designs that don&apos;t exist anywhere else — custom animations and sound effects on premium skins. Outcast <Link href="/blog/edgar-brawl-stars-unlock-guide-magic-brawl-apk-benefits" className="text-accent hover:underline">Edgar</Link>, Gus skins, and seasonal exclusives all unlocked.</p>
+              <p className="text-gray-400 text-sm leading-relaxed">Designs that don&apos;t exist anywhere else — custom animations and sound effects on premium skins. Outcast <Link href="/blog/edgar-brawl-stars-unlock-guide-retro-brawl-apk-benefits" className="text-accent hover:underline">Edgar</Link>, Gus skins, and seasonal exclusives all unlocked.</p>
             </div>
             {/* Custom Maps */}
             <div className="group bg-[#0A1029] rounded-xl p-6 border border-[#FFA500]/20 hover:border-[#FFA500] hover:shadow-[0_0_20px_rgba(255,165,0,0.15)] transition-all duration-300 hover:-translate-y-1 cursor-default">
@@ -371,7 +378,7 @@ export default function Home() {
                 <span className="text-2xl group-hover:scale-110 transition-transform duration-300">🔄</span>
                 <h3 className="text-xl font-bold text-accent">Fast & Regular Updates</h3>
               </div>
-              <p className="text-gray-400 text-sm leading-relaxed">New brawlers, game modes, custom maps, enhanced club leagues, balanced abilities, and bug fixes — all pushed quickly by the Magic Brawl team to keep the experience fresh.</p>
+              <p className="text-gray-400 text-sm leading-relaxed">New brawlers, game modes, custom maps, enhanced club leagues, balanced abilities, and bug fixes — all pushed quickly by the Retro Brawl team to keep the experience fresh.</p>
             </div>
           </div>
         </div>
@@ -404,7 +411,7 @@ export default function Home() {
           </div>
           <div className="bg-secondary p-6 rounded-xl border border-gray-800 hover:border-[#4ade80]/50 transition-all bg-gradient-to-br from-[#0A1029] to-[#0a1029]">
             <h3 className="text-xl font-bold mb-3 text-[#4ade80]">Everything Free</h3>
-            <p className="text-gray-300">No real money purchases, no grinding, no waiting. Every item — skins, sprays, icons, and more — is available in the catalog the moment you open Magic Brawl.</p>
+            <p className="text-gray-300">No real money purchases, no grinding, no waiting. Every item — skins, sprays, icons, and more — is available in the catalog the moment you open Retro Brawl.</p>
           </div>
         </div>
       </section>
@@ -412,8 +419,8 @@ export default function Home() {
       {/* ====== GAME MODES ====== */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-4 text-[#FFA500]">All Game Modes Available in Magic Brawl</h2>
-          <p className="text-gray-400 mb-8">Magic Brawl APK offers all the game modes available in official Brawl Stars, plus some exclusive ones:</p>
+          <h2 className="text-3xl font-bold mb-4 text-[#FFA500]">All Game Modes Available in Retro Brawl</h2>
+          <p className="text-gray-400 mb-8">Retro Brawl APK offers all the game modes available in official Brawl Stars, plus some exclusive ones:</p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               { name: 'Gem Grab', desc: 'Collect and hold gems while defending against opponents. The first team to collect 10 gems and maintain control for 15 seconds wins the match.', hot: true },
@@ -444,7 +451,7 @@ export default function Home() {
 
       {/* ====== SCREENSHOTS ====== */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold mb-8 text-[#FFA500] text-center">Magic Brawl App Screenshots</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-8 text-[#FFA500] text-center">Retro Brawl App Screenshots</h2>
         <ScreenshotGallery />
       </section>
 
@@ -452,7 +459,7 @@ export default function Home() {
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
           <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">Popular Brawler Stats</h2>
-          <p className="text-gray-300 mb-6">Top stats of popular exclusive brawlers in Magic Brawl APK — every player should know their strengths.</p>
+          <p className="text-gray-300 mb-6">Top stats of popular exclusive brawlers in Retro Brawl APK — every player should know their strengths.</p>
           <div className="overflow-x-auto">
             <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
               <thead className="bg-[#0a1029]">
@@ -477,15 +484,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ====== WHY CHOOSE MAGIC BRAWL ====== */}
+      {/* ====== WHY CHOOSE RETRO BRAWL ====== */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">Why Choose Magic Brawl APK?</h2>
+          <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">Why Choose Retro Brawl APK?</h2>
           <div className="space-y-5 text-gray-300 leading-relaxed">
-            <p>Choosing Magic Brawl means stepping into a version built with players in mind, not profit. Complete freedom from the limitations of the official release — enjoy the full roster of brawlers, unlimited resources, and exclusive modes right from the start.</p>
-            <p>With private servers, developers add fresh content, balance changes, and unique events faster than the main game. You&apos;re always getting something new — creative game modes, custom maps, seasonal events, and community challenges with their own surprises.</p>
-            <p>It&apos;s also a great space for learning. New players can test every brawler without months of grinding, while experienced players can refine skills by experimenting with unusual strategies. The freedom to try different setups without worrying about losing progress makes it perfect for both casual fun and serious practice.</p>
-            <p className="mt-4"><Link href="/blog/10-must-know-features-hidden-tricks-magic-brawl-2026" className="text-accent hover:underline font-semibold">Discover 10 Must-Know Features & Hidden Tricks →</Link></p>
+            <p><strong className="text-white">Built for players, not profit.</strong> Retro Brawl removes every paywall and grind. The full roster of 70+ brawlers, unlimited gems, every skin, gadget, and star power — yours from day one. No waiting. No spending.</p>
+            <p>Private servers mean <strong className="text-accent">faster updates</strong> than the official game. New brawlers, custom maps, seasonal events, and community challenges drop regularly. Exclusive modes like 5v5 Brawl Ball and player-created maps keep the action fresh.</p>
+            <p>Whether you&apos;re new or a veteran: test every brawler instantly, experiment with bold strategies, and practice without fear of losing progress. Perfect for casual fun and competitive mastery alike.</p>
+            <p className="mt-4"><Link href="/blog/10-must-know-features-hidden-tricks-retro-brawl-2026" className="text-accent hover:underline font-semibold">Discover 10 Must-Know Features & Hidden Tricks →</Link></p>
           </div>
         </div>
       </section>
@@ -509,16 +516,16 @@ export default function Home() {
       {/* ====== GIFT / REWARDS SYSTEM ====== */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">How to Get Gifts in Magic Brawl</h2>
-          <p className="text-gray-300 mb-6">Magic Brawl offers a unique rewards system for content creators and active community members:</p>
+          <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">How to Get Gifts in Retro Brawl</h2>
+          <p className="text-gray-300 mb-6">Retro Brawl offers a unique rewards system for content creators and active community members:</p>
           <div className="bg-[#0A1029] rounded-xl p-6 border border-[#FFA500]/30 mb-6">
             <p className="text-accent font-semibold text-lg mb-2">Create content, earn exclusive rewards!</p>
             <p className="text-gray-300">Shoot a video on any social network, get 1,000+ views, and earn a free skin plus the opportunity to create your own author code that other players can use!</p>
           </div>
           <ol className="space-y-3 text-gray-300 list-decimal pl-5">
-            <li>Create engaging content about Magic Brawl — gameplay, tips, reviews, tutorials, or highlight reels.</li>
+            <li>Create engaging content about Retro Brawl — gameplay, tips, reviews, tutorials, or highlight reels.</li>
             <li>Share it on social media platforms like YouTube, TikTok, or Instagram.</li>
-            <li>Once your content reaches 1,000+ views, contact the Magic Brawl team through official channels.</li>
+            <li>Once your content reaches 1,000+ views, contact the Retro Brawl team through official channels.</li>
             <li>Receive a free skin of your choice and potentially create your own author code.</li>
           </ol>
         </div>
@@ -527,33 +534,36 @@ export default function Home() {
       {/* ====== HOW TO DOWNLOAD ANDROID ====== */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">How to Install Magic Brawl APK on Android</h2>
-          <p className="text-gray-300 mb-6">Installing Magic Brawl on your Android device is a straightforward process:</p>
+          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">How to Install Retro Brawl APK on Android</h2>
+          <p className="text-gray-300 mb-6">Installing Retro Brawl on your Android device is a straightforward process:</p>
           <div className="space-y-6 max-w-4xl mx-auto">
             <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#FFA500]">
               <h3 className="text-lg font-bold text-[#FFA500] mb-2">Step 1: Download the APK</h3>
-              <p className="text-gray-300 mb-4">Click the Download button on <Link href="/" className="text-accent hover:underline">magicbrawlapk.net</Link> to download the Magic Brawl APK file to your Android device.</p>
+              <p className="text-gray-300 mb-4">Click the Download button on <Link href="/" className="text-accent hover:underline">retrobrawlapk.com</Link> to download the Retro Brawl APK file to your Android device.</p>
               <div className="flex justify-center">
-                <Image src="/magic-brawl-apk-download-step1-removebg-preview.webp" alt="Magic Brawl APK Download Step 1" width={280} height={500} className="rounded-lg object-contain max-h-[400px] w-auto" />
+                <Image src="/retro-brawl-allow-apk-installation-step1.webp" alt="Retro Brawl APK Download Step 1" width={280} height={500} className="rounded-lg object-contain max-h-[400px] w-auto" />
               </div>
             </div>
             <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#4ade80]">
               <h3 className="text-lg font-bold text-[#4ade80] mb-2">Step 2: Enable Unknown Sources</h3>
               <p className="text-gray-300 mb-4">Before installing, enable installation from unknown sources. Go to Settings &gt; Security &gt; Unknown Sources and toggle it on.</p>
               <div className="flex justify-center">
-                <Image src="/magic-brawl-apk-download-step2-removebg-preview.webp" alt="Magic Brawl APK Download Step 2" width={280} height={500} className="rounded-lg object-contain max-h-[400px] w-auto" />
+                <Image src="/retro-brawl-installation-step-step2.webp" alt="Retro Brawl APK Download Step 2" width={280} height={500} className="rounded-lg object-contain max-h-[400px] w-auto" />
               </div>
             </div>
             <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#60a5fa]">
               <h3 className="text-lg font-bold text-[#60a5fa] mb-2">Step 3: Install the APK</h3>
               <p className="text-gray-300 mb-4">Follow the on-screen instructions to complete the installation process. Tap the downloaded file and confirm.</p>
               <div className="flex justify-center">
-                <Image src="/magic-brawl-apk-download-step3-removebg-preview.webp" alt="Magic Brawl APK Download Step 3" width={280} height={500} className="rounded-lg object-contain max-h-[400px] w-auto" />
+                <Image src="/retro-brawl-installing-step3.webp" alt="Retro Brawl APK Download Step 3" width={280} height={500} className="rounded-lg object-contain max-h-[400px] w-auto" />
               </div>
             </div>
             <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#f97316]">
               <h3 className="text-lg font-bold text-[#f97316] mb-2">Step 4: Start Playing</h3>
-              <p className="text-gray-300">Open the game and start playing immediately with all features unlocked — all brawlers, skins, gems, and premium content ready to go!</p>
+              <p className="text-gray-300 mb-4">Open the game and start playing immediately with all features unlocked — all brawlers, skins, gems, and premium content ready to go!</p>
+              <div className="flex justify-center">
+                <Image src="/retro-brawl-app-installed-step4.webp" alt="Retro Brawl APK Download Step 4" width={280} height={500} className="rounded-lg object-contain max-h-[400px] w-auto" />
+              </div>
             </div>
           </div>
           <div className="flex justify-center mt-8">
@@ -570,12 +580,12 @@ export default function Home() {
       {/* ====== HOW TO INSTALL ON iOS ====== */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">How to Install Magic Brawl on iOS</h2>
-          <p className="text-gray-300 mb-6">You can install Magic Brawl on your iPhone or iPad using the IPA file. Follow these steps:</p>
+          <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">How to Install Retro Brawl on iOS</h2>
+          <p className="text-gray-300 mb-6">You can install Retro Brawl on your iPhone or iPad using the IPA file. Follow these steps:</p>
           <div className="space-y-6 max-w-4xl mx-auto">
             <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#60a5fa]">
               <h3 className="text-lg font-bold text-[#60a5fa] mb-2">Step 1: Download the IPA File</h3>
-              <p className="text-gray-300">Select your server and download the Magic Brawl IPA file from <a href="https://dl.magicbrawlapk.net/file/Magicbrawlapk/magic-brawl-apk-by-magicbrawlapk.net.apk.ipa" className="text-accent hover:underline">magicbrawlapk.net</a>.</p>
+              <p className="text-gray-300">Select your server and download the Retro Brawl IPA file from <a href="https://dl.retrobrawlapk.com/file/Magicbrawlapk/magic-brawl-apk-by-retrobrawlapk.com.apk.ipa" className="text-accent hover:underline">retrobrawlapk.com</a>.</p>
             </div>
             <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#FFA500]">
               <h3 className="text-lg font-bold text-[#FFA500] mb-2">Step 2: Allow Installation from Untrusted Sources</h3>
@@ -598,7 +608,7 @@ export default function Home() {
           <div className="bg-[#0A1029] rounded-xl p-6">
             <h3 className="text-lg font-bold text-accent mb-4">Steps to Setup:</h3>
             <ol className="space-y-3 text-gray-300 list-decimal pl-5">
-              <li>Open Magic Brawl on your device.</li>
+              <li>Open Retro Brawl on your device.</li>
               <li>Navigate to the settings menu.</li>
               <li>Select the &quot;Null&apos;s Connect&quot; option.</li>
               <li>Create a new account or log in with your existing credentials.</li>
@@ -612,11 +622,11 @@ export default function Home() {
       {/* ====== HOW TO UPDATE WITHOUT LOSING PROGRESS ====== */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">How to Update Magic Brawl Without Losing Progress</h2>
-          <p className="text-gray-300 mb-6">Keeping Magic Brawl updated ensures you enjoy the newest features, bug fixes, and smooth gameplay:</p>
+          <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">How to Update Retro Brawl Without Losing Progress</h2>
+          <p className="text-gray-300 mb-6">Keeping Retro Brawl updated ensures you enjoy the newest features, bug fixes, and smooth gameplay:</p>
           <ol className="space-y-3 text-gray-300 list-decimal pl-5">
             <li>Make sure your account is linked with Null&apos;s Connect.</li>
-            <li>Open your browser and go to <Link href="/" className="text-accent hover:underline">magicbrawlapk.net</Link> download page.</li>
+            <li>Open your browser and go to <Link href="/" className="text-accent hover:underline">retrobrawlapk.com</Link> download page.</li>
             <li>Check the version number and release date to confirm it&apos;s newer than your installed version.</li>
             <li>Tap the download button and wait for the latest APK to finish downloading.</li>
             <li>Install over your existing version (no need to uninstall).</li>
@@ -678,7 +688,7 @@ export default function Home() {
       {/* ====== PRO TIPS ====== */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">Pro Tips to Dominate in Magic Brawl</h2>
+          <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">Pro Tips to Dominate in Retro Brawl</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
               'Use FUMEY\'s knockback to push enemies into traps on custom maps.',
@@ -699,7 +709,7 @@ export default function Home() {
             ))}
           </div>
           <div className="mt-6 pt-4 border-t border-gray-700/50">
-            <Link href="/blog/10-must-know-features-hidden-tricks-magic-brawl-2026" className="text-accent hover:underline font-semibold">More tips & hidden tricks in our full guide →</Link>
+            <Link href="/blog/10-must-know-features-hidden-tricks-retro-brawl-2026" className="text-accent hover:underline font-semibold">More tips & hidden tricks in our full guide →</Link>
           </div>
         </div>
       </section>
@@ -735,11 +745,11 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-6 text-[#FFA500]">Common Errors — Solution Guide</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
-              { title: 'App Not Installing', solution: 'Clear old APK files, enable "Install from Unknown Sources," and use a trusted download link from magicbrawlapk.net to install without conflicts.' },
+              { title: 'App Not Installing', solution: 'Clear old APK files, enable "Install from Unknown Sources," and use a trusted download link from retrobrawlapk.com to install without conflicts.' },
               { title: 'Game Stuck on Loading Screen', solution: 'Restart your device, clear app cache, and ensure your internet connection is stable before reopening the game.' },
               { title: 'Crashing Mid-Match', solution: 'Lower graphics settings, close background apps, and check storage space to prevent memory overload during intense matches.' },
               { title: 'Can\'t Connect to Private Server', solution: 'Switch to a different Wi-Fi or mobile data network, then restart the game to refresh the server connection.' },
-              { title: 'Update Not Installing', solution: 'Uninstall the outdated version, download the latest APK from magicbrawlapk.net, and reinstall. Restore progress via Null\'s Connect.' },
+              { title: 'Update Not Installing', solution: 'Uninstall the outdated version, download the latest APK from retrobrawlapk.com, and reinstall. Restore progress via Null\'s Connect.' },
               { title: 'Audio Issues', solution: 'Check your device sound settings, verify in-game volume controls, and restart the emulator or app.' },
             ].map((error) => (
               <div key={error.title} className="bg-[#0A1029] p-5 rounded-lg">
@@ -757,17 +767,17 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Frequently Asked Questions</h2>
           <div className="space-y-4">
             {[
-              { q: 'What is Magic Brawl APK?', a: 'Magic Brawl APK is a fan-made MOD of Brawl Stars built on private servers. It offers all brawlers unlocked, unlimited gems, exclusive skins, custom maps, enhanced Brawl Pass, and online battles — completely free with regular monthly updates.' },
-              { q: 'Is Magic Brawl APK safe to download?', a: 'Yes, when downloaded from the official website magicbrawlapk.net. It runs on private servers separate from the official game, ensuring a safe experience for your device and data.' },
-              { q: 'Do I need real money to play?', a: 'No. Magic Brawl is 100% free. All brawlers, skins, gems, gadgets, star powers, Brawl Pass rewards, and premium features are unlocked from the start without any purchases.' },
-              { q: 'Can I play Magic Brawl on iOS?', a: 'Yes. iOS users can install Magic Brawl IPA using tools like AltStore or Sideloadly. No jailbreak required. Go to Settings > General > Device Management to trust the developer profile.' },
-              { q: 'Can I play with my friends?', a: 'Absolutely. Magic Brawl supports full multiplayer. Create private rooms, invite friends, set custom rules and conditions, organize mini-tournaments, or practice strategies against bots.' },
-              { q: 'Is this APK anti-ban?', a: 'Magic Brawl runs on private servers completely separate from official Brawl Stars servers, so your official account is not affected or at risk.' },
+              { q: 'What is Retro Brawl APK?', a: 'Retro Brawl APK is a fan-made MOD of Brawl Stars built on private servers. It offers all brawlers unlocked, unlimited gems, exclusive skins, custom maps, enhanced Brawl Pass, and online battles — completely free with regular monthly updates.' },
+              { q: 'Is Retro Brawl APK safe to download?', a: 'Yes, when downloaded from the official website retrobrawlapk.com. It runs on private servers separate from the official game, ensuring a safe experience for your device and data.' },
+              { q: 'Do I need real money to play?', a: 'No. Retro Brawl is 100% free. All brawlers, skins, gems, gadgets, star powers, Brawl Pass rewards, and premium features are unlocked from the start without any purchases.' },
+              { q: 'Can I play Retro Brawl on iOS?', a: 'Yes. iOS users can install Retro Brawl IPA using tools like AltStore or Sideloadly. No jailbreak required. Go to Settings > General > Device Management to trust the developer profile.' },
+              { q: 'Can I play with my friends?', a: 'Absolutely. Retro Brawl supports full multiplayer. Create private rooms, invite friends, set custom rules and conditions, organize mini-tournaments, or practice strategies against bots.' },
+              { q: 'Is this APK anti-ban?', a: 'Retro Brawl runs on private servers completely separate from official Brawl Stars servers, so your official account is not affected or at risk.' },
               { q: 'Can I play offline?', a: 'A stable internet connection is required for online multiplayer battles. Some practice modes and training may work offline.' },
               { q: 'Will I lose my progress when updating?', a: 'No. If your account is linked with Null\'s Connect, simply install the new version over your existing one and your progress will be automatically restored.' },
-              { q: 'Can I transfer my progress from official Brawl Stars?', a: 'No. Magic Brawl runs on separate private servers, so official game progress cannot be transferred. However, since everything is unlocked from the start, you won\'t miss anything.' },
-              { q: 'What makes Magic Brawl different from Null\'s Brawl?', a: <>Magic Brawl offers exclusive brawlers (FUMEY, RT, Willow, Maisie, Hank), custom editable maps, community challenges, giveaway events, enhanced Brawl Pass, content creator rewards, and experimental content not found in other private servers. <Link href="/blog/magic-brawl-apk-vs-nulls-brawl-vs-retro-brawl-comparison" className="text-accent hover:underline">Read our full comparison →</Link></> },
-              { q: 'How often does Magic Brawl get updated?', a: 'The server receives regular monthly updates following closely behind the official game. New brawlers, maps, modes, bug fixes, and balance changes are pushed quickly by the Magic Brawl team.' },
+              { q: 'Can I transfer my progress from official Brawl Stars?', a: 'No. Retro Brawl runs on separate private servers, so official game progress cannot be transferred. However, since everything is unlocked from the start, you won\'t miss anything.' },
+              { q: 'What makes Retro Brawl different from Null\'s Brawl?', a: <>Retro Brawl offers exclusive brawlers (FUMEY, RT, Willow, Maisie, Hank), custom editable maps, community challenges, giveaway events, enhanced Brawl Pass, content creator rewards, and experimental content not found in other private servers. <Link href="/blog/retro-brawl-apk-vs-nulls-brawl-vs-retro-brawl-comparison" className="text-accent hover:underline">Read our full comparison →</Link></> },
+              { q: 'How often does Retro Brawl get updated?', a: 'The server receives regular monthly updates following closely behind the official game. New brawlers, maps, modes, bug fixes, and balance changes are pushed quickly by the Retro Brawl team.' },
             ].map((faq) => (
               <details key={faq.q} className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300">
                 <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium hover:text-[#FFA500] transition-colors">
@@ -787,21 +797,21 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-6 text-accent">Conclusion</h2>
           <div className="space-y-4 text-gray-300 leading-relaxed">
             <p>
-              <strong className="text-white">Magic Brawl APK</strong> is the ultimate private server experience for Brawl Stars fans. With all brawlers unlocked from the start, unlimited gems, exclusive skins, enhanced Brawl Pass, custom editable maps, community challenges, and unique game modes — it delivers everything the official game holds behind paywalls and grinding, completely free.
+              <strong className="text-white">Retro Brawl APK</strong> is the ultimate private server experience for Brawl Stars fans. With all brawlers unlocked from the start, unlimited gems, exclusive skins, enhanced Brawl Pass, custom editable maps, community challenges, and unique game modes — it delivers everything the official game holds behind paywalls and grinding, completely free.
             </p>
             <p>
-              The addition of exclusive brawlers like FUMEY, RT, Willow, Maisie, and Hank, along with Season 18 content, daily giveaways, the Bling system, and regular monthly updates, ensures there&apos;s always something new to explore. Whether you&apos;re looking to test strategies without progression pressure, enjoy faster matchmaking, create custom maps, or try modes like 5v5 Brawl Ball not available in the official version, Magic Brawl delivers a gameplay experience that feels both fresh and rewarding.
+              The addition of exclusive brawlers like FUMEY, RT, Willow, Maisie, and Hank, along with Season 18 content, daily giveaways, the Bling system, and regular monthly updates, ensures there&apos;s always something new to explore. Whether you&apos;re looking to test strategies without progression pressure, enjoy faster matchmaking, create custom maps, or try modes like 5v5 Brawl Ball not available in the official version, Retro Brawl delivers a gameplay experience that feels both fresh and rewarding.
             </p>
             <p className="text-white font-semibold">Download now and dive into a world where everything is unlocked. Enjoy the battle, build your team, and play without any restrictions.</p>
             <div className="flex flex-wrap gap-4 mt-4">
-              <Link href="/blog/comparison-magic-brawl-brawl-stars" className="text-accent hover:underline font-semibold text-sm">Magic Brawl vs Brawl Stars →</Link>
-              <Link href="/blog/download-magic-brawl-mod-menu-v50-221" className="text-accent hover:underline font-semibold text-sm">Mod Menu v50.221 Guide →</Link>
-              <Link href="/blog/magic-brawl-apk-download-old-version" className="text-accent hover:underline font-semibold text-sm">Download Old Version →</Link>
+              <Link href="/blog/comparison-retro-brawl-brawl-stars" className="text-accent hover:underline font-semibold text-sm">Retro Brawl vs Brawl Stars →</Link>
+              <Link href="/blog/download-retro-brawl-mod-menu-v50-221" className="text-accent hover:underline font-semibold text-sm">Mod Menu v12.98 Guide →</Link>
+              <Link href="/blog/retro-brawl-apk-download-old-version" className="text-accent hover:underline font-semibold text-sm">Download Old Version →</Link>
             </div>
           </div>
           <div className="flex justify-center mt-8">
             <a href={DOWNLOAD_URL} className="download-btn bg-transparent hover:bg-[#0ea5e9]/10 text-white font-bold py-4 px-10 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl border-2 border-[#0ea5e9]">
-              <span className="text-lg">DOWNLOAD MAGIC BRAWL APK v50.221</span>
+              <span className="text-lg">DOWNLOAD RETRO BRAWL APK v12.98</span>
               <div className="download-icon ml-3 bg-[#f97316] rounded-full p-2">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
               </div>
