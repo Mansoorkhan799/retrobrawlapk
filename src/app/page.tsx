@@ -4,7 +4,7 @@ import Script from 'next/script';
 import ScreenshotGallery from '@/components/ScreenshotGallery';
 import { Metadata } from 'next';
 
-const DOWNLOAD_URL = 'https://dl.retrobrawlapk.com/file/retrobrawl/retro-brawl-apk-by-retrobrawlapk.com.apk';
+const DOWNLOAD_URL = 'https://dl.retrobrawlapk.com/file/Magicbrawlapk/retrobrawl-by-magicbrawlapk.net.apk';
 
 export const metadata: Metadata = {
   title: "Retro Brawl APK v12.98 | Unlocked Premium – Unlimited Gems [2026]",
@@ -127,6 +127,7 @@ export default function Home() {
               <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-200">
                 Unlocked Premium – <span className="text-[#4ade80]">[Unlimited Gems]</span> 2026
               </h2>
+              <p className="text-sm text-gray-500">Last updated: March 2026</p>
             </div>
 
             <p className="text-lg text-gray-300 leading-relaxed">

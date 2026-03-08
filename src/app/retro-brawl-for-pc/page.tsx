@@ -199,7 +199,7 @@ export default function RetroBrawlForPCPage() {
           {/* Download Button */}
           <div className="flex justify-center mt-10">
             <a
-              href="https://dl.retrobrawlapk.com/file/retrobrawl/retro-brawl-apk-by-retrobrawlapk.com.apk"
+              href="https://dl.retrobrawlapk.com/file/Magicbrawlapk/retrobrawl-by-magicbrawlapk.net.apk"
               className="relative flex items-center px-10 py-5 text-white font-bold text-lg rounded-full border-2 border-[#0ea5e9] hover:bg-[#0ea5e9]/10 transition-all duration-300 group shadow-2xl hover:shadow-[0_0_30px_rgba(14,165,233,0.3)] hover:scale-105 animate-pulse-glow"
             >
               <span>Retro Brawl APK</span>

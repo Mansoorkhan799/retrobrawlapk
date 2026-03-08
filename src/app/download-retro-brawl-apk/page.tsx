@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const DOWNLOAD_URL = 'https://dl.retrobrawlapk.com/file/retrobrawl/retro-brawl-apk-by-retrobrawlapk.com.apk';
+const DOWNLOAD_URL = 'https://dl.retrobrawlapk.com/file/Magicbrawlapk/retrobrawl-by-magicbrawlapk.net.apk';
 
 export const metadata: Metadata = {
   title: 'Download Retro Brawl APK Free for Android | Version 12.98',

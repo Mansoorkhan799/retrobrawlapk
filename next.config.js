@@ -23,9 +23,11 @@ const nextConfig = {
     qualities: [75, 80, 90, 100], // Configure allowed image quality values
   },
 
-  // Optimize static file serving
+  // Optimize static file serving + SEO (dynamic sitemap/robots)
   async rewrites() {
     return [
+      { source: '/sitemap.xml', destination: '/api/sitemap' },
+      { source: '/robots.txt', destination: '/api/robots' },
       {
         source: '/.well-known/:path*',
         destination: '/public/.well-known/:path*',
@@ -60,6 +62,9 @@ const nextConfig = {
             key: 'X-Content-Type-Options',
             value: 'nosniff',
           },
+          { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
+          { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+          { key: 'X-XSS-Protection', value: '1; mode=block' },
         ],
       },
       {

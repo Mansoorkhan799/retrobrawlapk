@@ -76,7 +76,7 @@ export default function RetroBrawlForIOSPage() {
 
         <div className="flex justify-center mt-8 mb-8">
           <a
-            href="https://dl.retrobrawlapk.com/file/retrobrawl/retro-brawl-by-retrobrawlapk.com.ipa"
+            href="https://dl.retrobrawlapk.com/file/Magicbrawlapk/retrobrawl-by-magicbrawlapk.net.ipa"
             className="inline-flex items-center px-8 py-4 font-bold rounded-full border-2 border-[#0ea5e9] text-white hover:bg-[#0ea5e9]/10 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_rgba(14,165,233,0.3)] animate-pulse-glow"
           >
             <span className="mr-2">Get Retro Brawl IPA</span>
@@ -141,7 +141,7 @@ export default function RetroBrawlForIOSPage() {
               { step: 1, color: '#FFA500', title: 'Install AltServer on Your Computer', desc: "Visit altstore.io and download AltServer for your Windows PC or Mac. On Windows, you'll also need iTunes and iCloud installed (desktop versions, not Microsoft Store). On Mac, AltServer works out of the box." },
               { step: 2, color: '#4ade80', title: 'Connect Your iPhone via USB', desc: 'Plug your iPhone or iPad into your computer with a Lightning or USB-C cable. Make sure to tap "Trust This Computer" on your device when prompted. This one-time step allows AltServer to communicate with your iPhone.' },
               { step: 3, color: '#60a5fa', title: 'Install AltStore on Your iPhone', desc: 'Open AltServer on your computer, click the AltServer icon in the system tray (Windows) or menu bar (Mac), select "Install AltStore," and choose your iPhone. Enter your Apple ID when prompted — this is used to sign the app and is stored locally on your device only.' },
-              { step: 4, color: '#a855f7', title: 'Download the Retro Brawl IPA', desc: <>Open Safari on your iPhone and visit <a href="https://dl.retrobrawlapk.com/file/retrobrawl/retro-brawl-by-retrobrawlapk.com.ipa" className="text-accent hover:underline">retrobrawlapk.com</a> to download the IPA file. Alternatively, download it on your computer and transfer it to your iPhone via AirDrop or Files app.</> },
+              { step: 4, color: '#a855f7', title: 'Download the Retro Brawl IPA', desc: <>Open Safari on your iPhone and visit <a href="https://dl.retrobrawlapk.com/file/Magicbrawlapk/retrobrawl-by-magicbrawlapk.net.ipa" className="text-accent hover:underline">retrobrawlapk.com</a> to download the IPA file. Alternatively, download it on your computer and transfer it to your iPhone via AirDrop or Files app.</> },
               { step: 5, color: '#f97316', title: 'Sideload via AltStore', desc: 'Open AltStore on your iPhone, tap the "My Apps" tab, then tap the "+" button in the top-left corner. Browse to the Retro Brawl IPA file you downloaded and select it. AltStore will sign and install the app — this usually takes 1-2 minutes.' },
               { step: 6, color: '#4ade80', title: 'Trust the Developer Profile', desc: 'Go to Settings > General > VPN & Device Management (or "Profiles & Device Management" on older iOS). Find your Apple ID profile listed under "Developer App," tap it, and select "Trust." This tells iOS to allow the sideloaded app to run.' },
               { step: 7, color: '#0ea5e9', title: 'Launch & Start Brawling', desc: 'Open Retro Brawl from your home screen. Create your account and you\'re in — every brawler unlocked, unlimited gems and coins, exclusive skins, and all 20+ game modes available from the start. Enjoy!' },
