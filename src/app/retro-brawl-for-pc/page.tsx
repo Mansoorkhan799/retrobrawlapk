@@ -87,7 +87,9 @@ export default function RetroBrawlForPCPage() {
               width={280}
               height={280}
               className="object-contain drop-shadow-2xl"
-              priority={true}
+              priority
+              quality={75}
+              sizes="280px"
             />
           </div>
         </div>

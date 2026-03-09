@@ -1,6 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  images: {
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384, 456, 512],
+  },
   async rewrites() {
     return [
       { source: '/sitemap.xml', destination: '/api/sitemap' },

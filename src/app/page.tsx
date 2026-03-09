@@ -150,12 +150,12 @@ export default function Home() {
           {/* Hero Image */}
           <div className="hidden md:flex md:w-2/5 md:mt-4 justify-center items-start">
             <div className="relative" style={{ width: '340px', height: '340px' }}>
-              <Image src="/feature/og-image.webp" alt="Retro Brawl APK v12.98 - Brawl Stars Private Server with Unlimited Gems" width={340} height={340} className="object-contain drop-shadow-2xl rounded-2xl" priority fetchPriority="high" quality={90} sizes="340px" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+              <Image src="/feature/og-image.webp" alt="Retro Brawl APK v12.98 - Brawl Stars Private Server with Unlimited Gems" width={340} height={340} className="object-contain drop-shadow-2xl rounded-2xl" priority fetchPriority="high" quality={75} sizes="(min-width: 768px) 340px, 260px" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
             </div>
           </div>
           <div className="mt-8 md:hidden flex justify-center">
             <div className="relative" style={{ width: '260px', height: '260px' }}>
-              <Image src="/feature/og-image.webp" alt="Retro Brawl APK v12.98" width={260} height={260} className="object-contain drop-shadow-2xl rounded-2xl" priority fetchPriority="high" quality={90} sizes="260px" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+              <Image src="/feature/og-image.webp" alt="Retro Brawl APK v12.98" width={260} height={260} className="object-contain drop-shadow-2xl rounded-2xl" priority fetchPriority="high" quality={75} sizes="(max-width: 767px) 260px, 340px" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
             </div>
           </div>
         </div>

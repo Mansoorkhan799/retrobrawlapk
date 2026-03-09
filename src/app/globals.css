@@ -24,15 +24,15 @@ img {
   height: auto;
 }
 
-/* Prevent layout shift for footer - reserve space, contain layout */
+/* Prevent layout shift for footer - reserve space from first paint */
 footer {
-  contain: layout style paint;
-  height: auto;
-  min-height: 320px;
+  contain: layout style;
+  min-height: 400px;
+  overflow: hidden;
 }
 @media (min-width: 768px) {
   footer {
-    min-height: 280px;
+    min-height: 320px;
   }
 }
 

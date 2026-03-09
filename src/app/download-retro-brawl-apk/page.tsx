@@ -88,7 +88,7 @@ export default function DownloadPage() {
 
         <div className="flex justify-center mb-6">
           <div className="relative" style={{ width: '320px', height: '320px', maxWidth: '100%' }}>
-            <Image src="/feature/og-image.webp" alt="Retro Brawl APK Logo" width={320} height={320} className="object-contain drop-shadow-2xl rounded-2xl" priority fetchPriority="high" quality={90} />
+            <Image src="/feature/og-image.webp" alt="Retro Brawl APK Logo" width={320} height={320} className="object-contain drop-shadow-2xl rounded-2xl" priority fetchPriority="high" quality={75} sizes="320px" />
           </div>
         </div>
       </section>

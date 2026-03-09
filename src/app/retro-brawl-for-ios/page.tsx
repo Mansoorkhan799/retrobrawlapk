@@ -86,7 +86,7 @@ export default function RetroBrawlForIOSPage() {
 
         <div className="flex justify-center mb-12">
           <div className="relative transition-transform duration-300 hover:scale-110" style={{ width: '280px', height: '280px', maxWidth: '100%' }}>
-            <Image src="/feature/og-image.webp" alt="Retro Brawl for iOS - iPhone and iPad" width={280} height={280} className="object-contain drop-shadow-2xl rounded-2xl" priority />
+            <Image src="/feature/og-image.webp" alt="Retro Brawl for iOS - iPhone and iPad" width={280} height={280} className="object-contain drop-shadow-2xl rounded-2xl" priority quality={75} sizes="280px" />
           </div>
         </div>
       </section>
