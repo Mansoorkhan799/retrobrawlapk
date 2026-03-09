@@ -64,7 +64,7 @@ export default function DownloadPage() {
           </h1>
           <h2 className="text-2xl md:text-3xl font-semibold text-gray-300 mb-6">Version 12.98 — Free for Android</h2>
           <p className="text-lg text-gray-300 leading-relaxed max-w-4xl mx-auto mb-4">
-            <Link href="/" className="text-accent hover:underline font-semibold">Retro Brawl APK</Link> is the ultimate Brawl Stars MOD built on private servers — giving you <strong className="text-white">unlimited gems</strong>, <strong className="text-white">all 80+ brawlers unlocked</strong> from day one, <strong className="text-white">exclusive skins</strong> you won&apos;t find anywhere else, <strong className="text-white">custom maps</strong>, and real-time <strong className="text-white">online battles</strong> with players worldwide.
+            <Link href="/" className="text-blue-400 underline font-semibold hover:text-blue-300">Retro Brawl APK</Link> is the ultimate Brawl Stars MOD built on private servers — giving you <strong className="text-white">unlimited gems</strong>, <strong className="text-white">all 80+ brawlers unlocked</strong> from day one, <strong className="text-white">exclusive skins</strong> you won&apos;t find anywhere else, <strong className="text-white">custom maps</strong>, and real-time <strong className="text-white">online battles</strong> with players worldwide.
           </p>
           <p className="text-lg text-gray-300 leading-relaxed max-w-4xl mx-auto">
             No paywalls, no grinding, no Brawl Pass required. Everything premium is yours the moment you install — completely free. Trusted by <strong className="text-white">20 million+ players</strong> and updated monthly with new brawlers, skins, and game modes.

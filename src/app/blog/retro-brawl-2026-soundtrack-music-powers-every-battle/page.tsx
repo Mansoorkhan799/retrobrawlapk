@@ -16,7 +16,7 @@ export default function BlogPost() {
     <>
       <BlogPostSchema title="Retro Brawl 2026 Soundtrack | The Music that Powers Every Battle" description="The Retro Brawl 2026 soundtrack — menu music, battle themes, victory jingles that power every match." slug="retro-brawl-2026-soundtrack-music-powers-every-battle" datePublished="2026-03-06" />
       <article className="container mx-auto px-4 py-12 max-w-3xl">
-        <Link href="/blog" className="text-accent hover:underline text-sm mb-6 inline-block">← Back to Blog</Link>
+        <Link href="/blog" className="text-blue-400 underline hover:text-blue-300 text-sm mb-6 inline-block">← Back to Blog</Link>
         <h1 className="text-3xl md:text-4xl font-bold mb-6 text-white">Retro Brawl 2026 Soundtrack | The Music that Powers Every Battle</h1>
         <p className="text-gray-400 text-sm mb-8">March 2026 • 10 min read</p>
         <div className="prose prose-invert max-w-none space-y-6 text-gray-300">
@@ -85,7 +85,7 @@ export default function BlogPost() {
 
           <h2 className="text-2xl font-bold text-[#FFA500] mt-10">Conclusion</h2>
           <p>The Retro Brawl 2026 soundtrack isn&apos;t background music — it&apos;s a weapon. It makes your reactions faster, your wins more satisfying, and your losses fuel for the next match. From the adaptive battle themes that shift with every kill and gem collection, to the mode-specific compositions that make Showdown feel like a thriller and Brawl Ball feel like a stadium final, every note is engineered to amplify the experience. Combined with unlimited gems, all brawlers unlocked, and exclusive content, the soundtrack is the final piece that makes Retro Brawl feel like a premium AAA experience — for free.</p>
-          <p><strong><Link href="/" className="text-accent hover:underline font-semibold">Download Retro Brawl APK</Link></strong> — put on your headphones, drop into a match, and hear the difference for yourself.</p>
+          <p><strong><Link href="/" className="text-blue-400 underline hover:text-blue-300 font-semibold">Download Retro Brawl APK</Link></strong> — put on your headphones, drop into a match, and hear the difference for yourself.</p>
 
           <h2 className="text-2xl font-bold text-[#FFA500] mt-10">Frequently Asked Questions</h2>
           <div className="space-y-4 mt-6">

@@ -57,7 +57,7 @@ export default function Disclaimer() {
 
               <div className="space-y-6 text-gray-300">
                 <p className="text-lg leading-relaxed">
-                  The information provided on <a href="https://retrobrawlapk.com" className="text-accent hover:underline font-semibold" target="_blank" rel="noopener noreferrer">retrobrawlapk.com</a> about <Link href="/" className="text-accent hover:underline font-semibold">Retro Brawl APK</Link> is for <strong>general informational and entertainment purposes only</strong>.
+                  The information provided on <a href="https://retrobrawlapk.com" className="text-blue-400 underline hover:text-blue-300 font-semibold" target="_blank" rel="noopener noreferrer">retrobrawlapk.com</a> about <Link href="/" className="text-blue-400 underline hover:text-blue-300 font-semibold">Retro Brawl APK</Link> is for <strong>general informational and entertainment purposes only</strong>.
                 </p>
 
                 <div className="bg-[#0A1029] rounded-xl p-6 border border-accent">
@@ -91,7 +91,7 @@ export default function Disclaimer() {
                 <div className="bg-[#0A1029] rounded-xl p-6 border border-red-500/40">
                   <h2 className="text-2xl font-bold mb-4 text-red-400">Limitation of Liability</h2>
                   <p className="text-gray-300 leading-relaxed mb-0">
-                    We are <strong>not responsible</strong> for any issues that may arise from downloading or using third-party APK files, including but not limited to data loss, device issues, or account-related matters on official platforms. Use Retro Brawl APK at your own risk and always download from the official source at <a href="https://retrobrawlapk.com" className="text-accent hover:underline">retrobrawlapk.com</a>.
+                    We are <strong>not responsible</strong> for any issues that may arise from downloading or using third-party APK files, including but not limited to data loss, device issues, or account-related matters on official platforms. Use Retro Brawl APK at your own risk and always download from the official source at <a href="https://retrobrawlapk.com" className="text-blue-400 underline hover:text-blue-300">retrobrawlapk.com</a>.
                   </p>
                 </div>
 

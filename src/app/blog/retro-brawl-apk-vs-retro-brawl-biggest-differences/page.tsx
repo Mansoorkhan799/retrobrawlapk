@@ -16,7 +16,7 @@ export default function BlogPost() {
     <>
       <BlogPostSchema title="Retro Brawl APK vs Brawl Stars | The Biggest Differences You Need to Know" description="Every key difference between Retro Brawl APK and official Brawl Stars — from gems and brawlers to custom maps and exclusive modes." slug="retro-brawl-apk-vs-retro-brawl-biggest-differences" datePublished="2026-03-06" />
       <article className="container mx-auto px-4 py-12 max-w-4xl">
-        <Link href="/blog" className="text-accent hover:underline text-sm mb-6 inline-block">&larr; Back to Blog</Link>
+        <Link href="/blog" className="text-blue-400 underline hover:text-blue-300 text-sm mb-6 inline-block">&larr; Back to Blog</Link>
         <h1 className="text-3xl md:text-4xl font-bold mb-6 text-white">Retro Brawl APK vs Brawl Stars — The Biggest Differences You Need to Know</h1>
         <p className="text-gray-400 text-sm mb-8">March 2026 &bull; 7 min read</p>
         <div className="prose prose-invert max-w-none space-y-6 text-gray-300">
@@ -81,7 +81,7 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-[#FFA500] mt-8">The Bottom Line</h2>
           <p>Official Brawl Stars is a great game — but it&apos;s designed to monetize your time and patience. <strong className="text-white">Retro Brawl APK</strong> delivers the same core gameplay with every restriction removed and exclusive content layered on top. Unlimited gems, all brawlers maxed, 300+ skins, custom maps, exclusive modes, no ads, and zero cost. It&apos;s the Brawl Stars experience the way it should be — for players, not profit.</p>
 
-          <p className="mt-8"><strong><Link href="/download-retro-brawl-apk" className="text-accent hover:underline font-semibold">Download Retro Brawl APK v12.98</Link></strong> — everything unlocked, exclusive content included. The best way to play Brawl Stars in 2026.</p>
+          <p className="mt-8"><strong><Link href="/download-retro-brawl-apk" className="text-blue-400 underline hover:text-blue-300 font-semibold">Download Retro Brawl APK v12.98</Link></strong> — everything unlocked, exclusive content included. The best way to play Brawl Stars in 2026.</p>
         </div>
       </article>
     </>

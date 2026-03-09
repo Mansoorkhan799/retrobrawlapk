@@ -54,10 +54,10 @@ export default function AboutPage() {
               </div>
               <div className="flex-1">
                 <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                  Welcome to <Link href="/" className="text-accent hover:underline font-semibold">retrobrawlapk.com</Link> — the official home of <strong className="text-white">Retro Brawl APK</strong>. We&apos;re a passionate team of Brawl Stars enthusiasts who built the ultimate fan-made MOD to give every player access to the full game experience — <strong className="text-white">unlimited gems, all 80+ brawlers unlocked, exclusive skins, custom maps, and real-time online battles</strong> — completely free.
+                  Welcome to <Link href="/" className="text-blue-400 underline hover:text-blue-300 font-semibold">retrobrawlapk.com</Link> — the official home of <strong className="text-white">Retro Brawl APK</strong>. We&apos;re a passionate team of Brawl Stars enthusiasts who built the ultimate fan-made MOD to give every player access to the full game experience — <strong className="text-white">unlimited gems, all 80+ brawlers unlocked, exclusive skins, custom maps, and real-time online battles</strong> — completely free.
                 </p>
                 <p className="text-lg text-gray-300 leading-relaxed">
-                  Retro Brawl is a free entertainment game — not an earning platform. We create this for the love of the community. Every brawler, every skin, every gem is yours from the moment you <Link href="/download-retro-brawl-apk" className="text-accent hover:underline font-semibold">download Retro Brawl APK</Link>. No paywalls, no hidden charges, no catch.
+                  Retro Brawl is a free entertainment game — not an earning platform. We create this for the love of the community. Every brawler, every skin, every gem is yours from the moment you <Link href="/download-retro-brawl-apk" className="text-blue-400 underline hover:text-blue-300 font-semibold">download Retro Brawl APK</Link>. No paywalls, no hidden charges, no catch.
                 </p>
               </div>
             </div>
@@ -135,7 +135,7 @@ export default function AboutPage() {
               We aim to be the <strong className="text-white">#1 destination for Brawl Stars MOD content</strong> — delivering a premium gaming experience that rivals the official game while keeping everything completely free.
             </p>
             <p className="text-lg text-gray-300 leading-relaxed text-center max-w-3xl mx-auto">
-              Our goal is to continuously improve Retro Brawl APK with the latest brawlers, skins, and features while maintaining server stability, ensuring player safety, and building the most helpful gaming resource at <Link href="/" className="text-accent hover:underline font-semibold">retrobrawlapk.com</Link>. For any questions, visit our <Link href="/retro-brawl-apk-contact-us" className="text-accent hover:underline font-semibold">contact us page</Link>.
+              Our goal is to continuously improve Retro Brawl APK with the latest brawlers, skins, and features while maintaining server stability, ensuring player safety, and building the most helpful gaming resource at <Link href="/" className="text-blue-400 underline hover:text-blue-300 font-semibold">retrobrawlapk.com</Link>. For any questions, visit our <Link href="/retro-brawl-apk-contact-us" className="text-blue-400 underline hover:text-blue-300 font-semibold">contact us page</Link>.
             </p>
           </div>
           

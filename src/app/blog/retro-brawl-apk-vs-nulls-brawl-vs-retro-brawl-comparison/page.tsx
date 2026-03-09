@@ -16,7 +16,7 @@ export default function BlogPost() {
     <>
       <BlogPostSchema title="Retro Brawl APK vs Null's Brawl | Which Private Server is Better?" description="Complete comparison of Retro Brawl APK and Null's Brawl private servers with feature tables." slug="retro-brawl-apk-vs-nulls-brawl-vs-retro-brawl-comparison" datePublished="2026-03-06" />
       <article className="container mx-auto px-4 py-12 max-w-4xl">
-        <Link href="/blog" className="text-accent hover:underline text-sm mb-6 inline-block">&larr; Back to Blog</Link>
+        <Link href="/blog" className="text-blue-400 underline hover:text-blue-300 text-sm mb-6 inline-block">&larr; Back to Blog</Link>
         <h1 className="text-3xl md:text-4xl font-bold mb-6 text-white">Retro Brawl APK vs Null&apos;s Brawl — Which Private Server Should You Pick?</h1>
         <p className="text-gray-400 text-sm mb-8">March 2026 &bull; 8 min read</p>
         <div className="prose prose-invert max-w-none space-y-8 text-gray-300">
@@ -98,7 +98,7 @@ export default function BlogPost() {
           <p>Choose <strong className="text-[#60a5fa]">Null&apos;s Brawl</strong> if you specifically want the vanilla Brawl Stars experience with everything unlocked and nothing extra. It&apos;s a clean, familiar experience — but it doesn&apos;t push boundaries or offer anything beyond what Supercell already built.</p>
           <p>Both servers are completely free and run on separate infrastructure. You can install both alongside the official Brawl Stars with zero conflicts.</p>
 
-          <p className="mt-8"><strong><Link href="/download-retro-brawl-apk" className="text-accent hover:underline font-semibold">Download Retro Brawl APK v12.98</Link></strong> — exclusive brawlers, custom maps, unlimited everything. The most complete Brawl Stars private server for 2026.</p>
+          <p className="mt-8"><strong><Link href="/download-retro-brawl-apk" className="text-blue-400 underline hover:text-blue-300 font-semibold">Download Retro Brawl APK v12.98</Link></strong> — exclusive brawlers, custom maps, unlimited everything. The most complete Brawl Stars private server for 2026.</p>
         </div>
       </article>
     </>

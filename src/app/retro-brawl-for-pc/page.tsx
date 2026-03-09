@@ -74,7 +74,7 @@ export default function RetroBrawlForPCPage() {
             Using Android Emulator — Free
           </h2>
           <p className="text-lg text-gray-300 leading-relaxed max-w-4xl mx-auto">
-            Want to dominate every brawl on a massive screen? <Link href="/" className="text-accent hover:underline font-semibold">Retro Brawl</Link> brings back everything you loved about classic Brawl Stars — unlimited gems, all 80+ brawlers unlocked, exclusive skins — and running it on PC takes the experience to a whole new level. <Link href="/download-retro-brawl-apk" className="text-accent hover:underline font-semibold">Download Retro Brawl APK</Link>, install an Android emulator, and enjoy pixel-perfect aim, zero battery drain, and buttery-smooth 60 FPS gameplay — completely free.
+            Want to dominate every brawl on a massive screen? <Link href="/" className="text-blue-400 underline hover:text-blue-300 font-semibold">Retro Brawl</Link> brings back everything you loved about classic Brawl Stars — unlimited gems, all 80+ brawlers unlocked, exclusive skins — and running it on PC takes the experience to a whole new level. <Link href="/download-retro-brawl-apk" className="text-blue-400 underline hover:text-blue-300 font-semibold">Download Retro Brawl APK</Link>, install an Android emulator, and enjoy pixel-perfect aim, zero battery drain, and buttery-smooth 60 FPS gameplay — completely free.
           </p>
         </div>
 
@@ -180,9 +180,9 @@ export default function RetroBrawlForPCPage() {
           
           <div className="space-y-4">
             {[
-              { step: 1, color: '#FFA500', desc: <>Download an Android emulator — we recommend <strong>BlueStacks 5</strong> from <a href="https://www.bluestacks.com" className="text-[#0ea5e9] hover:underline" target="_blank" rel="noopener noreferrer">bluestacks.com</a> for best compatibility with Retro Brawl.</> },
+              { step: 1, color: '#FFA500', desc: <>Download an Android emulator — we recommend <strong>BlueStacks 5</strong> from <a href="https://www.bluestacks.com" className="text-blue-400 underline hover:text-blue-300" target="_blank" rel="noopener noreferrer">bluestacks.com</a> for best compatibility with Retro Brawl.</> },
               { step: 2, color: '#4ade80', desc: <>Install the emulator on your Windows PC or Mac. During setup, enable <strong>Virtualization (VT-x)</strong> in BIOS if prompted — this unlocks maximum performance.</> },
-              { step: 3, color: '#60a5fa', desc: <>Visit <Link href="/" className="text-[#0ea5e9] hover:underline">retrobrawlapk.com</Link> and download the latest Retro Brawl APK (v12.98, 363MB). Save the file somewhere easy to find.</> },
+              { step: 3, color: '#60a5fa', desc: <>Visit <Link href="/" className="text-blue-400 underline hover:text-blue-300">retrobrawlapk.com</Link> and download the latest Retro Brawl APK (v12.98, 363MB). Save the file somewhere easy to find.</> },
               { step: 4, color: '#a855f7', desc: <>Open your emulator, click the <strong>&quot;Install APK&quot;</strong> button (or drag-and-drop the APK file into the emulator window). Wait for installation to complete — typically under 2 minutes.</> },
               { step: 5, color: '#f97316', desc: 'Launch Retro Brawl from the emulator home screen, create your account or log in, and jump straight into battle with all brawlers, unlimited gems, and exclusive skins already unlocked.' },
             ].map(({ step, color, desc }) => (

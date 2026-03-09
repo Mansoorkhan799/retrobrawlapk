@@ -16,7 +16,7 @@ export default function BlogPost() {
     <>
       <BlogPostSchema title="Edgar in Brawl Stars | Unlock Guide & Retro Brawl APK Benefits" description="How to unlock Edgar and why Retro Brawl APK gives instant access with free skins." slug="edgar-brawl-stars-unlock-guide-retro-brawl-apk-benefits" datePublished="2026-03-06" />
       <article className="container mx-auto px-4 py-12 max-w-3xl">
-        <Link href="/blog" className="text-accent hover:underline text-sm mb-6 inline-block">← Back to Blog</Link>
+        <Link href="/blog" className="text-blue-400 underline hover:text-blue-300 text-sm mb-6 inline-block">← Back to Blog</Link>
         <h1 className="text-3xl md:text-4xl font-bold mb-6 text-white">Edgar in Brawl Stars | Unlock Guide & Retro Brawl APK Benefits</h1>
         <p className="text-gray-400 text-sm mb-8">March 2026 • 10 min read</p>
         <div className="prose prose-invert max-w-none space-y-6 text-gray-300">
@@ -79,7 +79,7 @@ export default function BlogPost() {
           </ul>
 
           <h2 className="text-2xl font-bold text-[#FFA500] mt-10">Conclusion</h2>
-          <p>Edgar is the most aggressive, most electrifying, most satisfying assassin in Brawl Stars — a brawler who turns every match into a highlight reel when played at his ceiling. But that ceiling only exists at power level 11 with the right Star Power and Gadget combination equipped and the mechanical skill to execute his combos under pressure. In the official game, reaching that point means weeks of Epic-tier box grinding, lucky Star Power drops, and potentially $10+ in gem purchases. In Retro Brawl APK v12.98, it means <strong>tapping &quot;Install&quot; and waiting 3 minutes</strong>. Every skin. Every ability. Full power level 11. Both loadout archetypes unlocked. From your very first match. <strong>Stop waiting months for RNG to hand you the brawler you want. Stop competing against maxed opponents with an under-levelled character.</strong> <Link href="/" className="text-accent hover:underline font-semibold">Download Retro Brawl APK v12.98 now</Link> and start dominating with Edgar today — no grind, no paywall, no limits, no excuses.</p>
+          <p>Edgar is the most aggressive, most electrifying, most satisfying assassin in Brawl Stars — a brawler who turns every match into a highlight reel when played at his ceiling. But that ceiling only exists at power level 11 with the right Star Power and Gadget combination equipped and the mechanical skill to execute his combos under pressure. In the official game, reaching that point means weeks of Epic-tier box grinding, lucky Star Power drops, and potentially $10+ in gem purchases. In Retro Brawl APK v12.98, it means <strong>tapping &quot;Install&quot; and waiting 3 minutes</strong>. Every skin. Every ability. Full power level 11. Both loadout archetypes unlocked. From your very first match. <strong>Stop waiting months for RNG to hand you the brawler you want. Stop competing against maxed opponents with an under-levelled character.</strong> <Link href="/" className="text-blue-400 underline hover:text-blue-300 font-semibold">Download Retro Brawl APK v12.98 now</Link> and start dominating with Edgar today — no grind, no paywall, no limits, no excuses.</p>
 
           <h2 className="text-2xl font-bold text-[#FFA500] mt-10">Frequently Asked Questions</h2>
           <div className="space-y-4 mt-6">

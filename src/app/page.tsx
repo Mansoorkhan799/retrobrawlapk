@@ -131,7 +131,7 @@ export default function Home() {
             </div>
 
             <p className="text-lg text-gray-300 leading-relaxed">
-              Ready for the ultimate Brawl Stars experience? <Link href="/" className="text-white font-semibold hover:text-accent hover:underline">Retro Brawl APK</Link> gives you everything the official game locks behind paywalls — <span className="text-[#4ade80]">unlimited gems</span>, every brawler unlocked, exclusive skins, and custom maps — all free. Play on Android, iOS, or PC. Join millions who&apos;ve switched to private servers for stress-free, full-access gameplay. No grinding. No real money. Just pure action.
+              Ready for the ultimate Brawl Stars experience? <Link href="/" className="text-blue-400 underline font-semibold hover:text-blue-300">Retro Brawl APK</Link> gives you everything the official game locks behind paywalls — <span className="text-[#4ade80]">unlimited gems</span>, every brawler unlocked, exclusive skins, and custom maps — all free. Play on Android, iOS, or PC. Join millions who&apos;ve switched to private servers for stress-free, full-access gameplay. No grinding. No real money. Just pure action.
             </p>
 
             <div className="flex justify-center md:justify-start my-6">
@@ -198,7 +198,7 @@ export default function Home() {
               The official game locks brawlers, skins, and gems behind months of grinding or real money. Retro Brawl flips that: <strong className="text-accent">unlimited gems</strong>, every character unlocked, all gadgets and star powers ready — the moment you install. Your device connects to a secure private server where progress is saved. Gameplay stays smooth with minimal lag.
             </p>
             <p>
-              What sets it apart: exclusive brawlers like <strong className="text-accent">FUMEY</strong>, <strong className="text-accent">RT</strong>, <strong className="text-accent">Willow</strong>, <strong className="text-accent">Maisie</strong>, and <strong className="text-accent">Hank</strong> with abilities you won&apos;t find in the original. Custom maps you can edit. An <Link href="/blog/retro-brawl-2026-soundtrack-music-powers-every-battle" className="text-accent hover:underline">immersive soundtrack</Link> that powers every battle. Whether you want casual fun or competitive practice, Retro Brawl delivers.
+              What sets it apart: exclusive brawlers like <strong className="text-accent">FUMEY</strong>, <strong className="text-accent">RT</strong>, <strong className="text-accent">Willow</strong>, <strong className="text-accent">Maisie</strong>, and <strong className="text-accent">Hank</strong> with abilities you won&apos;t find in the original. Custom maps you can edit. An <Link href="/blog/retro-brawl-2026-soundtrack-music-powers-every-battle" className="text-blue-400 underline hover:text-blue-300">immersive soundtrack</Link> that powers every battle. Whether you want casual fun or competitive practice, Retro Brawl delivers.
             </p>
             <p>
               <strong className="text-white">Play anywhere</strong> — Android, PC (emulator), or iOS. Regular updates add new brawlers, modes, and events. It&apos;s the Brawl Stars experience you love, without the restrictions.
@@ -274,7 +274,7 @@ export default function Home() {
             <li className="flex items-start gap-3"><span className="text-[#4ade80] mt-1 flex-shrink-0">&#10003;</span><span><strong className="text-white">Performance & Stability</strong> — Bug fixes, faster loading, smoother gameplay, and reduced crashes across all devices.</span></li>
           </ul>
           <div className="mt-6 pt-4 border-t border-gray-700/50">
-            <Link href="/blog/retro-brawl-apk-2026-whats-new-why-everyones-playing" className="text-accent hover:underline font-semibold">Read the full breakdown: What&apos;s New in Retro Brawl 2026 →</Link>
+            <Link href="/blog/retro-brawl-apk-2026-whats-new-why-everyones-playing" className="text-blue-400 underline hover:text-blue-300 font-semibold">Read the full breakdown: What&apos;s New in Retro Brawl 2026 →</Link>
           </div>
         </div>
       </section>
@@ -291,7 +291,7 @@ export default function Home() {
                 <span className="text-2xl group-hover:scale-110 transition-transform duration-300">💎</span>
                 <h3 className="text-xl font-bold text-accent">Unlimited Resources</h3>
               </div>
-              <p className="text-gray-400 text-sm leading-relaxed">Unlimited gems, coins, star points, and all characters unlocked from the start. Upgrade any brawler, grab any skin, equip any gadget instantly. <Link href="/blog/brawl-stars-2026-unlock-premium-gems-retro-brawl-edition" className="text-accent hover:underline">Learn how to unlock premium gems →</Link></p>
+              <p className="text-gray-400 text-sm leading-relaxed">Unlimited gems, coins, star points, and all characters unlocked from the start. Upgrade any brawler, grab any skin, equip any gadget instantly. <Link href="/blog/brawl-stars-2026-unlock-premium-gems-retro-brawl-edition" className="text-blue-400 underline hover:text-blue-300">Learn how to unlock premium gems →</Link></p>
             </div>
             {/* All Brawlers & Skins */}
             <div className="group bg-[#0A1029] rounded-xl p-6 border border-[#FFA500]/20 hover:border-[#FFA500] hover:shadow-[0_0_20px_rgba(255,165,0,0.15)] transition-all duration-300 hover:-translate-y-1 cursor-default">
@@ -299,7 +299,7 @@ export default function Home() {
                 <span className="text-2xl group-hover:scale-110 transition-transform duration-300">🎭</span>
                 <h3 className="text-xl font-bold text-accent">All Brawlers & Skins</h3>
               </div>
-              <p className="text-gray-400 text-sm leading-relaxed">Immediate access to every brawler — rarest legendary and chromatic included. Every skin available from day one. See our guides for <Link href="/blog/colette-brawl-stars-vs-retro-brawl-apk" className="text-accent hover:underline">Colette</Link> and <Link href="/blog/edgar-brawl-stars-unlock-guide-retro-brawl-apk-benefits" className="text-accent hover:underline">Edgar</Link>.</p>
+              <p className="text-gray-400 text-sm leading-relaxed">Immediate access to every brawler — rarest legendary and chromatic included. Every skin available from day one. See our guides for <Link href="/blog/colette-brawl-stars-vs-retro-brawl-apk" className="text-blue-400 underline hover:text-blue-300">Colette</Link> and <Link href="/blog/edgar-brawl-stars-unlock-guide-retro-brawl-apk-benefits" className="text-blue-400 underline hover:text-blue-300">Edgar</Link>.</p>
             </div>
             {/* Enhanced Brawl Pass */}
             <div className="group bg-[#0A1029] rounded-xl p-6 border border-[#FFA500]/20 hover:border-[#FFA500] hover:shadow-[0_0_20px_rgba(255,165,0,0.15)] transition-all duration-300 hover:-translate-y-1 cursor-default">
@@ -347,7 +347,7 @@ export default function Home() {
                 <span className="text-2xl group-hover:scale-110 transition-transform duration-300">✨</span>
                 <h3 className="text-xl font-bold text-accent">Exclusive Skins & Content</h3>
               </div>
-              <p className="text-gray-400 text-sm leading-relaxed">Designs that don&apos;t exist anywhere else — custom animations and sound effects on premium skins. Outcast <Link href="/blog/edgar-brawl-stars-unlock-guide-retro-brawl-apk-benefits" className="text-accent hover:underline">Edgar</Link>, Gus skins, and seasonal exclusives all unlocked.</p>
+              <p className="text-gray-400 text-sm leading-relaxed">Designs that don&apos;t exist anywhere else — custom animations and sound effects on premium skins. Outcast <Link href="/blog/edgar-brawl-stars-unlock-guide-retro-brawl-apk-benefits" className="text-blue-400 underline hover:text-blue-300">Edgar</Link>, Gus skins, and seasonal exclusives all unlocked.</p>
             </div>
             {/* Custom Maps */}
             <div className="group bg-[#0A1029] rounded-xl p-6 border border-[#FFA500]/20 hover:border-[#FFA500] hover:shadow-[0_0_20px_rgba(255,165,0,0.15)] transition-all duration-300 hover:-translate-y-1 cursor-default">
@@ -493,7 +493,7 @@ export default function Home() {
             <p><strong className="text-white">Built for players, not profit.</strong> Retro Brawl removes every paywall and grind. The full roster of 70+ brawlers, unlimited gems, every skin, gadget, and star power — yours from day one. No waiting. No spending.</p>
             <p>Private servers mean <strong className="text-accent">faster updates</strong> than the official game. New brawlers, custom maps, seasonal events, and community challenges drop regularly. Exclusive modes like 5v5 Brawl Ball and player-created maps keep the action fresh.</p>
             <p>Whether you&apos;re new or a veteran: test every brawler instantly, experiment with bold strategies, and practice without fear of losing progress. Perfect for casual fun and competitive mastery alike.</p>
-            <p className="mt-4"><Link href="/blog/10-must-know-features-hidden-tricks-retro-brawl-2026" className="text-accent hover:underline font-semibold">Discover 10 Must-Know Features & Hidden Tricks →</Link></p>
+            <p className="mt-4"><Link href="/blog/10-must-know-features-hidden-tricks-retro-brawl-2026" className="text-blue-400 underline hover:text-blue-300 font-semibold">Discover 10 Must-Know Features & Hidden Tricks →</Link></p>
           </div>
         </div>
       </section>
@@ -540,7 +540,7 @@ export default function Home() {
           <div className="space-y-6 max-w-4xl mx-auto">
             <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#FFA500]">
               <h3 className="text-lg font-bold text-[#FFA500] mb-2">Step 1: Download the APK</h3>
-              <p className="text-gray-300 mb-4">Click the Download button on <Link href="/" className="text-accent hover:underline">retrobrawlapk.com</Link> to download the Retro Brawl APK file to your Android device.</p>
+              <p className="text-gray-300 mb-4">Click the Download button on <Link href="/" className="text-blue-400 underline hover:text-blue-300">retrobrawlapk.com</Link> to download the Retro Brawl APK file to your Android device.</p>
               <div className="flex justify-center">
                 <Image src="/retro-brawl-allow-apk-installation-step1.webp" alt="Retro Brawl APK Download Step 1" width={280} height={500} className="rounded-lg object-contain max-h-[400px] w-auto" />
               </div>
@@ -586,7 +586,7 @@ export default function Home() {
           <div className="space-y-6 max-w-4xl mx-auto">
             <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#60a5fa]">
               <h3 className="text-lg font-bold text-[#60a5fa] mb-2">Step 1: Download the IPA File</h3>
-              <p className="text-gray-300">Select your server and download the Retro Brawl IPA file from <a href="https://dl.retrobrawlapk.com/file/Magicbrawlapk/magic-brawl-apk-by-retrobrawlapk.com.apk.ipa" className="text-accent hover:underline">retrobrawlapk.com</a>.</p>
+              <p className="text-gray-300">Select your server and download the Retro Brawl IPA file from <a href="https://dl.retrobrawlapk.com/file/Magicbrawlapk/magic-brawl-apk-by-retrobrawlapk.com.apk.ipa" className="text-blue-400 underline hover:text-blue-300">retrobrawlapk.com</a>.</p>
             </div>
             <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#FFA500]">
               <h3 className="text-lg font-bold text-[#FFA500] mb-2">Step 2: Allow Installation from Untrusted Sources</h3>
@@ -627,7 +627,7 @@ export default function Home() {
           <p className="text-gray-300 mb-6">Keeping Retro Brawl updated ensures you enjoy the newest features, bug fixes, and smooth gameplay:</p>
           <ol className="space-y-3 text-gray-300 list-decimal pl-5">
             <li>Make sure your account is linked with Null&apos;s Connect.</li>
-            <li>Open your browser and go to <Link href="/" className="text-accent hover:underline">retrobrawlapk.com</Link> download page.</li>
+            <li>Open your browser and go to <Link href="/" className="text-blue-400 underline hover:text-blue-300">retrobrawlapk.com</Link> download page.</li>
             <li>Check the version number and release date to confirm it&apos;s newer than your installed version.</li>
             <li>Tap the download button and wait for the latest APK to finish downloading.</li>
             <li>Install over your existing version (no need to uninstall).</li>
@@ -710,7 +710,7 @@ export default function Home() {
             ))}
           </div>
           <div className="mt-6 pt-4 border-t border-gray-700/50">
-            <Link href="/blog/10-must-know-features-hidden-tricks-retro-brawl-2026" className="text-accent hover:underline font-semibold">More tips & hidden tricks in our full guide →</Link>
+            <Link href="/blog/10-must-know-features-hidden-tricks-retro-brawl-2026" className="text-blue-400 underline hover:text-blue-300 font-semibold">More tips & hidden tricks in our full guide →</Link>
           </div>
         </div>
       </section>
@@ -777,7 +777,7 @@ export default function Home() {
               { q: 'Can I play offline?', a: 'A stable internet connection is required for online multiplayer battles. Some practice modes and training may work offline.' },
               { q: 'Will I lose my progress when updating?', a: 'No. If your account is linked with Null\'s Connect, simply install the new version over your existing one and your progress will be automatically restored.' },
               { q: 'Can I transfer my progress from official Brawl Stars?', a: 'No. Retro Brawl runs on separate private servers, so official game progress cannot be transferred. However, since everything is unlocked from the start, you won\'t miss anything.' },
-              { q: 'What makes Retro Brawl different from Null\'s Brawl?', a: <>Retro Brawl offers exclusive brawlers (FUMEY, RT, Willow, Maisie, Hank), custom editable maps, community challenges, giveaway events, enhanced Brawl Pass, content creator rewards, and experimental content not found in other private servers. <Link href="/blog/retro-brawl-apk-vs-nulls-brawl-vs-retro-brawl-comparison" className="text-accent hover:underline">Read our full comparison →</Link></> },
+              { q: 'What makes Retro Brawl different from Null\'s Brawl?', a: <>Retro Brawl offers exclusive brawlers (FUMEY, RT, Willow, Maisie, Hank), custom editable maps, community challenges, giveaway events, enhanced Brawl Pass, content creator rewards, and experimental content not found in other private servers. <Link href="/blog/retro-brawl-apk-vs-nulls-brawl-vs-retro-brawl-comparison" className="text-blue-400 underline hover:text-blue-300">Read our full comparison →</Link></> },
               { q: 'How often does Retro Brawl get updated?', a: 'The server receives regular monthly updates following closely behind the official game. New brawlers, maps, modes, bug fixes, and balance changes are pushed quickly by the Retro Brawl team.' },
             ].map((faq) => (
               <details key={faq.q} className="group bg-[#0a1029]/50 rounded-xl border border-gray-700 hover:border-[#FFA500]/50 transition-all duration-300">
@@ -805,9 +805,9 @@ export default function Home() {
             </p>
             <p className="text-white font-semibold">Download now and dive into a world where everything is unlocked. Enjoy the battle, build your team, and play without any restrictions.</p>
             <div className="flex flex-wrap gap-4 mt-4">
-              <Link href="/blog/comparison-retro-brawl-brawl-stars" className="text-accent hover:underline font-semibold text-sm">Retro Brawl vs Brawl Stars →</Link>
-              <Link href="/blog/download-retro-brawl-mod-menu-v50-221" className="text-accent hover:underline font-semibold text-sm">Mod Menu v12.98 Guide →</Link>
-              <Link href="/blog/retro-brawl-apk-download-old-version" className="text-accent hover:underline font-semibold text-sm">Download Old Version →</Link>
+              <Link href="/blog/comparison-retro-brawl-brawl-stars" className="text-blue-400 underline hover:text-blue-300 font-semibold text-sm">Retro Brawl vs Brawl Stars →</Link>
+              <Link href="/blog/download-retro-brawl-mod-menu-v50-221" className="text-blue-400 underline hover:text-blue-300 font-semibold text-sm">Mod Menu v12.98 Guide →</Link>
+              <Link href="/blog/retro-brawl-apk-download-old-version" className="text-blue-400 underline hover:text-blue-300 font-semibold text-sm">Download Old Version →</Link>
             </div>
           </div>
           <div className="flex justify-center mt-8">

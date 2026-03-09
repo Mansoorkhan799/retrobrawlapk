@@ -16,7 +16,7 @@ export default function BlogPost() {
     <>
       <BlogPostSchema title="Brawl Stars 2026 | Unlock Premium Gems with Retro Brawl Edition" description="Get unlimited premium gems in Brawl Stars 2026 with Retro Brawl APK — no real money required." slug="brawl-stars-2026-unlock-premium-gems-retro-brawl-edition" datePublished="2026-03-06" />
       <article className="container mx-auto px-4 py-12 max-w-3xl">
-        <Link href="/blog" className="text-accent hover:underline text-sm mb-6 inline-block">← Back to Blog</Link>
+        <Link href="/blog" className="text-blue-400 underline hover:text-blue-300 text-sm mb-6 inline-block">← Back to Blog</Link>
         <h1 className="text-3xl md:text-4xl font-bold mb-6 text-white">Brawl Stars 2026 | Unlock Premium Gems with Retro Brawl Edition</h1>
         <p className="text-gray-400 text-sm mb-8">March 2026 • 9 min read</p>
         <div className="prose prose-invert max-w-none space-y-6 text-gray-300">
@@ -69,7 +69,7 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-[#FFA500] mt-10">How to Get Unlimited Gems in Under 3 Minutes</h2>
           <p>The entire process takes less time than a single Brawl Stars match:</p>
           <ol className="list-decimal pl-6 space-y-2">
-            <li><strong>Download the APK</strong> from <Link href="/" className="text-accent hover:underline">retrobrawlapk.com</Link> — the only official source. The file is approximately 150MB.</li>
+            <li><strong>Download the APK</strong> from <Link href="/" className="text-blue-400 underline hover:text-blue-300">retrobrawlapk.com</Link> — the only official source. The file is approximately 150MB.</li>
             <li><strong>Enable &quot;Install from Unknown Sources&quot;</strong> on your Android device (Settings → Security → toggle it on). This is a standard Android setting for apps outside the Play Store.</li>
             <li><strong>Tap the downloaded file and hit Install.</strong> The installation takes about 30 seconds on most devices.</li>
             <li><strong>Launch Retro Brawl and check your gem count.</strong> You&apos;ll see 999,999+ gems, unlimited coins, and every brawler already waiting in your roster — fully maxed with all Star Powers and Gadgets equipped.</li>
@@ -98,7 +98,7 @@ export default function BlogPost() {
 
           <h2 className="text-2xl font-bold text-[#FFA500] mt-10">Conclusion</h2>
           <p>The search for free gems in Brawl Stars ends here. Forget the generators that steal your data, the hack tools that get your account banned, and the grinding that gives you 1.6 gems per day. <strong>Retro Brawl APK v12.98</strong> delivers what every other method promises but never delivers: truly unlimited gems, loaded instantly, with zero cost and zero risk. You get every skin, every brawler, every Brawl Pass, every shop offer — the entire $500+ premium experience — for free. The APK runs on private servers that have nothing to do with your official Brawl Stars account. Install it in 3 minutes, and the gem economy stops being a problem forever.</p>
-          <p><strong><Link href="/download-retro-brawl-apk" className="text-accent hover:underline font-semibold">Download Retro Brawl APK now</Link></strong> — unlimited gems, all brawlers, every skin. Your premium Brawl Stars experience starts today.</p>
+          <p><strong><Link href="/download-retro-brawl-apk" className="text-blue-400 underline hover:text-blue-300 font-semibold">Download Retro Brawl APK now</Link></strong> — unlimited gems, all brawlers, every skin. Your premium Brawl Stars experience starts today.</p>
 
           <h2 className="text-2xl font-bold text-[#FFA500] mt-10">Frequently Asked Questions</h2>
           <div className="space-y-4 mt-6">

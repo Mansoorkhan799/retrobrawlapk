@@ -16,7 +16,7 @@ export default function BlogPost() {
     <>
       <BlogPostSchema title="Retro Brawl APK 2026 | What's New & Why Everyone's Playing It?" description="Discover what's new in Retro Brawl APK 2026 and why millions are switching to this Brawl Stars rebirth." slug="retro-brawl-apk-2026-whats-new-why-everyones-playing" datePublished="2026-03-06" />
       <article className="container mx-auto px-4 py-12 max-w-3xl">
-        <Link href="/blog" className="text-accent hover:underline text-sm mb-6 inline-block">← Back to Blog</Link>
+        <Link href="/blog" className="text-blue-400 underline hover:text-blue-300 text-sm mb-6 inline-block">← Back to Blog</Link>
         <h1 className="text-3xl md:text-4xl font-bold mb-6 text-white">Retro Brawl APK 2026 | What&apos;s New & Why Everyone&apos;s Playing It?</h1>
         <p className="text-gray-400 text-sm mb-8">March 2026 • 8 min read</p>
         <div className="prose prose-invert max-w-none space-y-6 text-gray-300">
@@ -57,8 +57,8 @@ export default function BlogPost() {
           <p>This isn&apos;t just a modded APK with infinite resources. It&apos;s a <strong>full-featured creative playground built by passionate fans, for fans who are tired of being nickel-and-dimed</strong>. If you want the complete Brawl Stars experience — every brawler, every skin, every mode, every event — with absolutely zero restrictions, Retro Brawl APK v12.98 is the only answer in 2026.</p>
 
           <h2 className="text-2xl font-bold text-[#FFA500] mt-8">How to Get Started</h2>
-          <p>The entire setup takes less than three minutes — seriously, time it. Visit <Link href="/" className="text-accent hover:underline">retrobrawlapk.com</Link>, grab the latest APK (v12.98, ~180 MB), enable &quot;Install from unknown sources&quot; in your Android settings, and tap install. By the time your coffee cools, you&apos;ll already be in a match with a fully maxed roster. iOS users can sideload via IPA using our step-by-step <Link href="/retro-brawl-for-ios" className="text-accent hover:underline">iOS installation guide</Link>, and PC players can run Retro Brawl through any Android emulator (BlueStacks, LDPlayer, or NoxPlayer all work flawlessly).</p>
-          <p><strong>Every brawler. Every skin. Every mode. Zero dollars. Zero grind. Zero catch.</strong> <Link href="/download-retro-brawl-apk" className="text-accent hover:underline font-semibold">Download Retro Brawl APK v12.98 now</Link> and experience Brawl Stars the way it should have always been — fully unlocked, endlessly updated, and completely free. Join the millions of players who already made the switch and never looked back.</p>
+          <p>The entire setup takes less than three minutes — seriously, time it. Visit <Link href="/" className="text-blue-400 underline hover:text-blue-300">retrobrawlapk.com</Link>, grab the latest APK (v12.98, ~180 MB), enable &quot;Install from unknown sources&quot; in your Android settings, and tap install. By the time your coffee cools, you&apos;ll already be in a match with a fully maxed roster. iOS users can sideload via IPA using our step-by-step <Link href="/retro-brawl-for-ios" className="text-blue-400 underline hover:text-blue-300">iOS installation guide</Link>, and PC players can run Retro Brawl through any Android emulator (BlueStacks, LDPlayer, or NoxPlayer all work flawlessly).</p>
+          <p><strong>Every brawler. Every skin. Every mode. Zero dollars. Zero grind. Zero catch.</strong> <Link href="/download-retro-brawl-apk" className="text-blue-400 underline hover:text-blue-300 font-semibold">Download Retro Brawl APK v12.98 now</Link> and experience Brawl Stars the way it should have always been — fully unlocked, endlessly updated, and completely free. Join the millions of players who already made the switch and never looked back.</p>
         </div>
       </article>
     </>

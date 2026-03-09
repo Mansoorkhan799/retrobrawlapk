@@ -43,7 +43,7 @@ export default function Contact() {
           <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 mb-8">
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-gray-300 leading-relaxed mb-8">
-                Whether you need help downloading or installing <Link href="/download-retro-brawl-apk" className="text-accent hover:underline font-semibold">Retro Brawl APK</Link>, want to report a bug, have a feature suggestion, or have questions about our <Link href="/privacy" className="text-accent hover:underline font-semibold">privacy policy</Link> — we&apos;re ready to assist. Our team typically responds within <strong className="text-white">24–48 hours</strong>.
+                Whether you need help downloading or installing <Link href="/download-retro-brawl-apk" className="text-blue-400 underline hover:text-blue-300 font-semibold">Retro Brawl APK</Link>, want to report a bug, have a feature suggestion, or have questions about our <Link href="/privacy" className="text-blue-400 underline hover:text-blue-300 font-semibold">privacy policy</Link> — we&apos;re ready to assist. Our team typically responds within <strong className="text-white">24–48 hours</strong>.
               </p>
 
               {/* Email Contact Section */}
@@ -124,7 +124,7 @@ export default function Contact() {
               </div>
               <h3 className="text-xl font-bold mb-2 text-white">Download & Install Guide</h3>
               <p className="text-gray-400 mb-4">Step-by-step instructions to get Retro Brawl running</p>
-              <Link href="/download-retro-brawl-apk" className="text-accent hover:underline font-semibold">
+              <Link href="/download-retro-brawl-apk" className="text-blue-400 underline hover:text-blue-300 font-semibold">
                 Download Guide →
               </Link>
             </div>
@@ -137,7 +137,7 @@ export default function Contact() {
               </div>
               <h3 className="text-xl font-bold mb-2 text-white">Privacy Policy</h3>
               <p className="text-gray-400 mb-4">How we handle your data and protect your privacy</p>
-              <Link href="/privacy" className="text-accent hover:underline font-semibold">
+              <Link href="/privacy" className="text-blue-400 underline hover:text-blue-300 font-semibold">
                 Read Policy →
               </Link>
             </div>
@@ -150,7 +150,7 @@ export default function Contact() {
               </div>
               <h3 className="text-xl font-bold mb-2 text-white">About Retro Brawl</h3>
               <p className="text-gray-400 mb-4">Learn about our team, mission, and what drives us</p>
-              <Link href="/retro-brawl-apk-about-us" className="text-accent hover:underline font-semibold">
+              <Link href="/retro-brawl-apk-about-us" className="text-blue-400 underline hover:text-blue-300 font-semibold">
                 About Us →
               </Link>
             </div>

@@ -16,7 +16,7 @@ export default function BlogPost() {
     <>
       <BlogPostSchema title="Retro Brawl 2026 Soundtrack | Why Gamers Can't Stop Listening" description="Why the Retro Brawl 2026 soundtrack has gamers addicted and how it enhances every battle." slug="retro-brawl-2026-soundtrack-why-gamers-cant-stop-listening" datePublished="2026-03-06" />
       <article className="container mx-auto px-4 py-12 max-w-3xl">
-        <Link href="/blog" className="text-accent hover:underline text-sm mb-6 inline-block">← Back to Blog</Link>
+        <Link href="/blog" className="text-blue-400 underline hover:text-blue-300 text-sm mb-6 inline-block">← Back to Blog</Link>
         <h1 className="text-3xl md:text-4xl font-bold mb-6 text-white">Retro Brawl 2026 Soundtrack | Why Gamers Can&apos;t Stop Listening</h1>
         <p className="text-gray-400 text-sm mb-8">March 2026 • 6 min read</p>
         <div className="prose prose-invert max-w-none space-y-6 text-gray-300">
@@ -67,7 +67,7 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-[#FFA500] mt-8">Why It Matters</h2>
           <p>The best game soundtracks don&apos;t just accompany the action — they <strong>amplify</strong> it so completely that the music becomes inseparable from the memory of playing. They make clutch triple-kills feel legendary, heartbreaking 1-HP losses feel survivable, and every single session feel like an event worth remembering. The Retro Brawl 2026 soundtrack achieves all three with a level of compositional depth, adaptive intelligence, and emotional precision that rivals full-priced AAA console games — and in some ways surpasses them, because the adaptive layering system responds to <em>your</em> specific match state, not a pre-scripted cinematic sequence. Combined with unlimited content, sub-second matchmaking, exclusive brawlers, and a thriving community, the soundtrack isn&apos;t a bonus feature — it&apos;s the emotional backbone that transforms a mobile game into an experience players genuinely care about.</p>
 
-          <p className="mt-8"><strong>Hear the difference for yourself — words can&apos;t do it justice.</strong> <Link href="/" className="text-accent hover:underline font-semibold">Download Retro Brawl APK v12.98</Link>, plug in your best headphones, set music volume to 80%+, and experience the soundtrack that turns every 3-minute battle into a cinematic moment you&apos;ll replay in your head long after the match ends.</p>
+          <p className="mt-8"><strong>Hear the difference for yourself — words can&apos;t do it justice.</strong> <Link href="/" className="text-blue-400 underline hover:text-blue-300 font-semibold">Download Retro Brawl APK v12.98</Link>, plug in your best headphones, set music volume to 80%+, and experience the soundtrack that turns every 3-minute battle into a cinematic moment you&apos;ll replay in your head long after the match ends.</p>
         </div>
       </article>
     </>

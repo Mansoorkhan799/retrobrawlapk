@@ -67,7 +67,7 @@ export default function Blog() {
               <span>•</span>
               <span>{post.readTime} read</span>
             </div>
-            <Link href={`/blog/${post.slug}`} className="text-accent hover:underline font-semibold text-sm">
+            <Link href={`/blog/${post.slug}`} className="text-blue-400 underline hover:text-blue-300 font-semibold text-sm">
               Read More →
             </Link>
           </article>

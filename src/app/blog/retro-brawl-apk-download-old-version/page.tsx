@@ -16,7 +16,7 @@ export default function BlogPost() {
     <>
       <BlogPostSchema title="Retro Brawl APK | Download Old Version" description="Download older Retro Brawl APK versions for classic gameplay and low-end devices." slug="retro-brawl-apk-download-old-version" datePublished="2026-03-06" />
       <article className="container mx-auto px-4 py-12 max-w-3xl">
-        <Link href="/blog" className="text-accent hover:underline text-sm mb-6 inline-block">← Back to Blog</Link>
+        <Link href="/blog" className="text-blue-400 underline hover:text-blue-300 text-sm mb-6 inline-block">← Back to Blog</Link>
         <h1 className="text-3xl md:text-4xl font-bold mb-6 text-white">Retro Brawl APK | Download Old Version</h1>
         <p className="text-gray-400 text-sm mb-8">March 2026 • 8 min read</p>
         <div className="prose prose-invert max-w-none space-y-6 text-gray-300">
@@ -65,7 +65,7 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-[#FFA500] mt-8">How to Download &amp; Install an Old Version</h2>
           <p>The process takes about 3 minutes. Follow these steps exactly:</p>
           <ol className="list-decimal pl-6 space-y-2">
-            <li><strong>Visit <Link href="/" className="text-accent hover:underline">retrobrawlapk.com</Link></strong> and navigate to the downloads section. You&apos;ll see the latest version prominently featured, with a version archive link for older builds.</li>
+            <li><strong>Visit <Link href="/" className="text-blue-400 underline hover:text-blue-300">retrobrawlapk.com</Link></strong> and navigate to the downloads section. You&apos;ll see the latest version prominently featured, with a version archive link for older builds.</li>
             <li><strong>Select your preferred version</strong> — v45.198, v40.150, or v35.120. Each listing shows the brawler count, file size, and minimum Android version required.</li>
             <li><strong>Download the APK file.</strong> File sizes range from 800MB (v35.120) to 1.1GB (v45.198). Make sure you have enough storage.</li>
             <li><strong>Enable &quot;Install from Unknown Sources&quot;</strong> — go to Settings → Security → toggle the switch on. On Android 8+, you may need to grant this permission specifically to your browser.</li>
@@ -92,14 +92,14 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-[#FFA500] mt-8">Which Version Should You Download?</h2>
           <p>Here&apos;s the quick decision guide:</p>
           <ul className="list-disc pl-6 space-y-2">
-            <li><strong>Phone with 3GB+ RAM and plenty of storage?</strong> Get <Link href="/blog/download-retro-brawl-mod-menu-v50-221" className="text-accent hover:underline">the latest v12.98</Link> for the full experience — all 70+ brawlers, Bling, Hypercharges, and every new feature.</li>
+            <li><strong>Phone with 3GB+ RAM and plenty of storage?</strong> Get <Link href="/blog/download-retro-brawl-mod-menu-v50-221" className="text-blue-400 underline hover:text-blue-300">the latest v12.98</Link> for the full experience — all 70+ brawlers, Bling, Hypercharges, and every new feature.</li>
             <li><strong>Phone with 2GB RAM or limited storage?</strong> Go with v45.198 — modern enough to feel current, light enough to run smoothly.</li>
             <li><strong>Budget phone or 2019-2020 device?</strong> v35.120 is your best bet — it&apos;s the lightest build with the best performance on older hardware.</li>
             <li><strong>Nostalgic for classic Brawl Stars maps and simple mechanics?</strong> v35.120 preserves the golden era — classic maps, no Bling, no Hypercharges, just pure brawling.</li>
           </ul>
           <p>Whichever version you pick, you get the same core experience: all brawlers unlocked, unlimited gems, free skins, and online multiplayer. The only difference is how much content and how many system resources are involved.</p>
 
-          <p className="mt-8"><strong><Link href="/" className="text-accent hover:underline font-semibold">Download Retro Brawl</Link></strong> — pick your version, install in 3 minutes, and start playing with everything unlocked.</p>
+          <p className="mt-8"><strong><Link href="/" className="text-blue-400 underline hover:text-blue-300 font-semibold">Download Retro Brawl</Link></strong> — pick your version, install in 3 minutes, and start playing with everything unlocked.</p>
         </div>
       </article>
     </>

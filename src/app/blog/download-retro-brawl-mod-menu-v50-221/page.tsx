@@ -16,7 +16,7 @@ export default function BlogPost() {
     <>
       <BlogPostSchema title="Download Retro Brawl Mod Menu | Retro Brawl v12.98" description="Download Retro Brawl mod menu v12.98 — all brawlers, unlimited gems, free for Android." slug="download-retro-brawl-mod-menu-v50-221" datePublished="2026-03-06" />
       <article className="container mx-auto px-4 py-12 max-w-3xl">
-        <Link href="/blog" className="text-accent hover:underline text-sm mb-6 inline-block">← Back to Blog</Link>
+        <Link href="/blog" className="text-blue-400 underline hover:text-blue-300 text-sm mb-6 inline-block">← Back to Blog</Link>
         <h1 className="text-3xl md:text-4xl font-bold mb-6 text-white">Download Retro Brawl Mod Menu | Retro Brawl v12.98</h1>
         <p className="text-gray-400 text-sm mb-8">March 2026 • 6 min read</p>
         <div className="prose prose-invert max-w-none space-y-6 text-gray-300">
@@ -51,7 +51,7 @@ export default function BlogPost() {
           <h2 className="text-2xl font-bold text-[#FFA500] mt-8">Download &amp; Install Guide (Step by Step)</h2>
           <p>From tap to gameplay in under 3 minutes. No root, no PC, no technical knowledge required:</p>
           <ol className="list-decimal pl-6 space-y-2">
-            <li><strong>Go to <Link href="/download-retro-brawl-apk" className="text-accent hover:underline">retrobrawlapk.com/download-retro-brawl-apk</Link></strong> on your Android device and tap the download button. The APK file is approximately 150MB — it downloads in about 30 seconds on a standard mobile connection.</li>
+            <li><strong>Go to <Link href="/download-retro-brawl-apk" className="text-blue-400 underline hover:text-blue-300">retrobrawlapk.com/download-retro-brawl-apk</Link></strong> on your Android device and tap the download button. The APK file is approximately 150MB — it downloads in about 30 seconds on a standard mobile connection.</li>
             <li><strong>Enable &quot;Install from Unknown Sources&quot;</strong> if you haven&apos;t already. Go to Settings → Security → Unknown Sources and toggle it on. On Android 8.0+, you&apos;ll be prompted to grant this permission to your specific browser app.</li>
             <li><strong>Open the downloaded APK</strong> from your notification bar or Downloads folder. Tap &quot;Install&quot; when prompted.</li>
             <li><strong>Wait 15-30 seconds</strong> for the installation to complete. The app will appear on your home screen as &quot;Retro Brawl.&quot;</li>
@@ -68,7 +68,7 @@ export default function BlogPost() {
             <li><strong>Internet:</strong> Required for multiplayer. WiFi or 4G/5G recommended — 3G works but may introduce latency</li>
             <li><strong>Price:</strong> $0. No ads, no in-app purchases, no subscriptions, no hidden fees. Ever.</li>
           </ul>
-          <p>If your device doesn&apos;t meet these specs, check out our <Link href="/blog/retro-brawl-apk-download-old-version" className="text-accent hover:underline">older version guide</Link> for lighter builds that run on devices with as little as 1.5GB RAM.</p>
+          <p>If your device doesn&apos;t meet these specs, check out our <Link href="/blog/retro-brawl-apk-download-old-version" className="text-blue-400 underline hover:text-blue-300">older version guide</Link> for lighter builds that run on devices with as little as 1.5GB RAM.</p>
 
           <h2 className="text-2xl font-bold text-[#FFA500] mt-8">Is Retro Brawl v12.98 Safe?</h2>
           <p>This is the most common question — and the answer is straightforward. Retro Brawl is a standalone APK that:</p>
@@ -78,9 +78,9 @@ export default function BlogPost() {
             <li><strong>Contains no malware, adware, or trackers.</strong> The APK from retrobrawlapk.com has been scanned and verified clean. No pop-up ads, no data harvesting, no cryptocurrency miners running in the background.</li>
             <li><strong>Does not request unnecessary permissions.</strong> The app asks for storage (to install) and internet (to connect to game servers). That&apos;s it — no contacts, no camera, no location access.</li>
           </ul>
-          <p>The key safety factor is the source. Always download from <Link href="/" className="text-accent hover:underline">retrobrawlapk.com</Link> — never from third-party APK sites that may repackage the file with malicious code.</p>
+          <p>The key safety factor is the source. Always download from <Link href="/" className="text-blue-400 underline hover:text-blue-300">retrobrawlapk.com</Link> — never from third-party APK sites that may repackage the file with malicious code.</p>
 
-          <p className="mt-8"><strong><Link href="/download-retro-brawl-apk" className="text-accent hover:underline font-semibold">Download Retro Brawl v12.98 now</Link></strong> — 70+ brawlers, 300+ skins, unlimited gems, zero restrictions. The definitive Brawl Stars experience, completely free.</p>
+          <p className="mt-8"><strong><Link href="/download-retro-brawl-apk" className="text-blue-400 underline hover:text-blue-300 font-semibold">Download Retro Brawl v12.98 now</Link></strong> — 70+ brawlers, 300+ skins, unlimited gems, zero restrictions. The definitive Brawl Stars experience, completely free.</p>
         </div>
       </article>
     </>

@@ -130,7 +130,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-4 pb-3 text-center text-sm text-gray-400">
-          <p className="mb-0">© 2026 Retro Brawl APK. All rights reserved. | <Link href="/" className="hover:text-accent">retrobrawlapk.com</Link></p>
+          <p className="mb-0">© 2026 Retro Brawl APK. All rights reserved. | <Link href="/" className="text-blue-400 underline hover:text-blue-300">retrobrawlapk.com</Link></p>
         </div>
       </div>
     </footer>

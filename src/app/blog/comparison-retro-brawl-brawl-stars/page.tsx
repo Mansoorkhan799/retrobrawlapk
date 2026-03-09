@@ -16,7 +16,7 @@ export default function BlogPost() {
     <>
       <BlogPostSchema title="Comparison of Retro Brawl and Brawl Stars" description="Full feature comparison of Retro Brawl APK and official Brawl Stars." slug="comparison-retro-brawl-brawl-stars" datePublished="2026-03-06" />
       <article className="container mx-auto px-4 py-12 max-w-3xl">
-        <Link href="/blog" className="text-accent hover:underline text-sm mb-6 inline-block">← Back to Blog</Link>
+        <Link href="/blog" className="text-blue-400 underline hover:text-blue-300 text-sm mb-6 inline-block">← Back to Blog</Link>
         <h1 className="text-3xl md:text-4xl font-bold mb-6 text-white">Comparison of Retro Brawl and Brawl Stars</h1>
         <p className="text-gray-400 text-sm mb-8">March 2026 • 10 min read</p>
         <div className="prose prose-invert max-w-none space-y-6 text-gray-300">
@@ -74,7 +74,7 @@ export default function BlogPost() {
           <p>Choose <strong>Retro Brawl</strong> if you want the complete Brawl Stars experience without restrictions. Every brawler maxed, every skin equipped, unlimited gems, exclusive modes like 5v5 Brawl Ball, community-created custom maps, no trophy loss, no ads, and no paywalls. It&apos;s the version for players who believe the fun should come from gameplay — not from opening your wallet.</p>
           <p>The smartest approach? <strong>Use both.</strong> Thousands of players run Brawl Stars for competitive ranked climbing and Retro Brawl for testing new brawler builds, practicing strategies with maxed brawlers, and enjoying unlimited content without pressure. The two apps run independently — having Retro Brawl installed doesn&apos;t affect your official Brawl Stars account in any way.</p>
 
-          <p className="mt-8"><strong><Link href="/" className="text-accent hover:underline font-semibold">Download Retro Brawl APK</Link></strong> — every brawler, every skin, zero cost. See the difference for yourself in your next match.</p>
+          <p className="mt-8"><strong><Link href="/" className="text-blue-400 underline hover:text-blue-300 font-semibold">Download Retro Brawl APK</Link></strong> — every brawler, every skin, zero cost. See the difference for yourself in your next match.</p>
         </div>
       </article>
     </>

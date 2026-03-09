@@ -16,7 +16,7 @@ export default function BlogPost() {
     <>
       <BlogPostSchema title="10 Must Know Features and Hidden Tricks in Retro Brawl 2026" description="Master Retro Brawl with hidden tricks, brawler combos, and pro tips." slug="10-must-know-features-hidden-tricks-retro-brawl-2026" datePublished="2026-03-06" />
       <article className="container mx-auto px-4 py-12 max-w-3xl">
-        <Link href="/blog" className="text-accent hover:underline text-sm mb-6 inline-block">← Back to Blog</Link>
+        <Link href="/blog" className="text-blue-400 underline hover:text-blue-300 text-sm mb-6 inline-block">← Back to Blog</Link>
         <h1 className="text-3xl md:text-4xl font-bold mb-6 text-white">10 Must Know Features and Hidden Tricks in Retro Brawl 2026</h1>
         <p className="text-gray-400 text-sm mb-8">March 2026 • 14 min read</p>
         <div className="prose prose-invert max-w-none space-y-6 text-gray-300">
@@ -72,7 +72,7 @@ export default function BlogPost() {
 
           <h2 className="text-2xl font-bold text-[#FFA500] mt-10">Conclusion</h2>
           <p>Retro Brawl APK v12.98 hands you every tool in the game on day one — every brawler maxed, every ability unlocked, every skin equipped. But the players who <em>dominate</em> are the ones who know exactly how to weaponise those tools. Permanent Token Doublers, devastating brawler synergy combos, pre-match map analysis, event-exclusive cosmetics, Clash+ trophy farming, and deliberate practice routines — these 10 tricks aren&apos;t suggestions. They&apos;re the playbook that top-ranked Retro Brawl players use every single session. Apply them consistently, drill builds in friendly battles, and within a week you&apos;ll be outperforming players who&apos;ve been grinding for months without a strategy.</p>
-          <p><strong>Stop playing on autopilot. Start playing with intent.</strong> <Link href="/" className="text-accent hover:underline font-semibold">Download Retro Brawl APK v12.98 now</Link>, apply these 10 tricks from your very first match, and watch your win rate, trophy count, and match confidence climb to levels you didn&apos;t think were possible on a mobile game.</p>
+          <p><strong>Stop playing on autopilot. Start playing with intent.</strong> <Link href="/" className="text-blue-400 underline hover:text-blue-300 font-semibold">Download Retro Brawl APK v12.98 now</Link>, apply these 10 tricks from your very first match, and watch your win rate, trophy count, and match confidence climb to levels you didn&apos;t think were possible on a mobile game.</p>
 
           <h2 className="text-2xl font-bold text-[#FFA500] mt-10">Frequently Asked Questions</h2>
           <div className="space-y-4 mt-6">
