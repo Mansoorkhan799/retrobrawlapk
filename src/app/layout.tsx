@@ -217,11 +217,11 @@ export default function RootLayout({
               "logo": "https://retrobrawlapk.com/retro-brawl-logo.webp",
               "description": "Retro Brawl APK is a rebirth of Brawl Stars — an entertainment game featuring online battles, unique brawlers, exclusive skins, and regular updates.",
               "sameAs": [
-                "https://www.facebook.com/profile.php?id=61584893160619",
-                "https://x.com/retrobrawl",
-                "https://www.instagram.com/magicbrawalapk/",
-                "https://www.youtube.com/@Magicbrawlapk",
-                "https://pin.it/UmqsWyxKX"
+                "https://www.facebook.com/people/Retro-Brawl/61583688482782/",
+                "https://x.com/retroobrawl",
+                "https://www.instagram.com/retroobrawl/",
+                "https://www.youtube.com/@RetroBrawl-26",
+                "https://tr.pinterest.com/retroobrawl/"
               ]
             })
           }}
